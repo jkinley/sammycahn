@@ -58,11 +58,5 @@ module.exports = {
 				showSpinner: true,
 			},
 		},
-		{
-			resolve: `gatsby-plugin-offline`,
-			options: {
-				precachePages: [`/`,`/about/`, `/contact/`],
-			},
-		},
   ],
 }
