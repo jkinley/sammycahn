@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import ContactForm from '../components/Contact/ContactForm'
+import ContactForm from '../components/contact/ContactForm'
 
 const contact = () => (
   <Layout>
