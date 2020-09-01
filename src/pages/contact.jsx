@@ -1,5 +1,4 @@
 import React from "react"
-
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import ContactForm from '../components/Contact/ContactForm'
@@ -17,7 +16,7 @@ const contact = () => (
 
 		<section className="p-4">
 			<div className="container mx-auto">
-				<ContactForm />
+			<ContactForm />
 			</div>
 		</section>
 		
