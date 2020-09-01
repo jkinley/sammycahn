@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
 					{
 						navLinks.map((link, index) => {
 							return(
-								<Link to={link.path}>{link.name}</Link>
+								<Link key={index} to={link.path}>{link.name}</Link>
 							)
 						})
 					}
