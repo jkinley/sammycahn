@@ -1,14 +1,19 @@
 export default [
-	{
-	path:'/',
-	name: 'Home'
+ {
+	path:'/bio',
+	name: 'Bio'
  },
  {
-	path:'/about',
-	name: 'About'
+	path:'/songs',
+	name: 'Songs'
+ },
+ {
+	path:'/awards',
+	name: 'Awards'
  },
  {
 	path:'/contact',
 	name: 'Contact'
- }
+ },
+ 
 ]

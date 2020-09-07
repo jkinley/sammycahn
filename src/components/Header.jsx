@@ -6,11 +6,11 @@ import styled from "@emotion/styled";
 
 const Header = ({ siteTitle }) => (
   <StyledHeader>
-			<div className="logo"> Sammy Cahn</div>
+			<Link to="/" className="logo">Sammy Cahn</Link>
 			<Nav>
 					{
 						navLinks.map((link, index) => {
-							return(
+							return (
 								<Link key={index} to={link.path}>{link.name}</Link>
 							)
 						})
@@ -36,6 +36,8 @@ const StyledHeader = styled.header`
 	& .logo {
 		display: block;
 		margin-right: auto;
+		font-size: 1.5rem;
+		outline: none;
 	}
 
 `

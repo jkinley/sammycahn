@@ -42,3 +42,7 @@ a:hover {
 img {
   border-style: none;
 }
+
+p {
+	margin-bottom: 1.5rem;
+}

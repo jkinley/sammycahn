@@ -5,7 +5,7 @@ import ContactForm from '../components/ContactForm'
 
 const contact = () => (
   <Layout>
-    <SEO title="Contact | Sammy Cahn" />
+    <SEO title="Contact" />
 
 		<section className="p-4">
 			<div className="container mx-auto">
