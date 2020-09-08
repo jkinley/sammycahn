@@ -12,6 +12,10 @@ export default [
 	name: 'Awards'
  },
  {
+	path:'/gallery',
+	name: 'Gallery'
+ },
+ {
 	path:'/contact',
 	name: 'Contact'
  },

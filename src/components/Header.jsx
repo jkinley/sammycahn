@@ -32,6 +32,9 @@ const StyledHeader = styled.header`
 	background-color: #121212;
 	padding: 1rem;
 	color: white;
+	position: sticky;
+	top: 0;
+	z-index: 10;
 
 	& .logo {
 		display: block;

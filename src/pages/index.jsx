@@ -23,7 +23,7 @@ const Title = styled.h1`
 
 export const query = graphql`
 	query {
-		bgImage: file(relativePath: {eq: "sammy-1.jpg"}) {
+		bgImage: file(relativePath: {eq: "sammy/sammy-portrait-1.jpg"}) {
 			childImageSharp {
 				fluid(quality:90,maxWidth:2600) {
 					...GatsbyImageSharpFluid
