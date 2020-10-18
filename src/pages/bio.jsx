@@ -9,7 +9,7 @@ const bio = () => {
 			<SEO title="Bio" />
 			<Title>Bio</Title>
 			<p>Placeholder for Bio Page</p>
-  </Layout>
+  	</Layout>
 	)
 }
 
