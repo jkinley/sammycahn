@@ -15,6 +15,8 @@ const videos = (video) => {
 					{
 						videoList.map((video) => {
 							return (
+								<div>
+								<VideoTitle>{video.title}</VideoTitle>
 								<PlayerWrapper key={video.id}>
 									<ReactPlayer
 										url={video.url}
@@ -24,6 +26,7 @@ const videos = (video) => {
 										controls="true"
 									/>
 								</PlayerWrapper>
+								</div>
 							)
 						})
 					}
@@ -50,6 +53,12 @@ const PlayerWrapper = styled.div`
 `
 const Title = styled.h1`
 	font-size: 2.4rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+`
+
+const VideoTitle = styled.div`
+	font-size: 1.5rem;
 	font-weight: bold;
 	margin-bottom: 1rem;
 `
