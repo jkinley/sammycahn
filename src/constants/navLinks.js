@@ -15,6 +15,11 @@ export default [
 	path:'/gallery',
 	name: 'Gallery'
  },
+
+ {
+	path:'/videos',
+	name: 'Videos'
+ },
  {
 	path:'/contact',
 	name: 'Contact'

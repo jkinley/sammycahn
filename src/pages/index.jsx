@@ -10,7 +10,9 @@ export default ({data}) => (
     <SEO title="Home" />
 
 		<HeroImage home={true} img={data.bgImage.childImageSharp.fluid} />
-  
+	
+
+
   </Layout>
 )
 
