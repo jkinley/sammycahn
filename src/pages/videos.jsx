@@ -36,10 +36,10 @@ const videos = (video) => {
 	)
 }
 
-
 const MediaGrid = styled.div`
 	display: grid;
-	grid-gap: 2rem;
+	grid-column-gap: 2rem;
+	grid-row-gap: 3rem;
 	grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
 `
 const PlayerWrapper = styled.div`
