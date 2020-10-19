@@ -28,6 +28,15 @@ export default [
 		image: require('../images/movies/a-hole-in-the-head.jpg')
 	},
 	{
+		song: "Call Me Irresponsible",
+		composer: 'Jimmy Van Heusen',
+		artist: 'Jackie Gleason',
+		film: "Papa's Delicate Condition",
+		award: 'Academy Award Winner',
+		date: "1963",
+		image: require('../images/movies/papas-delicate-condition.jpg')
+	},
+	{
 		song: "I've Heard That Song Before",
 		composer: 'Jule Styne',
 		artist: '',

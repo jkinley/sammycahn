@@ -19,6 +19,7 @@ const awards = () => {
 									<AwardWrap>
 										<img width="125px" height="auto" src={award.image} />
 										<div>
+											<p>Award: {award.award}</p>
 											<p>Composer: {award.composer}</p> 
 											<p>Artist: {award.artist}</p>
 											<p>Film: {award.film}</p>
