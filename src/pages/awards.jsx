@@ -2,14 +2,22 @@ import React from 'react'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import styled from "@emotion/styled";
+import bgImage from "../images/paper1.jpg"
 import awardsList from '../constants/awardsList'
 
 const awards = () => {
 	return (
 		<Layout>
 			<SEO title="Awards" />
+
+			<PageTitle>
+				<div className="container mx-auto px-8">
+					<h1>Awards</h1>
+				</div>
+			</PageTitle>
+			
+			<Awards>
 			<div className="container mx-auto px-8">
-				<Title>Awards</Title>
 				<Grid>
 					{
 						awardsList.map((award) => {
@@ -32,14 +40,27 @@ const awards = () => {
 					}
 				</Grid>
 			</div>
+			</Awards>
 		</Layout>
 	)
 }
 
-const Title = styled.h1`
-	font-size: 2.4rem;
-	font-weight: bold;
-	margin-bottom: 1rem;
+
+const PageTitle= styled.section`
+	//background: url('${bgImage}');
+	background-color: #ccc;
+	//color: #fff;
+	padding: 2rem;
+	min-height: 15vh;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	background-position: bottom center;
+	& h1 {
+		font-size: 2.8rem;
+		font-weight: bold;
+		margin-bottom: 1rem;
+	}
 `
 
 const Grid = styled.ul`
@@ -52,6 +73,10 @@ const SongName = styled.h2`
 	font-size: 1.8rem;
 	font-weight: bold;
 	margin-bottom: 0.5rem;
+`
+
+const Awards = styled.section`
+	padding: 3rem 0;
 `
 
 const AwardWrap = styled.h2`

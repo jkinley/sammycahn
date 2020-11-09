@@ -13,7 +13,7 @@ const HeroImage = ({img, className, children, home}) => {
 
 export default styled(HeroImage)`
 	/* min-height: ${props => (props.home ? "calc(100vh - 62px)" : "50vw")}; */
-	min-height: 85vh;
+	height: calc(80vh - 100px);
 	background-position: center center;
 	background-size: cover;
 	opacity: 1 !important;

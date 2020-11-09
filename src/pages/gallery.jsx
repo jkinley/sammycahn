@@ -19,20 +19,22 @@ const gallery = ({data}) => {
 
 	return (
 		<Layout>
-			<div className="container mx-auto px-12">
-				<Title>Gallery</Title>
-				<Gallery images={images} title="How about that?" />
 
-			</div>
+			<PageTitle>
+				<div className="container mx-auto px-8">
+					<h1>Gallery</h1>
+				</div>
+			</PageTitle>
+
+			<GalleryWrap>
+				<div className="container mx-auto px-12">
+					<Gallery images={images} title="How about that?" />
+				</div>
+			</GalleryWrap>
 		</Layout>
 	)
 }
 
-const Title = styled.h1`
-	font-size: 2.4rem;
-	font-weight: bold;
-	margin-bottom: 1rem;
-`
 
 export const query = graphql`
   query ImagesForGallery {
@@ -52,5 +54,30 @@ export const query = graphql`
     }
   }
 `
+
+const Awards = styled.section`
+	padding: 3rem 0;
+`
+
+
+const PageTitle= styled.section`
+	background-color: #ccc;
+	padding: 2rem;
+	min-height: 15vh;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	background-position: bottom center;
+	& h1 {
+		font-size: 2.8rem;
+		font-weight: bold;
+		margin-bottom: 1rem;
+	}
+`
+
+const GalleryWrap = styled.section`
+	padding: 3rem 0;
+`
+
 
 export default gallery

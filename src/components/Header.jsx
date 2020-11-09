@@ -39,8 +39,11 @@ const StyledHeader = styled.header`
 	& .logo {
 		display: block;
 		margin-right: auto;
-		font-size: 1.5rem;
+		font-size: 1.6rem;
 		outline: none;
+		font-family: 'Cinzel', sans-serif;
+		font-weight: 400;
+		letter-spacing: 0.02rem;
 	}
 
 `

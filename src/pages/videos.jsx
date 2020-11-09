@@ -9,32 +9,59 @@ const videos = (video) => {
 	return (
 		<Layout>
 			<SEO title="Songs" />
-			<div className="container mx-auto px-8">
-				<Title>Videos</Title>
-				<MediaGrid>
-					{
-						videoList.map((video) => {
-							return (
-								<div>
-								<VideoTitle>{video.title}</VideoTitle>
-								<PlayerWrapper key={video.id}>
-									<ReactPlayer
-										url={video.url}
-										className='react-player'
-										width='100%'
-										height='100%'
-										controls="true"
-									/>
-								</PlayerWrapper>
-								</div>
-							)
-						})
-					}
-				</MediaGrid>
-			</div>
+
+			<PageTitle>
+				<div className="container mx-auto px-8">
+					<h1>Gallery</h1>
+				</div>
+			</PageTitle>
+
+			<VideoWrap>
+				<div className="container mx-auto px-8">
+					<MediaGrid>
+						{
+							videoList.map((video) => {
+								return (
+									<div>
+									<VideoTitle>{video.title}</VideoTitle>
+									<PlayerWrapper key={video.id}>
+										<ReactPlayer
+											url={video.url}
+											className='react-player'
+											width='100%'
+											height='100%'
+											controls="true"
+										/>
+									</PlayerWrapper>
+									</div>
+								)
+							})
+						}
+					</MediaGrid>
+				</div>
+			</VideoWrap>
 		</Layout>
 	)
 }
+
+const PageTitle= styled.section`
+	background-color: #ccc;
+	padding: 2rem;
+	min-height: 15vh;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	background-position: bottom center;
+	& h1 {
+		font-size: 2.8rem;
+		font-weight: bold;
+		margin-bottom: 1rem;
+	}
+`
+
+const VideoWrap = styled.section`
+	padding: 3rem 0;
+`
 
 const MediaGrid = styled.div`
 	display: grid;

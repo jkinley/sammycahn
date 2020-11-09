@@ -9,10 +9,16 @@ const songs = () => {
 	return (
 		<Layout>
 			<SEO title="Songs" />
+
+			<PageTitle>
+				<div className="container mx-auto px-8">
+				<h1>Songs</h1>
+				</div>
+			</PageTitle>
 			
-			<section className="container mx-auto px-8">
-			<Title>Songs</Title>
-				<SongGrid>
+			<Songs>
+				<SongGrid className="container mx-auto px-8">
+
 					{
 						songList.map((song, index) => {
 							return (
@@ -24,23 +30,34 @@ const songs = () => {
 						})
 					}
 				</SongGrid>
-			</section>
+			</Songs>
 
 
 		</Layout>
 	)
 }
 
+
+const PageTitle= styled.section`
+	background-color: #ccc;
+	min-height: 15vh;
+	display: flex;
+	align-items: center;
+	& h1 {
+		font-size: 2.8rem;
+		font-weight: bold;
+		margin-bottom: 1rem;
+	}
+`
+const Songs = styled.section`
+	padding: 3rem 0;
+`
+
+
 const SongGrid = styled.ul`
 	display: grid;
 	grid-gap: 2rem;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-`
-
-const Title = styled.h1`
-	font-size: 2.4rem;
-	font-weight: bold;
-	margin-bottom: 1rem;
 `
 
 const SongTitle = styled.h2`

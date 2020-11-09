@@ -28,21 +28,25 @@ module.exports = {
 		`gatsby-plugin-sharp`,
 		`gatsby-plugin-sass`,
 		`gatsby-plugin-postcss`,
-		{
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Oswald`,
-            subsets: [`latin`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`300`, `400`, `700`]
-          },
-        ],
-      },
-    },
+		// {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+		// 				family: `Lora`,
+		// 				variants: [`300`, `400`, `700`]
+    //       },
+    //       {
+    //         family: `Open Sans`,
+    //         variants: [`300`, `400`, `700`]
+		// 			},
+		// 			{
+    //         family: `Raleway`,
+    //         variants: [`300`, `400`, `700`]
+    //       },
+    //     ],
+    //   },
+    // },
 		{
       resolve: `gatsby-plugin-emotion`,
       options: {
