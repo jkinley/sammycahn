@@ -21,7 +21,7 @@ const ContactForm = () => {
 
 			<input type="hidden" name="form-name" value="contact" />
 			
-			<button className="bg-orange-500 py-2 px-3 rounded-md font-bold uppercase tracking-wide w-full" type="submit">Send Email</button>
+			<button className="py-2 px-3 rounded-md font-bold uppercase tracking-wide w-full" type="submit" style={{backgroundColor: '#b09a50'}}>Send Email</button>
 
 		</form>
 	)

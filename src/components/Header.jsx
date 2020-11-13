@@ -6,7 +6,7 @@ import styled from "@emotion/styled";
 
 const Header = ({ siteTitle }) => (
   <StyledHeader>
-			<Link to="/" className="logo">Sammy Cahn</Link>
+			<Link to="/" className="logo" title="Homepage">Sammy Cahn</Link>
 			<Nav>
 					{
 						navLinks.map((link, index) => {
@@ -35,6 +35,7 @@ const StyledHeader = styled.header`
 	position: sticky;
 	top: 0;
 	z-index: 10;
+	border-bottom: 4px solid #b09a50;
 
 	& .logo {
 		display: block;

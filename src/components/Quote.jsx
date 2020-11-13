@@ -18,25 +18,25 @@ const Quote = (props) => {
 }
 
 const Section = styled.section`
-	padding: 2rem;
+	padding: 4rem;
 `
 const Blockquote = styled.blockquote`
 	border-left: 10px solid #1baab8;
 	color: #555;
 	background-color: #eae5e0;
 	padding: 2rem 5rem;
-	position: relative;
 	width: 66vw;
-	margin: 0 auto;
+	margin: 2rem auto;
+	position: relative;
 	&::before {
 		content: '\\201C';
 		font-family: 'Playfair Display', serif;
 		font-size: 8rem;
 		opacity: 0.4;
-		position: absolute;
-		display: inline;
-		top:  3rem;
-		left: 1rem;
+		position: relative;
+		display: block;
+		left: -4rem;
+		top: 1rem;
 	}
 `
 const Text = styled.p`	
