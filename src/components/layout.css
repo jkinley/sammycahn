@@ -23,9 +23,11 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: white;
+	color: #333;
 	margin: 0;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
+	
 }
 
 * {

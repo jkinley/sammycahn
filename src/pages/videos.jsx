@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactPlayer from 'react-player/youtube'
 import styled from "@emotion/styled";
+import {css} from '@emotion/core'
 import videoList from '../constants/videoList'
 import Layout from '../components/Layout';
 import SEO from "../components/seo"
@@ -12,7 +13,7 @@ const videos = (video) => {
 
 			<PageTitle>
 				<div className="container mx-auto px-8">
-					<h1>Gallery</h1>
+					<h1>Videos</h1>
 				</div>
 			</PageTitle>
 
@@ -23,16 +24,21 @@ const videos = (video) => {
 							videoList.map((video) => {
 								return (
 									<div>
-									<VideoTitle>{video.title}</VideoTitle>
-									<PlayerWrapper key={video.id}>
-										<ReactPlayer
-											url={video.url}
-											className='react-player'
-											width='100%'
-											height='100%'
-											controls="true"
-										/>
-									</PlayerWrapper>
+										<PlayerWrapper key={video.id}>
+											<ReactPlayer
+												url={video.url}
+												className='react-player'
+												width='100%'
+												height='100%'
+												controls="true"
+												light
+											/>
+										</PlayerWrapper>
+										<VideoTitle>{video.title}</VideoTitle>
+											<p className="text-sm m-0">
+												"{video.song}" { video.performer && `performed by ${video.performer}` } { video.performer && video.composer && `and`} { video.composer && `composed by ${video.composer}.`}
+											</p>
+										
 									</div>
 								)
 							})
@@ -65,29 +71,24 @@ const VideoWrap = styled.section`
 
 const MediaGrid = styled.div`
 	display: grid;
-	grid-column-gap: 2rem;
+	grid-column-gap: 3rem;
 	grid-row-gap: 3rem;
-	grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 `
 const PlayerWrapper = styled.div`
 	position: relative;
-  padding-top: 56.25%;
+	padding-top: 56.25%;
+	margin-bottom: 1rem;
 	& > .react-player{
 		position: absolute;
   	top: 0;
   	left: 0;
 	}
 `
-const Title = styled.h1`
-	font-size: 2.4rem;
+const VideoTitle = styled.h2`
+	font-size: 1.1rem;
 	font-weight: bold;
-	margin-bottom: 1rem;
-`
-
-const VideoTitle = styled.div`
-	font-size: 1.5rem;
-	font-weight: bold;
-	margin-bottom: 1rem;
+	margin-bottom: 0rem;
 `
 
 export default videos

@@ -29,7 +29,7 @@ Header.defaultProps = {
 
 const StyledHeader = styled.header`
 	display: flex;
-	background-color: #121212;
+	background-color: #231f20;
 	padding: 1rem;
 	color: white;
 	position: sticky;

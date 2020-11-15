@@ -10,6 +10,7 @@ const Fourth = () => {
 					<Img src={Image} />
 						<Text>
 							<h2>Sammy and Frank</h2>
+							<p>Sammy became the official lyricist for the Rat Pack, writing "<strong>Come Fly with Me</strong>", "<strong>Ain't That a Kick in the Head</strong>", and "<strong>Ring-a-ding Ding</strong>", among many others.</p>
 							<p>Sinatra recorded 81 Sammy Cahn songs, putting Sammy in the lead of any other Sinatra writer by a wide margin. The singer said of Sammy, "of all the writers, Sammy's words fit my mouth the best".</p>
 							<p>Sammy also wrote the Mario Lanza hits "<strong>Be My Love</strong>" and "<strong>Because You're Mine</strong>," as well as "<strong>It's Magic</strong>" for Doris Day and the "<strong>Second Time Around</strong>", for Bing Crosby.</p>
 						</Text>
@@ -33,11 +34,6 @@ const Grid = styled.div`
 	grid-row-gap: 3rem;
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	@media (min-width: 1024px) {
-		& > img {
-			order: 2;
-		}
-	}
 `
 const Img = styled.img`
 	display: block;

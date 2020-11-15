@@ -33,6 +33,11 @@ const Grid = styled.div`
 	grid-row-gap: 3rem;
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	@media (min-width: 1024px) {
+		& > img {
+			order: 2;
+		}
+	}
 `
 const Img = styled.img`
 	display: block;

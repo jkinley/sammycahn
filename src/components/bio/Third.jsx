@@ -12,9 +12,8 @@ const Third = () => {
 							<h2>Awards Roll In</h2>
 							<p>With 26 Academy Award nominations to his credit, Sammy earned more nominations than any other lyric writer in the history of the academy and four wins, with "<strong>Three Coins in the Fountain</strong>", "<strong>All the Way</strong>", "<strong>Call me Irresponsible</strong>", and "<strong>High Hopes</strong>", which became the John F. Kennedy campaign song.</p>
 
-							<p>He also won the first Emmy awarded to a song, for "<strong>Love and Marriage</strong>", written for the producers showcase musical version of Thornton Wilder's, "<strong>Our Town</strong>" starring Frank Sinatra and Paul Newman.</p>
+							<p>In 1955, Sammy was awarded an Oscar for "<strong>Three Coins in the Fountain</strong>". That same year, he won the first Emmy awarded to a song, for "<strong>Love and Marriage</strong>", written for the producers showcase musical version of Thornton Wilder's, "<strong>Our Town</strong>" starring Frank Sinatra and Paul Newman.</p>
 
-							<p>Sammy was the official lyricist for the Rat Pack, writing "<strong>Come Fly with Me</strong>", "<strong>Ain't That a Kick in the Head</strong>", and "<strong>Ring-a-ding Ding</strong>", among many others.</p>
 						</Text>
 				</Grid>
 			</div>
@@ -36,6 +35,11 @@ const Grid = styled.div`
 	grid-row-gap: 3rem;
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	@media (min-width: 1024px) {
+		& > img {
+			order: 2;
+		}
+	}
 `
 const Img = styled.img`
 	display: block;
