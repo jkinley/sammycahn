@@ -42,11 +42,9 @@ const PageTitle= styled.section`
 
 	background: 
 			url('${bgImage}') no-repeat,
-			linear-gradient(5deg, #111, #666) no-repeat;
+			linear-gradient( #eaeaea, #ccc) no-repeat;
 	background-size: 34vh, cover;
 	background-position: right center;
-	color: white;
-
 	min-height: 25vh;
 	display: flex;
 	align-items: center;

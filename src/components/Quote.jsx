@@ -3,6 +3,7 @@
 import React from 'react'
 import quotes from '../constants/quotes'
 import styled from "@emotion/styled";
+import {css} from '@emotion/core'
 
 const Quote = (props) => {
 	const result = quotes.find(quote => quote.id === props.id);
@@ -10,45 +11,44 @@ const Quote = (props) => {
 	return (
 		<Section>
 			<Blockquote>
-				<Text>{result.text}</Text>
-				<Author>{result.author}</Author>
+				<div>
+					<Text>{result.text}</Text>
+					<Author>—{result.author}</Author>
+				</div>
 			</Blockquote>
 		</Section>
 	)
 }
 
 const Section = styled.section`
-	padding: 4rem;
+	background-color: #b09a50;
+	padding: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 `
 const Blockquote = styled.blockquote`
-	border-left: 10px solid #1baab8;
-	color: #444;
-	background-color: #eae5e0;
-	padding: 2rem 5rem;
-	width: 66vw;
-	margin: 2rem auto;
-	position: relative;
+	color: #231f20;
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	align-items: center;
 	&::before {
 		content: '\\201C';
 		font-family: 'Playfair Display', serif;
 		font-size: 10rem;
-		color: #ccc;
-		position: absolute;
-		display: block;
-		left: 1.4rem;
-		top: 4rem;
+		color:#8e7a3e;
+		align-self: flex-start;
+		transform: translateY(100%);
+		margin-right: 0.5rem;
 	}
-	&::after {
+	/* &::after {
 		content: '\\201D';
 		font-family: 'Playfair Display', serif;
 		font-size: 10rem;
-		color: #ccc;
-		position: absolute;
-		display: block;
-		right: 4rem;
-		bottom: 1rem;
-	}
-
+		color: #8e7a3e;
+		align-self: flex-end;
+		transform: translateY( 100%);
+	} */
 `
 const Text = styled.p`	
 	font-family: 'Montserrat', sans-serif;
@@ -56,7 +56,7 @@ const Text = styled.p`
 	font-size: 1.3rem;
 	font-weight: bold;
 	margin-bottom: 1rem;
-	position: relative;
+	
 	z-index: 1;
 `
 const Author = styled.p`
