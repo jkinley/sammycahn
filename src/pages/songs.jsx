@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-
+import bgImage from "../images/piano.png"
 import songList from '../constants/songs'
 import styled from "@emotion/styled";
 
@@ -39,8 +39,15 @@ const songs = () => {
 
 
 const PageTitle= styled.section`
-	background-color: #ccc;
-	min-height: 15vh;
+
+	background: 
+			url('${bgImage}') no-repeat,
+			linear-gradient(5deg, #111, #666) no-repeat;
+	background-size: 34vh, cover;
+	background-position: right center;
+	color: white;
+
+	min-height: 25vh;
 	display: flex;
 	align-items: center;
 	& h1 {
@@ -61,14 +68,14 @@ const SongGrid = styled.ul`
 `
 
 const SongTitle = styled.h2`
-	font-size: 1.6rem;
+	font-size: 1.3rem;
 	font-weight: light;
 	color: #444;
 `
 const Performer = styled.p`
 	font-size: 1.1rem;
 	font-weight: bold;
-	color: slateblue;
+	color: #b09a50;
 `
 
 export default songs

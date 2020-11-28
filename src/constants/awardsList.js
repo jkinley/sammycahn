@@ -52,7 +52,7 @@ export default [
 		film: 'Follow the Boys',
 		award: 'Academy Award Nominee',
 		date: '1944',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/follow-the-boys.jpg')
 	},
 	{
 		song: "Anywhere",
@@ -61,7 +61,7 @@ export default [
 		film: 'Tonight and Every Night',
 		award: 'Academy Award Nominee',
 		date: '1945',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/tonight-and-every-night.jpg')
 	},
 	{
 		song: "I Fall in Love Too Easily",
@@ -70,7 +70,7 @@ export default [
 		film: 'Anchors Aweigh',
 		award: 'Academy Award Nominee',
 		date: '1945',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/anchors-aweigh.jpg')
 	},
 	{
 		song: "It's Magic",
@@ -79,7 +79,7 @@ export default [
 		film: 'Romance on the High Seas',
 		award: 'Academy Award Nominee',
 		date: '1948',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/romance-on-the-high-seas.jpg')
 	},
 	{
 		song: "It's a Great Feeling",
@@ -88,7 +88,7 @@ export default [
 		film: "It's a Great Feeling",
 		award: 'Academy Award Nominee',
 		date: '1949',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/its-a-great-feeling.jpg')
 	},
 	{
 		song: "Be My Love",
@@ -97,7 +97,7 @@ export default [
 		film: "The Toast of New Orleans",
 		award: 'Academy Award Nominee',
 		date: '1950',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/the-toast-of-new-orleans.jpg')
 	},
 	{
 		song: "Wonder Why",
@@ -106,7 +106,7 @@ export default [
 		film: "Rich, Young and Pretty",
 		award: 'Academy Award Nominee',
 		date: '1951',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/rich-young-and-pretty.jpg')
 	},
 	{
 		song: "Because You're Mine",
@@ -115,7 +115,7 @@ export default [
 		film: "Because You're Mine",
 		award: 'Academy Award Nominee',
 		date: '1952',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/because-you-are-mine.jpg')
 	},
 	{
 		song: "I'll Never Stop Loving You",
@@ -124,7 +124,7 @@ export default [
 		film: "Love Me or Leave Me",
 		award: 'Academy Award Nominee',
 		date: '1955',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/love-me-or-leave-me.jpg')
 	},
 	{
 		song: "(Love Is) The Tender Trap",
@@ -133,7 +133,7 @@ export default [
 		film: "The Tender Trap",
 		award: 'Academy Award Nominee',
 		date: '1955',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/the-tender-trap.jpg')
 	},
 	{
 		song: "Written on the Wind",
@@ -142,7 +142,7 @@ export default [
 		film: "Written on the Wind",
 		award: 'Academy Award Nominee',
 		date: '1956',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/written-on-the-wind.jpg')
 	},
 	{
 		song: "To Love and Be Loved",
@@ -151,7 +151,7 @@ export default [
 		film: "Some Came Running",
 		award: 'Academy Award Nominee',
 		date: '1958',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/some-came-running.jpg')
 	},
 	{
 		song: "The Best of Everything" ,
@@ -160,7 +160,7 @@ export default [
 		film: "The Best of Everything",
 		award: 'Academy Award Nominee',
 		date: '1959',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/the-best-of-everything.jpg')
 	},
 	{
 		song: "The Second Time Around" ,
@@ -169,7 +169,7 @@ export default [
 		film: "High Time",
 		award: 'Academy Award Nominee',
 		date: '1960',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/high-time.jpg')
 	},
 	{
 		song:"Ain't That a Kick in the Head?",
@@ -178,7 +178,7 @@ export default [
 		film: "Ocean's 11",
 		award: 'Academy Award Nominee',
 		date: '1960',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/oceans-11.jpg')
 	},
 	{
 		song:  "Pocketful of Miracles",
@@ -187,7 +187,7 @@ export default [
 		film: "Pocketful of Miracles" ,
 		award: 'Academy Award Nominee',
 		date: '1961',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/pocket-full-of-miracles.jpg')
 	},
 	{
 		song: "Where Love Has Gone",
@@ -196,7 +196,7 @@ export default [
 		film: "Where Love Has Gone",
 		award: 'Academy Award Nominee',
 		date: '1964',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/where-has-love-gone.jpg')
 	},
 	{
 		song: "My Kind of Town",
@@ -205,7 +205,7 @@ export default [
 		film:  "Robin and the 7 Hoods",
 		award: 'Academy Award Nominee',
 		date: '1964',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/robin-and-the-seven-hoods.jpg')
 	},
 	{
 		song: "Thoroughly Modern Millie",
@@ -214,7 +214,7 @@ export default [
 		film: "Thoroughly Modern Millie",
 		award: 'Academy Award Nominee',
 		date: '1967',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/thorougly-modern-millie.jpg')
 	},
 	{
 		song: "Star",
@@ -223,7 +223,7 @@ export default [
 		film: "Star!",
 		award: 'Academy Award Nominee',
 		date: '1968',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/star.jpg')
 	},
 	{
 		song: "All That Love Went to Waste",
@@ -232,7 +232,7 @@ export default [
 		film: "A Touch of Class",
 		award: 'Academy Award Nominee',
 		date: '1973',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/a-touch-of-class.jpg')
 	},
 	{
 		song: "Now That We're In Love",
@@ -241,7 +241,7 @@ export default [
 		film: "Whiffs",
 		award: 'Academy Award Nominee',
 		date: '1974',
-		image: require('../images/movies/movie-placeholder.png')
+		image: require('../images/movies/whiffs.jpg')
 	}
 	
 ]

@@ -1,24 +1,25 @@
 import React from 'react'
 import ReactPlayer from 'react-player/youtube'
 import styled from "@emotion/styled";
-import {css} from '@emotion/core'
+//import {css} from '@emotion/core'
 import videoList from '../constants/videoList'
 import Layout from '../components/Layout';
 import SEO from "../components/seo"
 
-const videos = (video) => {
+const media = (video) => {
 	return (
 		<Layout>
-			<SEO title="Songs" />
+			<SEO title="Media" />
 
 			<PageTitle>
 				<div className="container mx-auto px-8">
-					<h1>Videos</h1>
+					<h1>Media</h1>
 				</div>
 			</PageTitle>
-
+			
 			<VideoWrap>
 				<div className="container mx-auto px-8">
+
 					<MediaGrid>
 						{
 							videoList.map((video) => {
@@ -35,10 +36,6 @@ const videos = (video) => {
 											/>
 										</PlayerWrapper>
 										<VideoTitle>{video.title}</VideoTitle>
-											<p className="text-sm m-0">
-												"{video.song}" { video.performer && `performed by ${video.performer}` } { video.performer && video.composer && `and`} { video.composer && `composed by ${video.composer}.`}
-											</p>
-										
 									</div>
 								)
 							})
@@ -51,9 +48,9 @@ const videos = (video) => {
 }
 
 const PageTitle= styled.section`
-	background-color: #ccc;
+	background-color: #eaeaea;
 	padding: 2rem;
-	min-height: 15vh;
+	min-height: 25vh;
 	display: flex;
 	align-items: center;
 	background-size: cover;
@@ -88,7 +85,7 @@ const PlayerWrapper = styled.div`
 const VideoTitle = styled.h2`
 	font-size: 1.1rem;
 	font-weight: bold;
-	margin-bottom: 0rem;
+	margin: 0;
 `
 
-export default videos
+export default media

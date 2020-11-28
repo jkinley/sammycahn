@@ -1,13 +1,15 @@
 import React from 'react'
 import styled from "@emotion/styled";
-import Image from '../../images/sammy/sammy-working-4.jpg'
+import Figure from "../../components/Figure"
+import image from '../../images/sammy/sammy-and-jule-1.jpg'
 
 const Second = () => {
 	return (
 		<Section>
 			<div className="container mx-auto">
 				<Grid>
-					<Img className="img" src={Image} />
+					<Figure src={image} width="420px" height="auto" alt="alternative text" caption="Jule Styne and Sammy." />
+
 					<Text>
 						<h2>The Composers</h2>
 						<p>After parting amicably with Chaplin, Sammy began writing for the Tommy Dorsey orchestra, whose vocalist was then Frank Sinatra.</p>
@@ -24,7 +26,7 @@ const Second = () => {
 
 const Section = styled.section`
 	padding: 3rem 5%;
-	background-color: #eee;
+	background-color: #eaeaea;
 	& h2 {
 		font-size: 2rem;
 		margin-bottom: 1rem;
@@ -36,11 +38,6 @@ const Grid = styled.div`
 	grid-row-gap: 3rem;
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-`
-const Img = styled.img`
-	display: block;
-	max-width: 400px;
-	margin: 0 auto;
 `
 
 const Text = styled.div`

@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from "@emotion/styled";
-import Image from '../../images/sammy/sammy-working-3.jpg'
+import Figure from "../../components/Figure"
+import image from '../../images/sammy/sammy-working-3.jpg'
 
 const Third = () => {
 	return (
 		<Section>
 			<div className="container mx-auto">
 				<Grid>
-					<Img src={Image} />
+					<Figure src={image} width="420px" height="auto" alt="alternative text" caption=" Sammy Cahn and Jimmy van Huesen." />
 					<Text>
 						<h2>Lyrical Legacy</h2>
 						<p>In 1972, Sammy realized a lifelong ambition when, at age 60, he did the 92nd Street Y's, "Lyrics and Lyricists" series. An audio recording of the event resulted in his opening on broadway at the Golden Theater in 1974 with a one-man (plus three singers and a pianist) show called "Words and Music". The unanimous rave reviews started Sammy making appearances in London at the Duke of York's Theater, as well as a tour of the USA. In 1988 he began a second national tour to even more remarkable reviews.</p>
@@ -21,7 +22,7 @@ const Third = () => {
 
 const Section = styled.section`
 	padding: 3rem 5%;
-	background-color: #eee;
+	background-color: #eaeaea;
 	& h2 {
 		font-size: 2rem;
 		margin-bottom: 1rem;
@@ -34,21 +35,14 @@ const Grid = styled.div`
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	@media (min-width: 1024px) {
-		& > img {
+		& > img, & > figure {
 			order: 2;
 		}
 	}
 `
-const Img = styled.img`
-	display: block;
-	max-width: 400px;
-	margin: 0 auto;
-`
-
 const Text = styled.div`
 	& strong {
 		font-weight: 600;
 	}
 `
-
 export default Third

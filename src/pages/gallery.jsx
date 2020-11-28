@@ -11,7 +11,7 @@ import { graphql } from 'gatsby'
 const gallery = ({data}) => {
 	const images = data.allFile.edges.map(({ node }) => node.childImageSharp)
 
-	const captionsArr = ["test", "test 1", "test 3", "", "", "", "", ""];
+	//const captionsArr = ["test", "test 1", "test 3", "", "", "", "", ""];
 
 	// const captions = captionsArr.map((caption, index) => 
 	// 	<h1>caption</h1>	
@@ -19,7 +19,7 @@ const gallery = ({data}) => {
 
 	return (
 		<Layout>
-
+			<SEO title="Gallery" />
 			<PageTitle>
 				<div className="container mx-auto px-8">
 					<h1>Gallery</h1>
@@ -34,7 +34,6 @@ const gallery = ({data}) => {
 		</Layout>
 	)
 }
-
 
 export const query = graphql`
   query ImagesForGallery {
@@ -55,15 +54,10 @@ export const query = graphql`
   }
 `
 
-const Awards = styled.section`
-	padding: 3rem 0;
-`
-
-
 const PageTitle= styled.section`
-	background-color: #ccc;
+	background-color: #eaeaea;
 	padding: 2rem;
-	min-height: 15vh;
+	min-height: 25vh;
 	display: flex;
 	align-items: center;
 	background-size: cover;

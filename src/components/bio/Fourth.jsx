@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from "@emotion/styled";
-import Image from '../../images/sammy/sammy-portrait-2.jpg'
+import Figure from "../../components/Figure"
+import image from '../../images/sammy/sammy-portrait-2.jpg'
 
 const Fourth = () => {
 	return (
 		<Section>
 			<div className="container mx-auto">
 				<Grid>
-					<Img src={Image} />
+					<Figure src={image} width="420px" height="auto" alt="alternative text" caption="Sammy Cahn." />
 						<Text>
 							<h2>Sammy and Frank</h2>
 							<p>Sammy became the official lyricist for the Rat Pack, writing "<strong>Come Fly with Me</strong>", "<strong>Ain't That a Kick in the Head</strong>", and "<strong>Ring-a-ding Ding</strong>", among many others.</p>
@@ -35,15 +36,9 @@ const Grid = styled.div`
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 `
-const Img = styled.img`
-	display: block;
-	max-width: 400px;
-	margin: 0 auto;
-`
 const Text = styled.div`
 	& strong {
 		font-weight: 600;
 	}
 `
-
 export default Fourth

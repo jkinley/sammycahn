@@ -49,7 +49,7 @@ const StyledFooter = styled.footer`
 const Nav = styled.nav`
 	margin-bottom: 0.5rem;
 	a {
-		color: white;
+		color:#b09a50;
 		text-decoration: none;
 	}
 

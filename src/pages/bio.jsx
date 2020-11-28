@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import styled from "@emotion/styled";
-import bgImage from "../images/paper1.jpg"
+import bgImage from "../images/sammy-hero-img.png"
 import Quote from '../components/Quote'
 
 // page sections
@@ -15,11 +15,11 @@ import Fifth from "../components/bio/Fifth"
 const bio = () => {
 	return (
 		<Layout>
-			<SEO title="Bio" />
+			<SEO title="Biography" />
 			
 			<PageTitle>
 				<div className="container mx-auto px-8">
-					<h1>Bio</h1>
+					<h1>Biography</h1>
 				</div>
 			</PageTitle>
 
@@ -37,8 +37,13 @@ const bio = () => {
 
 const PageTitle= styled.section`
 	//background: url('${bgImage}');
-	background-color: #ccc;
-	min-height: 15vh;
+	//background-color: #eaeaea;
+
+	background: #eaeaea url('${bgImage}') no-repeat;
+	background-size: 40vh;
+	background-position: right center;
+
+	min-height: 25vh;
 	display: flex;
 	align-items: center;
 	& h1 {

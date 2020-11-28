@@ -22,7 +22,7 @@ const Section = styled.section`
 `
 const Blockquote = styled.blockquote`
 	border-left: 10px solid #1baab8;
-	color: #555;
+	color: #444;
 	background-color: #eae5e0;
 	padding: 2rem 5rem;
 	width: 66vw;
@@ -31,20 +31,33 @@ const Blockquote = styled.blockquote`
 	&::before {
 		content: '\\201C';
 		font-family: 'Playfair Display', serif;
-		font-size: 8rem;
-		opacity: 0.4;
-		position: relative;
+		font-size: 10rem;
+		color: #ccc;
+		position: absolute;
 		display: block;
-		left: -4rem;
-		top: 1rem;
+		left: 1.4rem;
+		top: 4rem;
 	}
+	&::after {
+		content: '\\201D';
+		font-family: 'Playfair Display', serif;
+		font-size: 10rem;
+		color: #ccc;
+		position: absolute;
+		display: block;
+		right: 4rem;
+		bottom: 1rem;
+	}
+
 `
 const Text = styled.p`	
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.3;
-	font-size: 1.6rem;
+	font-size: 1.3rem;
 	font-weight: bold;
 	margin-bottom: 1rem;
+	position: relative;
+	z-index: 1;
 `
 const Author = styled.p`
 	font-family: 'Open Sans', sans-serif;

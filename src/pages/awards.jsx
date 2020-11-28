@@ -2,8 +2,9 @@ import React from 'react'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import styled from "@emotion/styled";
-import bgImage from "../images/paper1.jpg"
+import bgImage from "../images/oscar.png"
 import awardsList from '../constants/awardsList'
+import placeholder from '../../src/images/movies/movie-placeholder.png'
 
 const awards = () => {
 	return (
@@ -25,7 +26,17 @@ const awards = () => {
 								<li>
 									<SongName>{award.song}</SongName>
 									<AwardWrap>
-										<img width="125px" height="auto" src={award.image} />
+
+										{
+											award.image ? 
+
+											<img width="125px" height="auto" src={award.image} alt="" /> :
+											<div>
+												<img width="125px" height="auto" src={placeholder} alt="" />
+											</div>
+											
+										}
+										
 										<div>
 											<p>Award: {award.award}</p>
 											<p>Composer: {award.composer}</p> 
@@ -47,15 +58,14 @@ const awards = () => {
 
 
 const PageTitle= styled.section`
-	//background: url('${bgImage}');
-	background-color: #ccc;
-	//color: #fff;
-	padding: 2rem;
-	min-height: 15vh;
+	background: 
+		url('${bgImage}') no-repeat, 
+		linear-gradient( #eaeaea, #ccc) no-repeat;
+	background-size: 19vh, cover;
+	background-position: 85% 50px, center center ;
+	height: 25vh;
 	display: flex;
 	align-items: center;
-	background-size: cover;
-	background-position: bottom center;
 	& h1 {
 		font-size: 2.8rem;
 		font-weight: bold;
@@ -70,7 +80,7 @@ const Grid = styled.ul`
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 `
 const SongName = styled.h2`
-	font-size: 1.8rem;
+	font-size: 1.3rem;
 	font-weight: bold;
 	margin-bottom: 0.5rem;
 `

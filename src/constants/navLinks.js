@@ -17,8 +17,8 @@ export default [
  },
 
  {
-	path:'/videos',
-	name: 'Videos'
+	path:'/media',
+	name: 'Media'
  },
  {
 	path:'/contact',

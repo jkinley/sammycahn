@@ -24,9 +24,9 @@ const contact = () => (
 )
 
 const PageTitle= styled.section`
-	background-color: #ccc;
+	background-color: #eaeaea;
 	padding: 2rem;
-	min-height: 15vh;
+	min-height: 25vh;
 	display: flex;
 	align-items: center;
 	background-size: cover;
