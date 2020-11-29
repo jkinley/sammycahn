@@ -172,15 +172,6 @@ export default [
 		image: require('../images/movies/high-time.jpg')
 	},
 	{
-		song:"Ain't That a Kick in the Head?",
-		composer: "Jimmy Van Heusen",
-		artist: "Frank Sinatra",
-		film: "Ocean's 11",
-		award: 'Academy Award Nominee',
-		date: '1960',
-		image: require('../images/movies/oceans-11.jpg')
-	},
-	{
 		song:  "Pocketful of Miracles",
 		composer: "Jimmy Van Heusen",
 		artist: "",

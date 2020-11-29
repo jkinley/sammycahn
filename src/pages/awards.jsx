@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import styled from "@emotion/styled";
+import {css} from "@emotion/core"
 //import bgImage from "../images/oscar.png"
 import awardsList from '../constants/awardsList'
 import placeholder from '../../src/images/movies/movie-placeholder.png'
@@ -26,13 +27,13 @@ const awards = () => {
 								<li>
 									<SongName>{award.song}</SongName>
 									<AwardWrap>
-
 										{
 											award.image ? 
-
-											<img width="125px" height="auto" src={award.image} alt="" /> :
 											<div>
-												<img width="125px" height="auto" src={placeholder} alt="" />
+												<img css={poster} src={award.image} alt="" />
+											</div> :
+											<div>
+												<img height="auto" src={placeholder} alt="" />
 											</div>
 											
 										}
@@ -72,13 +73,17 @@ const Grid = styled.ul`
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 `
 const SongName = styled.h2`
-	
 	font-weight: bold;
 	margin-bottom: 0.5rem;
 `
 
 const Awards = styled.section`
 	padding: 3rem 0;
+`
+
+const poster = css`
+	max-width: 150px;
+	border: 1px solid #ccc;
 `
 
 const AwardWrap = styled.div`
