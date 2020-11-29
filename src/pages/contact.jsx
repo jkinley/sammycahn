@@ -12,13 +12,13 @@ const contact = () => (
     <SEO title="Contact" />
 
 		<PageTitle>
-				<div className="container mx-auto px-8">
+			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 					<h1>Contact</h1>
 				</div>
 			</PageTitle>
 
 		<ContactWrap>
-			<div className="container mx-auto px-8">
+			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 				<Grid>
 					<ContactForm />
 					<Address />

@@ -6,7 +6,7 @@ import image from '../../images/sammy/have-a-light.jpg'
 const Intro = () => {
 	return (
 		<Section>
-			<div className="container mx-auto">
+				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 			<Grid>
 
 				<Figure src={image} width="420px" height="auto" alt="alternative text" caption="Sammy Cahn and Saul Chaplin." />

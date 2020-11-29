@@ -6,7 +6,7 @@ import image from '../../images/sammy/sammy-working-3.jpg'
 const Third = () => {
 	return (
 		<Section>
-			<div className="container mx-auto">
+			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 				<Grid>
 					<Figure 
 						src={image} 

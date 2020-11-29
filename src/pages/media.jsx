@@ -12,13 +12,13 @@ const media = (video) => {
 			<SEO title="Media" />
 
 			<PageTitle>
-				<div className="container mx-auto px-8">
+				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 					<h1>Media</h1>
 				</div>
 			</PageTitle>
 			
 			<VideoWrap>
-				<div className="container mx-auto px-8">
+				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 
 					<MediaGrid>
 						{

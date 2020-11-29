@@ -10,12 +10,14 @@ const Quote = (props) => {
 	//console.log(result)
 	return (
 		<Section>
-			<Blockquote>
-				<div>
-					<Text>{result.text}</Text>
-					<Author>—{result.author}</Author>
-				</div>
-			</Blockquote>
+			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
+				<Blockquote>
+					<div>
+						<Text>{result.text}</Text>
+						<Author>—{result.author}</Author>
+					</div>
+				</Blockquote>
+			</div>
 		</Section>
 	)
 }
@@ -30,7 +32,7 @@ const Section = styled.section`
 const Blockquote = styled.blockquote`
 	color: #231f20;
 	display: grid;
-	grid-column-gap: 0.75rem;
+	grid-column-gap: 1rem;
 	grid-template-columns: auto 1fr;
 	align-items: center;
 	&::before {
@@ -39,6 +41,7 @@ const Blockquote = styled.blockquote`
 		font-size: 10rem;
 		line-height: 7rem;
 		align-self: flex-start;
+		justify-self: center;
 		color:#8e7a3e;
 	}
 	/* &::after {

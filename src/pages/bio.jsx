@@ -18,7 +18,7 @@ const bio = () => {
 			<SEO title="Biography" />
 			
 			<PageTitle>
-				<div className="container mx-auto px-8">
+				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 					<h1>Biography</h1>
 				</div>
 			</PageTitle>
@@ -42,7 +42,7 @@ const PageTitle= styled.section`
 
 	background: #eaeaea url('${bgImage}') no-repeat;
 	background-size: 40vh;
-	background-position: right center;
+	background-position: 90% center;
 
 	min-height: 25vh;
 	display: flex;

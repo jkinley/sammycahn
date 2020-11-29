@@ -6,7 +6,7 @@ import image from '../../images/sammy/sammy-portrait-2.jpg'
 const Fourth = () => {
 	return (
 		<Section>
-			<div className="container mx-auto">
+			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 				<Grid>
 					<Figure 
 						src={image} 

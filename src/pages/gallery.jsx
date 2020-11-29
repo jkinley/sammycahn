@@ -21,13 +21,13 @@ const gallery = ({data}) => {
 		<Layout>
 			<SEO title="Gallery" />
 			<PageTitle>
-				<div className="container mx-auto px-8">
+				<div className="container mx-auto px-8 lg:px-24 xl:px-48">	
 					<h1>Gallery</h1>
 				</div>
 			</PageTitle>
 
 			<GalleryWrap>
-				<div className="container mx-auto px-12">
+				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 					<Gallery images={images} title="How about that?" />
 				</div>
 			</GalleryWrap>

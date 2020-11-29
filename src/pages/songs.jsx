@@ -11,13 +11,13 @@ const songs = () => {
 			<SEO title="Songs" />
 
 			<PageTitle>
-				<div className="container mx-auto px-8">
-				<h1>Songs</h1>
+				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
+					<h1>Songs</h1>
 				</div>
 			</PageTitle>
 			
 			<Songs>
-				<SongGrid className="container mx-auto px-8">
+				<SongGrid className="container mx-auto px-8 lg:px-24 xl:px-48">
 
 					{
 						songList.map((song, index) => {
