@@ -1,8 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import ContactForm from '../components/ContactForm'
+import ContactForm from '../components/contact/ContactForm'
+import Address from '../components/contact/Address'
 import styled from "@emotion/styled";
+import Quote from "../components/Quote"
+import bgImage from "../images/sammy-hero-img.png"
 
 const contact = () => (
   <Layout>
@@ -16,30 +19,43 @@ const contact = () => (
 
 		<ContactWrap>
 			<div className="container mx-auto px-8">
-				<ContactForm />
+				<Grid>
+					<ContactForm />
+					<Address />
+				</Grid>
 			</div>
 		</ContactWrap>
 		
+		<Quote id={3} />
+
   </Layout>
 )
 
 const PageTitle= styled.section`
 	background-color: #eaeaea;
 	padding: 2rem;
-	min-height: 25vh;
 	display: flex;
 	align-items: center;
 	background-size: cover;
 	background-position: bottom center;
-	& h1 {
-		font-size: 2.8rem;
-		font-weight: bold;
-		margin-bottom: 1rem;
-	}
 `
 
 const ContactWrap = styled.section`
+	background: url('${bgImage}') no-repeat;
+	background-size: 35%;
+	background-position: right bottom;
 	padding: 3rem 0;
+`
+
+const Grid = styled.div`
+	
+	display: grid;
+	grid-row-gap: 3rem;
+	grid-template-columns: 1fr;
+	@media (min-width: 960px) {
+		grid-column-gap: 3rem;
+		grid-template-columns: 2fr minmax(300px, 1fr);
+	}
 `
 
 export default contact

@@ -28,6 +28,7 @@ const bio = () => {
 			<Quote id={6} />
 			<Third />
 			<Fourth />
+			<Quote id={1} />
 			<Fifth />
 
   	</Layout>
@@ -46,11 +47,6 @@ const PageTitle= styled.section`
 	min-height: 25vh;
 	display: flex;
 	align-items: center;
-	& h1 {
-		font-size: 2.8rem;
-		font-weight: bold;
-		margin-bottom: 1rem;
-	}
 `
 
 

@@ -53,25 +53,15 @@ export const query = graphql`
     }
   }
 `
-
 const PageTitle= styled.section`
 	background-color: #eaeaea;
 	padding: 2rem;
-	min-height: 25vh;
 	display: flex;
 	align-items: center;
 	background-size: cover;
 	background-position: bottom center;
-	& h1 {
-		font-size: 2.8rem;
-		font-weight: bold;
-		margin-bottom: 1rem;
-	}
 `
-
 const GalleryWrap = styled.section`
 	padding: 3rem 0;
 `
-
-
 export default gallery

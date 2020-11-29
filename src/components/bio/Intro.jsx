@@ -11,14 +11,12 @@ const Intro = () => {
 
 				<Figure src={image} width="420px" height="auto" alt="alternative text" caption="Sammy Cahn and Saul Chaplin." />
 				
-				<Text>
+				<div className="prose prose-lg">
 					<h2>Show Business</h2>
 					<p>In six decades, Sammy Cahn's career spanned every aspect of show business.</p>
-
 					<p>He was born in New York City on June 18, 1913. At age 15, holding the record for truancy at Seward Park High, he began playing violin in the pit of the Bowery Burlesque.</p>
-
 					<p>He wrote songs with Saul Chaplin for the famed Cotton Club, which produced "<strong>Shoe Shine Boy</strong>" for Louis Armstrong and the songs "<strong>Rhythm Is Our Business</strong>" and "<strong>Until the Real Thing Comes Along</strong>" for the Jimmy Lunceford Band, as well as scores for "Connie's Hot Chocolates".</p>
-				</Text>
+				</div>
 			</Grid>
 			</div>
 		</Section>
@@ -27,10 +25,6 @@ const Intro = () => {
 
 const Section = styled.section`
 	padding: 3rem 5%;
-	& h2 {
-		font-size: 2rem;
-		margin-bottom: 1rem;
-	}
 `
 const Grid = styled.div`
 	display: grid;
@@ -42,12 +36,6 @@ const Grid = styled.div`
 		& > img, & > figure {
 			order: 2;
 		}
-	}
-`
-
-const Text = styled.div`
-	& strong {
-		font-weight: 600;
 	}
 `
 

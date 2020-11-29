@@ -22,7 +22,7 @@ const Quote = (props) => {
 
 const Section = styled.section`
 	background-color: #b09a50;
-	padding: 5rem;
+	padding: 3rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -30,16 +30,16 @@ const Section = styled.section`
 const Blockquote = styled.blockquote`
 	color: #231f20;
 	display: grid;
-	grid-template-columns: auto 1fr auto;
+	grid-column-gap: 0.75rem;
+	grid-template-columns: auto 1fr;
 	align-items: center;
 	&::before {
 		content: '\\201C';
 		font-family: 'Playfair Display', serif;
 		font-size: 10rem;
-		color:#8e7a3e;
+		line-height: 7rem;
 		align-self: flex-start;
-		transform: translateY(100%);
-		margin-right: 0.5rem;
+		color:#8e7a3e;
 	}
 	/* &::after {
 		content: '\\201D';
@@ -52,8 +52,7 @@ const Blockquote = styled.blockquote`
 `
 const Text = styled.p`	
 	font-family: 'Montserrat', sans-serif;
-	line-height: 1.3;
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 	margin-bottom: 1rem;
 	

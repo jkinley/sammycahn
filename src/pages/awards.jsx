@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import styled from "@emotion/styled";
-import bgImage from "../images/oscar.png"
+//import bgImage from "../images/oscar.png"
 import awardsList from '../constants/awardsList'
 import placeholder from '../../src/images/movies/movie-placeholder.png'
 
@@ -58,19 +58,11 @@ const awards = () => {
 
 
 const PageTitle= styled.section`
+	padding: 2rem;
 	background: 
-		url('${bgImage}') no-repeat, 
 		linear-gradient( #eaeaea, #ccc) no-repeat;
-	background-size: 19vh, cover;
-	background-position: 85% 50px, center center ;
-	height: 25vh;
 	display: flex;
 	align-items: center;
-	& h1 {
-		font-size: 2.8rem;
-		font-weight: bold;
-		margin-bottom: 1rem;
-	}
 `
 
 const Grid = styled.ul`
@@ -80,7 +72,7 @@ const Grid = styled.ul`
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 `
 const SongName = styled.h2`
-	font-size: 1.3rem;
+	
 	font-weight: bold;
 	margin-bottom: 0.5rem;
 `
@@ -89,7 +81,7 @@ const Awards = styled.section`
 	padding: 3rem 0;
 `
 
-const AwardWrap = styled.h2`
+const AwardWrap = styled.div`
 	display: flex;
 	img {
 		margin-right: 1rem;
