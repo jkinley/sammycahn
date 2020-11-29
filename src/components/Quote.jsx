@@ -10,7 +10,7 @@ const Quote = (props) => {
 	//console.log(result)
 	return (
 		<Section>
-			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
+			<div className="container mx-auto px-4 lg:px-24 xl:px-48">
 				<Blockquote>
 					<div>
 						<Text>{result.text}</Text>
@@ -24,7 +24,7 @@ const Quote = (props) => {
 
 const Section = styled.section`
 	background-color: #b09a50;
-	padding: 3rem;
+	padding: 3rem 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -32,7 +32,7 @@ const Section = styled.section`
 const Blockquote = styled.blockquote`
 	color: #231f20;
 	display: grid;
-	grid-column-gap: 1rem;
+	grid-column-gap: 0.5rem;
 	grid-template-columns: auto 1fr;
 	align-items: center;
 	&::before {
@@ -56,7 +56,6 @@ const Blockquote = styled.blockquote`
 const Text = styled.p`	
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.4rem;
-	font-weight: bold;
 	margin-bottom: 1rem;
 	
 	z-index: 1;

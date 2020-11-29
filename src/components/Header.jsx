@@ -28,14 +28,14 @@ Header.defaultProps = {
 }
 
 const StyledHeader = styled.header`
-	display: flex;
 	background-color: #231f20;
 	padding: 1rem;
 	color: white;
-	position: sticky;
-	top: 0;
-	z-index: 10;
 	border-bottom: 4px solid #b09a50;
+	@media (min-width: 768px) {
+		display: flex;
+		align-items:center;
+	}
 
 	& .logo {
 		display: block;
@@ -52,10 +52,11 @@ const Nav = styled.nav`
 	a {
 		color: white;
 		text-decoration: none;
-	}
-
-	& > a + a {
-			margin-left: 1rem;
+		display: inline-block;
+		margin-right: 1rem;
+		&::last-child {
+			margin-right: 0;
+		}
 	}
 `
 

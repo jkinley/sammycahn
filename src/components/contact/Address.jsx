@@ -18,6 +18,10 @@ const address = css`
 	padding: 1rem;
 	border-radius: 4px;
 	background-color: #eaeaea;
+	width: 45vw;
+	@media (min-width: 1024px) {
+		width: 100%;
+	}
 `
 
 export default Address

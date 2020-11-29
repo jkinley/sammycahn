@@ -35,6 +35,6 @@ const Grid = styled.div`
 	grid-column-gap: 2rem;
 	grid-row-gap: 3rem;
 	align-items: center;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `
 export default Fourth

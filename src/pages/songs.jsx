@@ -31,15 +31,12 @@ const songs = () => {
 					}
 				</SongGrid>
 			</Songs>
-
-
 		</Layout>
 	)
 }
 
 
 const PageTitle= styled.section`
-
 	background: 
 			url('${bgImage}') no-repeat,
 			linear-gradient( #eaeaea, #ccc) no-repeat;
@@ -48,30 +45,22 @@ const PageTitle= styled.section`
 	min-height: 25vh;
 	display: flex;
 	align-items: center;
-	& h1 {
-		font-size: 2.8rem;
-		font-weight: bold;
-		margin-bottom: 1rem;
-	}
 `
 const Songs = styled.section`
 	padding: 3rem 0;
 `
-
-
 const SongGrid = styled.ul`
 	display: grid;
-	grid-gap: 2rem;
+	grid-gap: 1rem;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `
+const SongTitle = styled.p`
 
-const SongTitle = styled.h2`
-	font-size: 1.3rem;
 	font-weight: light;
 	color: #444;
 `
 const Performer = styled.p`
-	font-size: 1.1rem;
+
 	font-weight: bold;
 	color: #b09a50;
 `

@@ -11,7 +11,7 @@ export default [
 	},
 	{
 		id: 3,
-		text: "To answer the eternal question , which comes first the words or the music? THE PHONECALL, the phone rings and someone hires you to write a song.",
+		text: "To answer the eternal question, which comes first—the words or the music? The Phonecall—the phone rings and someone hires you to write a song.",
 		author: "Sammy Cahn"
 	},
 	{

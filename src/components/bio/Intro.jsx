@@ -6,7 +6,7 @@ import image from '../../images/sammy/have-a-light.jpg'
 const Intro = () => {
 	return (
 		<Section>
-				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
+				<div className="container mx-auto px-8">
 			<Grid>
 
 				<Figure src={image} width="420px" height="auto" alt="alternative text" caption="Sammy Cahn and Saul Chaplin." />
@@ -31,7 +31,7 @@ const Grid = styled.div`
 	grid-column-gap: 2rem;
 	grid-row-gap: 3rem;
 	align-items: center;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	@media (min-width: 1024px) {
 		& > img, & > figure {
 			order: 2;

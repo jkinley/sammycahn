@@ -64,7 +64,7 @@ const MediaGrid = styled.div`
 	display: grid;
 	grid-column-gap: 3rem;
 	grid-row-gap: 3rem;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `
 const PlayerWrapper = styled.div`
 	position: relative;
