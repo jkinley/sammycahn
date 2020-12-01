@@ -11,7 +11,7 @@ export default [
 	{
 		song: "I'll Walk Alone",
 		composer: 'Jule Styne',
-		artist: 'Louis Prima',
+		artist: 'Dinah Shore',
 		film: 'Follow the Boys',
 		award: 'Academy Award Nomination',
 		date: '1944',
@@ -110,7 +110,7 @@ export default [
     {
 		song: "Written on the Wind",
 		composer: "Victor Young",
-		artist: "",
+		artist: "The Four Aces",
 		film: "Written on the Wind",
 		award: 'Academy Award Nomination',
 		date: '1956',
@@ -128,7 +128,7 @@ export default [
 	{
 		song: "To Love and Be Loved",
 		composer: "Jimmy Van Heusen",
-		artist: "",
+		artist: "Frank Sinatra",
 		film: "Some Came Running",
 		award: 'Academy Award Nomination',
 		date: '1958',
@@ -137,7 +137,7 @@ export default [
 	{
 		song: "The Best of Everything" ,
 		composer: "Alfred Newman",
-		artist: "",
+		artist: "Johnny Mathis",
 		film: "The Best of Everything",
 		award: 'Academy Award Nomination',
 		date: '1959',
@@ -164,7 +164,7 @@ export default [
 	{
 		song:  "Pocketful of Miracles",
 		composer: "Jimmy Van Heusen",
-		artist: "",
+		artist: "unidentified choir",
 		film: "Pocketful of Miracles" ,
 		award: 'Academy Award Nomination',
 		date: '1961',
@@ -182,7 +182,7 @@ export default [
 	{
 		song: "Where Love Has Gone",
 		composer: "Jimmy Van Heusen",
-		artist: "",
+		artist: "Jack Jones",
 		film: "Where Love Has Gone",
 		award: 'Academy Award Nomination',
 		date: '1964',
@@ -191,7 +191,7 @@ export default [
 	{
 		song: "My Kind of Town",
 		composer: "Jimmy Van Heusen",
-		artist: "",
+		artist: "Frank Sinatra",
 		film:  "Robin and the 7 Hoods",
 		award: 'Academy Award Nomination',
 		date: '1964',
@@ -200,7 +200,7 @@ export default [
 	{
 		song: "Thoroughly Modern Millie",
 		composer: "Jimmy Van Heusen",
-		artist: "",
+		artist: "Julie Andrews",
 		film: "Thoroughly Modern Millie",
 		award: 'Academy Award Nomination',
 		date: '1967',
@@ -209,7 +209,7 @@ export default [
 	{
 		song: "Star",
 		composer: "Jimmy Van Heusen",
-		artist: "",
+		artist: "Julie Andrews",
 		film: "Star!",
 		award: 'Academy Award Nomination',
 		date: '1968',

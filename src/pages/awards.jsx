@@ -21,12 +21,12 @@ const awards = () => {
 					{
 						awardsList.map((award) => {
 							return (
-								<li>
-                                    <div className="bg-black border border-gray-700 p-8">
-                                        <img className="object-cover w-60 mx-auto" src={award.image} alt="" />
+								<li className="flex flex-col shadow-md bg-gray-50">
+                                    <div className="">
+                                        <img className="object-cover w-70 mx-auto" src={award.image} alt="" />
                                     </div>
-                                    <div className="p-4">
-                                        <h2 className="text-lg font-semibold mb-4">
+                                    <div className="p-6">
+                                        <h2 className="text-xl font-semibold mb-2">
                                             {award.song && award.song}
                                         </h2> 
                                         
@@ -56,12 +56,12 @@ const PageTitle= styled.section`
 
 const Grid = styled.ul`
 	display: grid;
-	grid-column-gap: 2.9rem;
-    grid-row-gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     & > li {
         
-        background-color: #eee;
+        //background-color: #eee;
     }
 `
 
