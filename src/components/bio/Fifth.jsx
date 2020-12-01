@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "@emotion/styled";
-import Figure from "../../components/Figure"
+import Figure from "../../components/common/Figure"
 import image from '../../images/sammy/sammy-working-3.jpg'
 
 const Third = () => {

@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import ContactForm from '../components/contact/ContactForm'
 import Address from '../components/contact/Address'
 import styled from "@emotion/styled";
-import Quote from "../components/Quote"
+import Quote from "../components/common/Quote"
 import bgImage from "../images/sammy-hero-img.png"
 
 const contact = () => (

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "@emotion/styled";
-import Figure from "../../components/Figure"
+import Figure from "../../components/common/Figure"
 import image from '../../images/sammy/saul-lou-sammy.jpg'
 
 const Third = () => {
@@ -8,7 +8,13 @@ const Third = () => {
 		<Section>
 			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 				<Grid>
-					<Figure src={image} width="420px" height="auto" alt="alternative text" caption="Saul Chaplin, Lou Levy, and Sammy Cahn." />
+					<Figure 
+						src={image} 
+						width="420px" 
+						height="auto" 
+						alt="alternative text" 
+						caption="Saul Chaplin, Lou Levy, and Sammy Cahn." 
+					/>
 					<div className="prose prose-lg">
 						<h2>Awards Roll In</h2>
 						<p>With 26 Academy Award nominations to his credit, Sammy earned more nominations than any other lyric writer in the history of the academy and four wins, with "<strong>Three Coins in the Fountain</strong>", "<strong>All the Way</strong>", "<strong>Call me Irresponsible</strong>", and "<strong>High Hopes</strong>", which became the John F. Kennedy campaign song.</p>

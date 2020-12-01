@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import styled from "@emotion/styled";
 import bgImage from "../images/sammy-hero-img.png"
-import Quote from '../components/Quote'
+import Quote from '../components/common/Quote'
 
 // page sections
 import Intro from "../components/bio/Intro"

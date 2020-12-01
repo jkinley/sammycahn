@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 //import styled from "@emotion/styled";
 import {graphql} from 'gatsby'
 import HeroImage from '../components/HeroImage'
-import Quote from '../components/Quote'
+import Quote from '../components/common/Quote'
 import SongBook from "../components/home/SongBook";
 import Dictionary from "../components/home/Dictionary"
 

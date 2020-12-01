@@ -1,5 +1,85 @@
 export default [
-
+    {
+		song: "I've Heard that Song Before",
+		composer: 'Jule Styne',
+		artist: "Martha O'Driscoll",
+		film: 'Youth on Parade',
+		award: 'Academy Award Nomination',
+		date: '1942',
+		image: require('../images/movies/youth-on-parade.jpg')
+	},
+	{
+		song: "I'll Walk Alone",
+		composer: 'Jule Styne',
+		artist: 'Louis Prima',
+		film: 'Follow the Boys',
+		award: 'Academy Award Nomination',
+		date: '1944',
+		image: require('../images/movies/follow-the-boys.jpg')
+    },
+    {
+		song: "Anywhere",
+		composer: 'Jule Styne',
+		artist: 'Rita Hayworth',
+		film: 'Tonight and Every Night',
+		award: 'Academy Award Nomination',
+		date: '1945',
+		image: require('../images/movies/tonight-and-every-night.jpg')
+	},
+	{
+		song: "I Fall in Love Too Easily",
+		composer: 'Jule Styne',
+		artist: 'Frank Sinatra',
+		film: 'Anchors Aweigh',
+		award: 'Academy Award Nomination',
+		date: '1945',
+		image: require('../images/movies/anchors-aweigh.jpg')
+	},
+	{
+		song: "It's Magic",
+		composer: 'Jule Styne',
+		artist: 'Doris Day',
+		film: 'Romance on the High Seas',
+		award: 'Academy Award Nomination',
+		date: '1948',
+		image: require('../images/movies/romance-on-the-high-seas.jpg')
+    },
+    {
+		song: "It's a Great Feeling",
+		composer: 'Jule Styne',
+		artist: 'Doris Day',
+		film: "It's a Great Feeling",
+		award: 'Academy Award Nomination',
+		date: '1949',
+		image: require('../images/movies/its-a-great-feeling.jpg')
+	},
+	{
+		song: "Be My Love",
+		composer: 'Nicholas Brodszky',
+		artist: 'Mario Lanza, Kathryn Grayson ',
+		film: "The Toast of New Orleans",
+		award: 'Academy Award Nomination',
+		date: '1950',
+		image: require('../images/movies/the-toast-of-new-orleans.jpg')
+	},
+	{
+		song: "Wonder Why",
+		composer: 'Nicholas Brodszky',
+		artist: 'Jane Powell, Vic Damone',
+		film: "Rich, Young and Pretty",
+		award: 'Academy Award Nomination',
+		date: '1951',
+		image: require('../images/movies/rich-young-and-pretty.jpg')
+    },
+    {
+		song: "Because You're Mine",
+		composer: 'Nicholas Brodszky',
+		artist: 'Mario Lanza',
+		film: "Because You're Mine",
+		award: 'Academy Award Nomination',
+		date: '1952',
+		image: require('../images/movies/because-you-are-mine.jpg')
+	},
 	{
 		song: 'Three Coins in the Fountain',
 		composer: 'Jule Styne',
@@ -8,6 +88,33 @@ export default [
 		award: 'Academy Award Winner',
 		date: '1954',
 		image: require('../images/movies/three-coins-in-the-fountain.jpg')
+    },
+    {
+		song: "I'll Never Stop Loving You",
+		composer: 'Nicholas Brodszky',
+		artist: 'Doris Day',
+		film: "Love Me or Leave Me",
+		award: 'Academy Award Nomination',
+		date: '1955',
+		image: require('../images/movies/love-me-or-leave-me.jpg')
+	},
+	{
+		song: "(Love Is) The Tender Trap",
+		composer: 'Jimmy Van Heusen',
+		artist: 'Frank Sinatra',
+		film: "The Tender Trap",
+		award: 'Academy Award Nomination',
+		date: '1955',
+		image: require('../images/movies/the-tender-trap.jpg')
+    },
+    {
+		song: "Written on the Wind",
+		composer: "Victor Young",
+		artist: "",
+		film: "Written on the Wind",
+		award: 'Academy Award Nomination',
+		date: '1956',
+		image: require('../images/movies/written-on-the-wind.jpg')
 	},
 	{
 		song: 'All the Way',
@@ -17,6 +124,24 @@ export default [
 		award: 'Academy Award Winner',
 		date: '1957',
 		image: require('../images/movies/the-joker-is-wild.jpg')
+    },
+	{
+		song: "To Love and Be Loved",
+		composer: "Jimmy Van Heusen",
+		artist: "",
+		film: "Some Came Running",
+		award: 'Academy Award Nomination',
+		date: '1958',
+		image: require('../images/movies/some-came-running.jpg')
+	},
+	{
+		song: "The Best of Everything" ,
+		composer: "Alfred Newman",
+		artist: "",
+		film: "The Best of Everything",
+		award: 'Academy Award Nomination',
+		date: '1959',
+		image: require('../images/movies/the-best-of-everything.jpg')
 	},
 	{
 		song: 'High Hopes',
@@ -26,6 +151,24 @@ export default [
 		award: 'Academy Award Winner',
 		date: '1959',
 		image: require('../images/movies/a-hole-in-the-head.jpg')
+    },
+    {
+		song: "The Second Time Around" ,
+		composer: "Jimmy Van Heusen",
+		artist: "",
+		film: "High Time",
+		award: 'Academy Award Nomination',
+		date: '1960',
+		image: require('../images/movies/high-time.jpg')
+	},
+	{
+		song:  "Pocketful of Miracles",
+		composer: "Jimmy Van Heusen",
+		artist: "",
+		film: "Pocketful of Miracles" ,
+		award: 'Academy Award Nomination',
+		date: '1961',
+		image: require('../images/movies/pocket-full-of-miracles.jpg')
 	},
 	{
 		song: "Call Me Irresponsible",
@@ -37,155 +180,11 @@ export default [
 		image: require('../images/movies/papas-delicate-condition.jpg')
 	},
 	{
-		song: "I've Heard That Song Before",
-		composer: 'Jule Styne',
-		artist: '',
-		film: 'Youth on Parade',
-		award: 'Academy Award Nominee',
-		date: '1942',
-		image: require('../images/movies/youth-on-parade.jpg')
-	},
-	{
-		song: "I'll Walk Alone",
-		composer: 'Jule Styne',
-		artist: '',
-		film: 'Follow the Boys',
-		award: 'Academy Award Nominee',
-		date: '1944',
-		image: require('../images/movies/follow-the-boys.jpg')
-	},
-	{
-		song: "Anywhere",
-		composer: 'Jule Styne',
-		artist: '',
-		film: 'Tonight and Every Night',
-		award: 'Academy Award Nominee',
-		date: '1945',
-		image: require('../images/movies/tonight-and-every-night.jpg')
-	},
-	{
-		song: "I Fall in Love Too Easily",
-		composer: 'Jule Styne',
-		artist: 'Frank Sinatra',
-		film: 'Anchors Aweigh',
-		award: 'Academy Award Nominee',
-		date: '1945',
-		image: require('../images/movies/anchors-aweigh.jpg')
-	},
-	{
-		song: "It's Magic",
-		composer: 'Jule Styne',
-		artist: 'Doris Day',
-		film: 'Romance on the High Seas',
-		award: 'Academy Award Nominee',
-		date: '1948',
-		image: require('../images/movies/romance-on-the-high-seas.jpg')
-	},
-	{
-		song: "It's a Great Feeling",
-		composer: 'Jule Styne',
-		artist: 'Doris Day',
-		film: "It's a Great Feeling",
-		award: 'Academy Award Nominee',
-		date: '1949',
-		image: require('../images/movies/its-a-great-feeling.jpg')
-	},
-	{
-		song: "Be My Love",
-		composer: 'Nicholas Brodszky',
-		artist: 'Mario Lanza, Kathryn Grayson ',
-		film: "The Toast of New Orleans",
-		award: 'Academy Award Nominee',
-		date: '1950',
-		image: require('../images/movies/the-toast-of-new-orleans.jpg')
-	},
-	{
-		song: "Wonder Why",
-		composer: 'Nicholas Brodszky',
-		artist: 'Jane Powell, Vic Damone',
-		film: "Rich, Young and Pretty",
-		award: 'Academy Award Nominee',
-		date: '1951',
-		image: require('../images/movies/rich-young-and-pretty.jpg')
-	},
-	{
-		song: "Because You're Mine",
-		composer: 'Nicholas Brodszky',
-		artist: 'Mario Lanza',
-		film: "Because You're Mine",
-		award: 'Academy Award Nominee',
-		date: '1952',
-		image: require('../images/movies/because-you-are-mine.jpg')
-	},
-	{
-		song: "I'll Never Stop Loving You",
-		composer: 'Nicholas Brodszky',
-		artist: 'Doris Day',
-		film: "Love Me or Leave Me",
-		award: 'Academy Award Nominee',
-		date: '1955',
-		image: require('../images/movies/love-me-or-leave-me.jpg')
-	},
-	{
-		song: "(Love Is) The Tender Trap",
-		composer: 'Jimmy Van Heusen',
-		artist: 'Frank Sinatra',
-		film: "The Tender Trap",
-		award: 'Academy Award Nominee',
-		date: '1955',
-		image: require('../images/movies/the-tender-trap.jpg')
-	},
-	{
-		song: "Written on the Wind",
-		composer: "Victor Young",
-		artist: "",
-		film: "Written on the Wind",
-		award: 'Academy Award Nominee',
-		date: '1956',
-		image: require('../images/movies/written-on-the-wind.jpg')
-	},
-	{
-		song: "To Love and Be Loved",
-		composer: "Jimmy Van Heusen",
-		artist: "",
-		film: "Some Came Running",
-		award: 'Academy Award Nominee',
-		date: '1958',
-		image: require('../images/movies/some-came-running.jpg')
-	},
-	{
-		song: "The Best of Everything" ,
-		composer: "Alfred Newman",
-		artist: "",
-		film: "The Best of Everything",
-		award: 'Academy Award Nominee',
-		date: '1959',
-		image: require('../images/movies/the-best-of-everything.jpg')
-	},
-	{
-		song: "The Second Time Around" ,
-		composer: "Jimmy Van Heusen",
-		artist: "",
-		film: "High Time",
-		award: 'Academy Award Nominee',
-		date: '1960',
-		image: require('../images/movies/high-time.jpg')
-	},
-	{
-		song:  "Pocketful of Miracles",
-		composer: "Jimmy Van Heusen",
-		artist: "",
-		film: "Pocketful of Miracles" ,
-		award: 'Academy Award Nominee',
-		date: '1961',
-		image: require('../images/movies/pocket-full-of-miracles.jpg')
-	},
-	{
 		song: "Where Love Has Gone",
 		composer: "Jimmy Van Heusen",
 		artist: "",
 		film: "Where Love Has Gone",
-		award: 'Academy Award Nominee',
+		award: 'Academy Award Nomination',
 		date: '1964',
 		image: require('../images/movies/where-has-love-gone.jpg')
 	},
@@ -194,7 +193,7 @@ export default [
 		composer: "Jimmy Van Heusen",
 		artist: "",
 		film:  "Robin and the 7 Hoods",
-		award: 'Academy Award Nominee',
+		award: 'Academy Award Nomination',
 		date: '1964',
 		image: require('../images/movies/robin-and-the-seven-hoods.jpg')
 	},
@@ -203,7 +202,7 @@ export default [
 		composer: "Jimmy Van Heusen",
 		artist: "",
 		film: "Thoroughly Modern Millie",
-		award: 'Academy Award Nominee',
+		award: 'Academy Award Nomination',
 		date: '1967',
 		image: require('../images/movies/thorougly-modern-millie.jpg')
 	},
@@ -212,7 +211,7 @@ export default [
 		composer: "Jimmy Van Heusen",
 		artist: "",
 		film: "Star!",
-		award: 'Academy Award Nominee',
+		award: 'Academy Award Nomination',
 		date: '1968',
 		image: require('../images/movies/star.jpg')
 	},
@@ -221,7 +220,7 @@ export default [
 		composer: "George Barrie",
 		artist: "",
 		film: "A Touch of Class",
-		award: 'Academy Award Nominee',
+		award: 'Academy Award Nomination',
 		date: '1973',
 		image: require('../images/movies/a-touch-of-class.jpg')
 	},
@@ -230,9 +229,9 @@ export default [
 		composer: "George Barrie",
 		artist: "",
 		film: "Whiffs",
-		award: 'Academy Award Nominee',
+		award: 'Academy Award Nomination',
 		date: '1974',
 		image: require('../images/movies/whiffs.jpg')
 	}
-	
+
 ]

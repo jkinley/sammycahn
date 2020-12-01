@@ -1,8 +1,9 @@
-import React from 'react'
-//import styled from "@emotion/styled";
-//import {css} from "@emotion/core"
+// Figure Component
+// v 1.0
 
-const Figure = ({src, width, height, alt, caption }) => {
+import React from 'react'
+
+const Figure = ({src, width, alt, caption }) => {
 	return (
 		<figure className={classes.figure} style={{maxWidth: `${width}`}}>
 			<img className={classes.img} src={src} alt={alt} />
