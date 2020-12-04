@@ -6,14 +6,26 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+	`gatsby-plugin-sharp`,
+	`gatsby-plugin-sass`,
+    `gatsby-plugin-postcss`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
-		},
-		{
+        }
+    },
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `data`,
+          path: `${__dirname}/src/data`,
+        }
+    },
+	{
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Sammy Cahn`,
@@ -23,12 +35,9 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`,
       },
-		},
-    `gatsby-transformer-sharp`,
-		`gatsby-plugin-sharp`,
-		`gatsby-plugin-sass`,
-		`gatsby-plugin-postcss`,
-		// {
+	},
+    
+	// {
     //   resolve: `gatsby-plugin-prefetch-google-fonts`,
     //   options: {
     //     fonts: [

@@ -13,7 +13,7 @@ module.exports = {
 	darkMode: false,
   theme: {
     fontFamily: {
-      'sans': ['Raleway', 'sans-serif'],
+      'sans': ['Montserrat', 'sans-serif'],
       'body': ['"Open Sans"', 'sans-serif']
 		},
 		extend: {

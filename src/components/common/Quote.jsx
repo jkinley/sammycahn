@@ -6,9 +6,9 @@ import quotes from '../../constants/quotes'
 import styled from "@emotion/styled";
 import {css} from '@emotion/core'
 
-const Quote = (props) => {
-	const result = quotes.find(quote => quote.id === props.id);
-	//console.log(result)
+const Quote = ({id}) => {
+	const result = quotes.find(quote => quote.id === id);
+	
 	return (
 		<Section>
 			<div className="container mx-auto px-4 lg:px-24 xl:px-48">
@@ -56,7 +56,8 @@ const Blockquote = styled.blockquote`
 `
 const Text = styled.p`	
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 	margin-bottom: 1rem;
 	
 	z-index: 1;

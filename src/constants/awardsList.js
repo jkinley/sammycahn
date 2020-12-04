@@ -5,7 +5,8 @@ export default [
 		artist: "Martha O'Driscoll",
 		film: 'Youth on Parade',
 		award: 'Academy Award Nomination',
-		date: '1942',
+        date: '1942',
+        winner: false,
 		image: require('../images/movies/youth-on-parade.jpg')
 	},
 	{
@@ -14,7 +15,8 @@ export default [
 		artist: 'Dinah Shore',
 		film: 'Follow the Boys',
 		award: 'Academy Award Nomination',
-		date: '1944',
+        date: '1944',
+        winner: false,
 		image: require('../images/movies/follow-the-boys.jpg')
     },
     {
@@ -23,7 +25,8 @@ export default [
 		artist: 'Rita Hayworth',
 		film: 'Tonight and Every Night',
 		award: 'Academy Award Nomination',
-		date: '1945',
+        date: '1945',
+        winner: false,
 		image: require('../images/movies/tonight-and-every-night.jpg')
 	},
 	{
@@ -32,7 +35,8 @@ export default [
 		artist: 'Frank Sinatra',
 		film: 'Anchors Aweigh',
 		award: 'Academy Award Nomination',
-		date: '1945',
+        date: '1945',
+        winner: false,
 		image: require('../images/movies/anchors-aweigh.jpg')
 	},
 	{
@@ -41,7 +45,8 @@ export default [
 		artist: 'Doris Day',
 		film: 'Romance on the High Seas',
 		award: 'Academy Award Nomination',
-		date: '1948',
+        date: '1948',
+        winner: false,
 		image: require('../images/movies/romance-on-the-high-seas.jpg')
     },
     {
@@ -50,7 +55,8 @@ export default [
 		artist: 'Doris Day',
 		film: "It's a Great Feeling",
 		award: 'Academy Award Nomination',
-		date: '1949',
+        date: '1949',
+        winner: false,
 		image: require('../images/movies/its-a-great-feeling.jpg')
 	},
 	{
@@ -59,7 +65,8 @@ export default [
 		artist: 'Mario Lanza, Kathryn Grayson ',
 		film: "The Toast of New Orleans",
 		award: 'Academy Award Nomination',
-		date: '1950',
+        date: '1950',
+        winner: false,
 		image: require('../images/movies/the-toast-of-new-orleans.jpg')
 	},
 	{
@@ -68,7 +75,8 @@ export default [
 		artist: 'Jane Powell, Vic Damone',
 		film: "Rich, Young and Pretty",
 		award: 'Academy Award Nomination',
-		date: '1951',
+        date: '1951',
+        winner: false,
 		image: require('../images/movies/rich-young-and-pretty.jpg')
     },
     {
@@ -77,7 +85,8 @@ export default [
 		artist: 'Mario Lanza',
 		film: "Because You're Mine",
 		award: 'Academy Award Nomination',
-		date: '1952',
+        date: '1952',
+        winner: false,
 		image: require('../images/movies/because-you-are-mine.jpg')
 	},
 	{
@@ -86,7 +95,8 @@ export default [
 		artist: 'Frank Sinatra',
 		film: 'Three Coins in the Fountain',
 		award: 'Academy Award Winner',
-		date: '1954',
+        date: '1954',
+        winner: true,
 		image: require('../images/movies/three-coins-in-the-fountain.jpg')
     },
     {
@@ -95,7 +105,8 @@ export default [
 		artist: 'Doris Day',
 		film: "Love Me or Leave Me",
 		award: 'Academy Award Nomination',
-		date: '1955',
+        date: '1955',
+        winner: false,
 		image: require('../images/movies/love-me-or-leave-me.jpg')
 	},
 	{
@@ -104,7 +115,8 @@ export default [
 		artist: 'Frank Sinatra',
 		film: "The Tender Trap",
 		award: 'Academy Award Nomination',
-		date: '1955',
+        date: '1955',
+        winner: false,
 		image: require('../images/movies/the-tender-trap.jpg')
     },
     {
@@ -113,7 +125,8 @@ export default [
 		artist: "The Four Aces",
 		film: "Written on the Wind",
 		award: 'Academy Award Nomination',
-		date: '1956',
+        date: '1956',
+        winner: false,
 		image: require('../images/movies/written-on-the-wind.jpg')
 	},
 	{
@@ -122,7 +135,8 @@ export default [
 		artist: 'Frank Sinatra',
 		film: 'The Joker is Wild',
 		award: 'Academy Award Winner',
-		date: '1957',
+        date: '1957',
+        winner: true,
 		image: require('../images/movies/the-joker-is-wild.jpg')
     },
 	{
@@ -131,7 +145,8 @@ export default [
 		artist: "Frank Sinatra",
 		film: "Some Came Running",
 		award: 'Academy Award Nomination',
-		date: '1958',
+        date: '1958',
+        winner: false,
 		image: require('../images/movies/some-came-running.jpg')
 	},
 	{
@@ -140,7 +155,8 @@ export default [
 		artist: "Johnny Mathis",
 		film: "The Best of Everything",
 		award: 'Academy Award Nomination',
-		date: '1959',
+        date: '1959',
+        winner: false,
 		image: require('../images/movies/the-best-of-everything.jpg')
 	},
 	{
@@ -149,7 +165,8 @@ export default [
 		artist: 'Frank Sinatra, Eddie Hodges',
 		film: 'A Hole in the Head',
 		award: 'Academy Award Winner',
-		date: '1959',
+        date: '1959',
+        winner: true,
 		image: require('../images/movies/a-hole-in-the-head.jpg')
     },
     {
@@ -158,7 +175,8 @@ export default [
 		artist: "",
 		film: "High Time",
 		award: 'Academy Award Nomination',
-		date: '1960',
+        date: '1960',
+        winner: false,
 		image: require('../images/movies/high-time.jpg')
 	},
 	{
@@ -167,7 +185,8 @@ export default [
 		artist: "unidentified choir",
 		film: "Pocketful of Miracles" ,
 		award: 'Academy Award Nomination',
-		date: '1961',
+        date: '1961',
+        winner: false,
 		image: require('../images/movies/pocket-full-of-miracles.jpg')
 	},
 	{
@@ -176,7 +195,8 @@ export default [
 		artist: 'Jackie Gleason',
 		film: "Papa's Delicate Condition",
 		award: 'Academy Award Winner',
-		date: "1963",
+        date: "1963",
+        winner: true,
 		image: require('../images/movies/papas-delicate-condition.jpg')
 	},
 	{
@@ -185,7 +205,8 @@ export default [
 		artist: "Jack Jones",
 		film: "Where Love Has Gone",
 		award: 'Academy Award Nomination',
-		date: '1964',
+        date: '1964',
+        winner: false,
 		image: require('../images/movies/where-has-love-gone.jpg')
 	},
 	{
@@ -194,7 +215,8 @@ export default [
 		artist: "Frank Sinatra",
 		film:  "Robin and the 7 Hoods",
 		award: 'Academy Award Nomination',
-		date: '1964',
+        date: '1964',
+        winner: false,
 		image: require('../images/movies/robin-and-the-seven-hoods.jpg')
 	},
 	{
@@ -203,7 +225,8 @@ export default [
 		artist: "Julie Andrews",
 		film: "Thoroughly Modern Millie",
 		award: 'Academy Award Nomination',
-		date: '1967',
+        date: '1967',
+        winner: false,
 		image: require('../images/movies/thorougly-modern-millie.jpg')
 	},
 	{
@@ -212,7 +235,8 @@ export default [
 		artist: "Julie Andrews",
 		film: "Star!",
 		award: 'Academy Award Nomination',
-		date: '1968',
+        date: '1968',
+        winner: false,
 		image: require('../images/movies/star.jpg')
 	},
 	{
@@ -221,7 +245,8 @@ export default [
 		artist: "",
 		film: "A Touch of Class",
 		award: 'Academy Award Nomination',
-		date: '1973',
+        date: '1973',
+        winner: false,
 		image: require('../images/movies/a-touch-of-class.jpg')
 	},
 	{
@@ -230,7 +255,8 @@ export default [
 		artist: "",
 		film: "Whiffs",
 		award: 'Academy Award Nomination',
-		date: '1974',
+        date: '1974',
+        winner: false,
 		image: require('../images/movies/whiffs.jpg')
 	}
 
