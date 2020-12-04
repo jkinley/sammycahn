@@ -6,9 +6,9 @@ import Gallery1 from "../components/gallery/Gallery1"
 import Gallery2 from "../components/gallery/Gallery2"
 import Quote from "../components/common/Quote"
 
-const gallery = () => (
+const photos = () => (
     <Layout>
-        <SEO title="Gallery" />
+        <SEO title="Photos" />
 
         <PageTitle>
             <div className="container mx-auto px-8 lg:px-24 xl:px-48">	
@@ -34,7 +34,8 @@ const PageTitle= styled.section`
 	background-position: bottom center;
 `
 
-export default gallery
+export default photos
+
 
 
 // export const query = graphql`

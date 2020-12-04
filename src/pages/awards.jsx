@@ -22,9 +22,9 @@ const awards = () => {
 					{
 						awardsList.map((award) => {
 							return (
-								<li className="flex flex-col shadow-md bg-white">
-                                    <div className="m-4">
-                                        <img className="object-cover w-70 mx-auto border border-gray-300" src={award.image} alt="" />
+								<li className="flex flex-row shadow-md bg-white">
+                                    <div className="m-4 w-2/5">
+                                        <img className="object-cover w-full mx-auto border border-gray-300" src={award.image} alt="" />
                                     </div>
                                     <div className="p-6 flex-1">
                                         <h2 className="text-xl font-semibold mb-2 flex justify-between">
@@ -40,7 +40,7 @@ const awards = () => {
                                        
                                     </div>
 
-                                    {
+                                    {/* {
                                                 award.winner === true ?
                                                 <div className="bg-brand-darkgold text-white p-2">
                                                     <p className="text-center text-sm">Acadamy Award Winner</p>
@@ -48,7 +48,7 @@ const awards = () => {
                                                 <div className="bg-brand-black text-white p-2">
                                                 <p className="text-center text-sm">Acadamy Award Nomination</p>
                                             </div>
-                                        }
+                                        } */}
 								</li>
 							)
 						})
@@ -71,9 +71,14 @@ const PageTitle= styled.section`
 
 const Grid = styled.ul`
 	display: grid;
-	grid-column-gap: 4rem;
-    grid-row-gap: 4rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: 1fr;
+    //grid-template-columns: repeat(auto-fill, 320px);
+    @media (min-width: 780px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    
     & > li {
         
         //background-color: #eee;

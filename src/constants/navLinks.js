@@ -12,8 +12,8 @@ export default [
 	name: 'Awards'
  },
  {
-	path:'/gallery',
-	name: 'Gallery'
+	path:'/photos',
+	name: 'Photos'
  },
 
  {
