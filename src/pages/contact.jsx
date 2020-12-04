@@ -21,7 +21,7 @@ const contact = () => (
 			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
 				<Grid>
 					<ContactForm />
-					<Address />
+					{/* <Address /> */}
 				</Grid>
 			</div>
 		</ContactWrap>
