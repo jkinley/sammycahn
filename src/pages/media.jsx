@@ -49,7 +49,7 @@ const media = (video) => {
 
 const PageTitle= styled.section`
 	background-color: #eaeaea;
-	padding: 2rem;
+	padding: 2rem 0;
 	display: flex;
 	align-items: center;
 	background-size: cover;

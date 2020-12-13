@@ -27,7 +27,7 @@ const photos = () => (
 
 const PageTitle= styled.section`
 	background-color: #eaeaea;
-	padding: 2rem;
+	padding: 2rem 0;
 	display: flex;
 	align-items: center;
 	background-size: cover;
@@ -35,24 +35,3 @@ const PageTitle= styled.section`
 `
 
 export default photos
-
-
-
-// export const query = graphql`
-// {
-//     images:allFile(filter: {relativeDirectory: {eq: "sammy"}}) {
-//         edges {
-//             node {
-//                 childImageSharp {
-//                     thumb: fluid(maxWidth: 300, maxHeight: 300) {
-//                         ...GatsbyImageSharpFluid
-//                     }
-//                     full: fluid(maxWidth: 1024) {
-//                         ...GatsbyImageSharpFluid
-// 			        }
-// 		        }
-//             }
-//         }
-//     }
-// }
-// `

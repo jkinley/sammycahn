@@ -17,11 +17,11 @@ const contact = () => (
 				</div>
 			</PageTitle>
 
-		<ContactWrap>
+		<ContactWrap className="flex-1">
 			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
-				<Grid>
+				<Grid >
 					<ContactForm />
-					{/* <Address /> */}
+					<Address />
 				</Grid>
 			</div>
 		</ContactWrap>
@@ -44,7 +44,7 @@ const ContactWrap = styled.section`
 	background: url('${bgImage}') no-repeat;
 	background-size: 35%;
 	background-position: right bottom;
-	padding: 3rem 0;
+    padding: 3rem 0;
 `
 
 const Grid = styled.div`

@@ -33,14 +33,14 @@ const GalleryWrap = styled.section`
 
 const getGallery = graphql`
 {
-    gallery: allGallery1Json {
+    gallery:allGallery1Json {
         edges {
             node {
                 caption
                 src {
 
                     childImageSharp {
-                        thumb: fluid(maxWidth: 300, maxHeight: 300) {
+                        thumb: fluid(maxWidth: 400, maxHeight: 400) {
                             ...GatsbyImageSharpFluid
                         }
                         full: fluid(maxWidth: 1024) {

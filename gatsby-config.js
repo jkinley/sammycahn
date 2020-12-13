@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Sammy Cahn`,
-    description: ``,
-    author: `Jeff Kinley`,
+    description: `The official website for the songwriter Sammy Cahn.`,
+    url: `https://sammycahnmusic.com`,
+    author: 'Jeff Kinley',
+    copyright: `Sammy Cahn Music Company. All Rights Reserved.`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +13,7 @@ module.exports = {
 	`gatsby-plugin-sass`,
     `gatsby-plugin-postcss`,
     `gatsby-transformer-json`,
+    `gatsby-plugin-playground`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

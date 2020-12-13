@@ -6,16 +6,16 @@ import styled from "@emotion/styled";
 
 const Header = ({ siteTitle }) => (
   <StyledHeader>
-			<Link to="/" className="logo" title="Homepage">Sammy Cahn</Link>
-			<Nav>
-					{
-						navLinks.map((link, index) => {
-							return (
-								<Link key={index} to={link.path}>{link.name}</Link>
-							)
-						})
-					}
-			</Nav>
+		<Link to="/" className="logo" title="Homepage">{siteTitle}</Link>
+        <Nav>
+                {
+                    navLinks.map((link, index) => {
+                        return (
+                            <Link key={index} to={link.path}>{link.name}</Link>
+                        )
+                    })
+                }
+        </Nav>
   </StyledHeader>
 )
 

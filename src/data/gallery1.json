@@ -2,67 +2,99 @@
 
     {   
         "caption": "Sammy Cahn and Saul Chaplin",
-        "src": "../images/sammy/have-a-light.jpg"
+        "src": "../images/sammy/have-a-light.jpg",
+        "width": 3,
+        "height": 4
     },
     {
         "caption": "Jule Styne and Sammy Cahn",
-        "src": "../images/sammy/sammy-and-jule-1.jpg"
+        "src": "../images/sammy/sammy-and-jule-1.jpg",
+        "width": 3,
+        "height": 4
     },
     {
         "caption": "Milton Berle, Cary Grant, Sammy and Tita Cahn, Johnny Carson, and Paul Anka at 60th Birthday party in Las Vegas",
-        "src": "../images/sammy/sammy-award.jpg"
+        "src": "../images/sammy/sammy-award.jpg",
+        "width": 4,
+        "height": 3
     },
     {
         "caption": "Sammy Cahn, Tita Cahn, and HRH the Prince of Wales",
-        "src": "../images/sammy/sammy-awards.jpg"
+        "src": "../images/sammy/sammy-awards.jpg",
+        "width": 4,
+        "height": 3
     },
     {
         "caption": "Tina Sinatra, Tony Danza, Sammy, and Tracy Danza",
-        "src": "../images/sammy/sammy-danza.jpg"
+        "src": "../images/sammy/sammy-danza.jpg",
+        "width": 4,
+        "height": 3
     },
     {
         "caption": "Portrait of Sammy Cahn",
-        "src": "../images/sammy/sammy-drawing.jpg"
+        "src": "../images/sammy/sammy-drawing.jpg",
+        "width": 3,
+        "height": 4
     },
     {
         "caption": "Dudley Moore and Jack Jones with Sammy Cahn at the Hollywood Walk of Fame ceremony",
-        "src": "../images/sammy/sammy-dudley.jpg"
+        "src": "../images/sammy/sammy-dudley.jpg",
+        "width": 3,
+        "height": 4
     },
     {
         "caption": "Tita and Sammy Cahn, Barbara and Frank Sinatra",
-        "src": "../images/sammy/sammy-frank.jpg"
+        "src": "../images/sammy/sammy-frank.jpg",
+        "width": 4,
+        "height": 3
     },
     {
         "caption": "Sammy Cahn and Elvis",
-        "src": "../images/sammy/sammy-elvis.jpg"
+        "src": "../images/sammy/sammy-elvis.jpg",
+        "width": 4,
+        "height": 3
     },
     {
         "caption": "Birthday Issue of Sheet Music Magazine dedicated to celebration of Sammy Cahn 75th",
-        "src": "../images/sammy/sammy-mag-cover.jpg"
+        "src": "../images/sammy/sammy-mag-cover.jpg",
+        "width": 3,
+        "height": 4
     },
     {
         "caption": "Sammy Cahn",
-        "src": "../images/sammy/sammy-office.jpg"
+        "src": "../images/sammy/sammy-office.jpg",
+        "width": 4,
+        "height": 3
     },
     {
         "caption": "Paul McCartney, Sammy Cahn, and Linda McCartney",
-        "src": "../images/sammy/sammy-paul.jpg"
+        "src": "../images/sammy/sammy-paul.jpg",
+        "width": 4,
+        "height": 3
     },
     {
         "caption": "Sammy Cahn",
-        "src": "../images/sammy/sammy-piano.jpg"
+        "src": "../images/sammy/sammy-piano.jpg",
+        "width": 4,
+        "height": 3
     },
     {
         "caption": "Sammy Cahn",
-        "src": "../images/sammy/sammy-portrait-1.jpg"
+        "src": "../images/sammy/sammy-portrait-1.jpg",
+        "width": 4,
+        "height": 3
     },
     {
         "caption": "Sammy Cahn",
-        "src": "../images/sammy/sammy-portrait-2.jpg"
+        "src": "../images/sammy/sammy-portrait-2.jpg",
+        "width": 3,
+        "height": 4
     },
     {
         "caption": "Sammy and Tita Cahn at the White House",
-        "src": "../images/sammy/sammy-regan.jpg"
+        "src": "../images/sammy/sammy-regan.jpg",
+        "width": 4,
+        "height": 3
     }
     
     

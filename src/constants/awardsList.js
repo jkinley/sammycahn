@@ -1,4 +1,4 @@
-export default [
+export const academyAwards = [
     {
 		song: "I've Heard that Song Before",
 		composer: 'Jule Styne',
@@ -259,5 +259,51 @@ export default [
         winner: false,
 		image: require('../images/movies/whiffs.jpg')
 	}
+]
 
+
+export const grammyAwards = [
+    
+    {
+        work: "High Hopes",
+        title: "Song of the Year",
+        type: "Nomination",
+        year: 1959
+    },
+    {
+        work: "Second Time Around",
+        title: "Song of the Year",
+        type: "Nomination",
+        year: 1960
+    },
+    {
+        work: "Call Me Irresponsible",
+        title: "Song of the Year",
+        type: "Nomination",
+        year: 1963
+    },
+    {
+        work: "Robin and the Seven Hoods",
+        title: "Original Score",
+        type: "Nomination",
+        year: 1964
+    },
+    {
+        work: "September of My Years",
+        title: "Song of the Year",
+        type: "Nomination",
+        year: 1965
+    },
+    {
+        work: "Skyscraper",
+        title: "Best Score from an Original Cast Show Album ",
+        type: "Nomination",
+        year: 1966
+    },
+    {
+        work: "Walking Happy",
+        title: "Best Score from an Original Cast Show Album",
+        type: "Nomination",
+        year: 1967
+    }
 ]

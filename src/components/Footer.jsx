@@ -1,8 +1,21 @@
 import React from 'react'
 import { Link } from "gatsby"
 import navLinks from '../constants/navLinks'
+import {graphql, useStaticQuery} from 'gatsby'
 
-const Footer = () => {
+const Footer = ({copyright}) => {
+
+    const data = useStaticQuery(graphql`
+    query copyright {
+        site {
+          siteMetadata {
+            copyright
+          }
+        }
+      }
+    
+    `)
+
 	return (
 		<footer className="bg-brand-black">
 			<div className="container mx-auto px-4 py-8">
@@ -20,7 +33,10 @@ const Footer = () => {
 						})
 					}
 				</nav>
-				<small className="text-brand-lightgray"> © {new Date().getFullYear()} Sammy Cahn Music Company. All Rights Reserved.</small>
+    
+				<small className="text-brand-lightgray">
+                &copy; {new Date().getFullYear()} {copyright}
+                </small>
 			</div>
     </footer>
 	)

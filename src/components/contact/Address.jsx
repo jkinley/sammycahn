@@ -3,25 +3,28 @@ import {css} from '@emotion/core'
 
 const Address = () => {
 	return (
-		<div>
-			<address css={address}>
-				<strong>Sammy Cahn Music Company</strong><br/>
-				704 North Canon Drive<br/>
-				Beverly Hills, <abbr class="region" title="California">CA</abbr> 90210
-			</address>
+		<div className="mb-24 p-4 rounded bg-brand-lightgray">
+			
+            <p className="mb-4 font-bold">Sammy Cahn Music Company</p>
+            
+            <address className="mb-4">
+                10 Lea Avenue, Suite 300<br />
+                Nashville, Tenn. 37210
+            </address>
+
+            <address className="mb-4">
+                229 West 28th Street, 11th floor<br />
+                New York, NY 10001
+            </address>
+
+            <address className="mb-4">
+                71-91 Aldwych<br />
+                London, WC2B 4HN
+            </address>
 		</div>
 	)
 }
 
-const address = css`
-	font-size: 0.9rem;
-	padding: 1rem;
-	border-radius: 4px;
-	background-color: #eaeaea;
-	width: 45vw;
-	@media (min-width: 1024px) {
-		width: 100%;
-	}
-`
+
 
 export default Address
