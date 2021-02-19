@@ -19,7 +19,6 @@ const photos = () => (
         
         <Gallery1 />
         <Quote id={5} />
-
         <Gallery2 />
 
     </Layout>

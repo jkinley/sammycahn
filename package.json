@@ -41,6 +41,7 @@
     "react-player": "^2.6.2",
     "react-typography": "^0.16.19",
     "stylelint": "^13.7.0",
+    "swiper": "^6.4.1",
     "tailwindcss": "^2.0.1",
     "typography": "^0.16.19"
   },

@@ -1,20 +1,10 @@
 import React from 'react'
 import { Link } from "gatsby"
 import navLinks from '../constants/navLinks'
-import {graphql, useStaticQuery} from 'gatsby'
 
 const Footer = ({copyright}) => {
 
-    const data = useStaticQuery(graphql`
-    query copyright {
-        site {
-          siteMetadata {
-            copyright
-          }
-        }
-      }
-    
-    `)
+  
 
 	return (
 		<footer className="bg-brand-black">

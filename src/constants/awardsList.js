@@ -259,7 +259,7 @@ export const academyAwards = [
         winner: false,
 		image: require('../images/movies/whiffs.jpg')
 	}
-]
+];
 
 
 export const grammyAwards = [
@@ -306,4 +306,39 @@ export const grammyAwards = [
         type: "Nomination",
         year: 1967
     }
-]
+];
+
+export const goldenGlobes = [
+  
+  {
+    year: '1964',
+    type: 'Nomination',
+    song: 'Where Has Love Gone',
+    film: 'Where Has Love Gone'
+  },
+  {
+    year: '1967',
+    type: 'Nomination',
+    song: 'Thoroughly Modern Millie',
+    film: 'Thoroughly Modern Millie'
+  },
+  {
+    year: '1968',
+    type: 'Nomination',
+    song: 'Star',
+    film: 'Star'
+  },
+  {
+    year: '1973',
+    type: 'Nomination',
+    song: 'All That Love Went to Waste',
+    film: 'A Touch of Class'
+  },
+  {
+    year: '1974',
+    type: 'Nomination',
+    song: 'Now That We’re in Love',
+    film: 'Pffft'
+  }
+
+];

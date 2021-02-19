@@ -1,5 +1,5 @@
 import React from 'react'
-import {graphQL, Link, useStaticQuery} from 'gatsby'
+import {Link, useStaticQuery} from 'gatsby'
 
 const ListPages = () => {
 

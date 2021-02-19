@@ -1,0 +1,54 @@
+/* Customer styles for the Swiper.js slider on the Service Blocks page.
+*/
+ 
+.swiper-container {
+    display: block;
+    margin: 0 auto;
+}
+
+.swiper-wrapper {
+}
+
+.swiper-slide {
+    width: 100%;
+    margin-bottom: 0;
+    background-color: darkgoldenrod;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.swiper-pagination {
+    top: 0;
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.swiper-pagination-bullet {
+    width: auto;
+    height: 50px;
+    padding: 0.75rem 1rem;
+    background-color: #777;
+    opacity: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+.swiper-pagination-bullet-active {
+    background: linear-gradient(30deg, #005ac8, #2885c7);
+}
+
+.swiper-slide img {
+    border: 1px solid #ccc;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}

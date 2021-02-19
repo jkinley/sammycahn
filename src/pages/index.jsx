@@ -7,6 +7,7 @@ import HeroImage from '../components/HeroImage'
 import Quote from '../components/common/Quote'
 import SongBook from "../components/home/SongBook";
 import Dictionary from "../components/home/Dictionary"
+//import Swipe from "../components/Swipe"
 
 export default ({data}) => (
   <Layout>

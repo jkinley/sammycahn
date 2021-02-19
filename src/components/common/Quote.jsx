@@ -4,7 +4,6 @@
 import React from 'react'
 import quotes from '../../constants/quotes'
 import styled from "@emotion/styled";
-import {css} from '@emotion/core'
 
 const Quote = ({id}) => {
 	const result = quotes.find(quote => quote.id === id);

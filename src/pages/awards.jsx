@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import styled from "@emotion/styled";
 import AcademyAwards from '../components/awards/AcademyAwards'
 import GrammyAwards from '../components/awards/GrammyAwards'
+import GoldenGlobes from '../components/awards/GoldenGlobes';
 //import {FaTrophy} from 'react-icons/fa'
 
 const awards = () => {
@@ -17,10 +18,8 @@ const awards = () => {
 			</PageTitle>
 			
             <AcademyAwards />
-
             <GrammyAwards />
-            
-			
+            <GoldenGlobes />
 		</Layout>
 	)
 }
