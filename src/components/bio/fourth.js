@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import Figure from "../common/Figure"
+import Figure from "../common/figure"
 import image from '../../images/sammy/sammy-portrait-2.jpg'
 
 const Fourth = () => {
