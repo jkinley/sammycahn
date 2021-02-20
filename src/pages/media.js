@@ -1,10 +1,10 @@
-import React from 'react'
-import ReactPlayer from 'react-player/youtube'
+import React from 'react';
+import ReactPlayer from 'react-player/youtube';
 import styled from "@emotion/styled";
-//import {css} from '@emotion/core'
-import videoList from '../constants/videoList'
-import Layout from '../components/Layout';
-import SEO from "../components/seo"
+//import {css} from '@emotion/core';
+import videoList from '../constants/videoList';
+import Layout from "../layouts/layout";
+import SEO from "../components/seo";
 
 const media = (video) => {
 	return (
@@ -24,19 +24,19 @@ const media = (video) => {
 						{
 							videoList.map((video) => {
 								return (
-									<div>
-										<PlayerWrapper key={video.id}>
-											<ReactPlayer
-												url={video.url}
-												className='react-player'
-												width='100%'
-												height='100%'
-												controls="true"
-												light
-											/>
-										</PlayerWrapper>
-										<VideoTitle>{video.title}</VideoTitle>
-									</div>
+                  <div key={video.id}>
+                    <PlayerWrapper>
+                      <ReactPlayer
+                        url={video.url}
+                        className='react-player'
+                        width='100%'
+                        height='100%'
+                        controls={true}
+                        light
+                      />
+                    </PlayerWrapper>
+                    <VideoTitle>{video.title}</VideoTitle>
+                  </div>
 								)
 							})
 						}

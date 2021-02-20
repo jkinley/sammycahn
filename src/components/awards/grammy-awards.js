@@ -9,9 +9,9 @@ const GrammyAwards = () => {
                 <h2 className="mb-12">Grammy Awards</h2>
                     <Grid>
                     {
-                        grammyAwards.map((award) => {
+                        grammyAwards.map((award, index) => {
                             return (
-                                <li className="p-4 border ">
+                                <li key={index} className="p-4 border ">
                                     <p className="">{award.year} {award.type}</p>
                                     <p>{award.title} for "{award.work}"</p>
                                 </li>

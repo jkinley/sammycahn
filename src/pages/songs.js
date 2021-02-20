@@ -1,8 +1,8 @@
-import React from 'react'
-import Layout from "../components/Layout"
-import SEO from "../components/seo"
-import bgImage from "../images/piano.png"
-import songList from '../constants/songs'
+import React from 'react';
+import Layout from "../layouts/layout";
+import SEO from "../components/seo";
+import bgImage from "../images/piano.png";
+import songList from '../constants/songs';
 import styled from "@emotion/styled";
 
 const songs = () => {

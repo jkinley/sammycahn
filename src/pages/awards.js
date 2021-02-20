@@ -1,10 +1,10 @@
-import React from 'react'
-import Layout from "../components/Layout"
-import SEO from "../components/seo"
+import React from 'react';
+import Layout from "../layouts/layout";
+import SEO from "../components/seo";
 import styled from "@emotion/styled";
-import AcademyAwards from '../components/awards/AcademyAwards'
-import GrammyAwards from '../components/awards/GrammyAwards'
-import GoldenGlobes from '../components/awards/GoldenGlobes';
+import AcademyAwards from '../components/awards/academy-awards';
+import GrammyAwards from '../components/awards/grammy-awards';
+import GoldenGlobes from '../components/awards/golden-globes';
 //import {FaTrophy} from 'react-icons/fa'
 
 const awards = () => {
@@ -16,7 +16,6 @@ const awards = () => {
 					<h1>Awards</h1>
 				</div>
 			</PageTitle>
-			
             <AcademyAwards />
             <GrammyAwards />
             <GoldenGlobes />

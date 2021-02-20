@@ -1,10 +1,10 @@
-import React from 'react'
-import Layout from "../components/Layout"
-import SEO from "../components/seo"
+import React from 'react';
+import Layout from "../layouts/layout";
+import SEO from "../components/seo";
 import styled from "@emotion/styled";
-import Gallery1 from "../components/gallery/Gallery1"
-import Gallery2 from "../components/gallery/Gallery2"
-import Quote from "../components/common/Quote"
+import Gallery1 from "../components/gallery/gallery-1";
+import Gallery2 from "../components/gallery/gallery-2";
+import Quote from "../components/common/quote";
 
 const photos = () => (
     <Layout>

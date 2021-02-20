@@ -1,11 +1,11 @@
-import React from "react"
-import Layout from "../components/Layout"
-import SEO from "../components/seo"
-import ContactForm from '../components/contact/ContactForm'
-import Address from '../components/contact/Address'
+import React from "react";
+import Layout from "../layouts/layout";
+import SEO from "../components/seo";
+import ContactForm from '../components/contact/contact-form';
+import Address from '../components/contact/address';
 import styled from "@emotion/styled";
-import Quote from "../components/common/Quote"
-import bgImage from "../images/sammy-hero-img.png"
+import Quote from "../components/common/quote";
+import bgImage from "../images/sammy-hero-img.png";
 
 const contact = () => (
   <Layout>

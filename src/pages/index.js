@@ -1,23 +1,17 @@
-import React from "react"
-import Layout from "../components/Layout"
-import SEO from "../components/seo"
+import React from "react";
+import Layout from "../layouts/layout";
+import SEO from "../components/seo";
 //import styled from "@emotion/styled";
-import {graphql} from 'gatsby'
-import HeroImage from '../components/HeroImage'
-import Quote from '../components/common/Quote'
-import SongBook from "../components/home/SongBook";
-import Dictionary from "../components/home/Dictionary"
+import {graphql} from 'gatsby';
+import HeroImage from '../components/home/hero-image';
+import Quote from '../components/common/quote';
 //import Swipe from "../components/Swipe"
 
 export default ({data}) => (
   <Layout>
     <SEO title="Home" />
-
 		<HeroImage home={true} img={data.bgImage.childImageSharp.fluid} />
 		<Quote id={2} />
-		<SongBook />
-		<Dictionary />
-		
   </Layout>
 )
 

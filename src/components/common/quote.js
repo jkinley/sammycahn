@@ -1,6 +1,3 @@
-// Quote component is used to display a quote section.
-// v 1.0
-
 import React from 'react'
 import quotes from '../../constants/quotes'
 import styled from "@emotion/styled";

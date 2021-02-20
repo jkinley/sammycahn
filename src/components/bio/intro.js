@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "@emotion/styled";
-import Figure from "../../components/common/Figure"
+import Figure from "../common/Figure"
 import image from '../../images/sammy/have-a-light.jpg'
 
 const Intro = () => {
