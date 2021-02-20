@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "../layouts/layout";
 import SEO from "../components/seo";
-import styled from "@emotion/styled";
+import styled from 'styled-components';
 import bgImage from "../images/sammy-hero-img.png";
 import Quote from '../components/common/quote';
 

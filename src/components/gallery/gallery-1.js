@@ -1,7 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Gallery from '@browniebroke/gatsby-image-gallery'
-import styled from "@emotion/styled";
+import styled from 'styled-components';
 import '@browniebroke/gatsby-image-gallery/dist/style.css'
 
 const Gallery1 = () => {

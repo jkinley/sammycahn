@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../layouts/layout";
 import SEO from "../components/seo";
-//import styled from "@emotion/styled";
 import {graphql} from 'gatsby';
 import HeroImage from '../components/home/hero-image';
 import Quote from '../components/common/quote';

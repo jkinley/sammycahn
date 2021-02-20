@@ -3,7 +3,7 @@ import Layout from "../layouts/layout";
 import SEO from "../components/seo";
 import bgImage from "../images/piano.png";
 import songList from '../constants/songs';
-import styled from "@emotion/styled";
+import styled from 'styled-components';
 
 const songs = () => {
 	return (

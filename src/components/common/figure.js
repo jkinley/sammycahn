@@ -1,6 +1,3 @@
-// Figure Component
-// v 1.0
-
 import React from 'react'
 
 const Figure = ({src, width, alt, caption }) => {

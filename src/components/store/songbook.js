@@ -1,6 +1,5 @@
 import React from 'react'
-import styled from "@emotion/styled";
-import {css} from "@emotion/core"
+import styled from 'styled-components';
 import image from '../../images/songbook-cover.jpg'
 import amazonButton from '../../images/amazon-button.png'
 

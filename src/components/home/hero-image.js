@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from '@emotion/styled'
+import styled from 'styled-components';
 import BackgroundImage from 'gatsby-background-image'
 
 const HeroImage = ({img, className, children, home}) => {

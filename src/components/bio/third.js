@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from "@emotion/styled";
+import styled from 'styled-components';
 import Figure from "../common/Figure"
 import image from '../../images/sammy/saul-lou-sammy.jpg'
 

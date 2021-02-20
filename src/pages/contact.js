@@ -3,7 +3,7 @@ import Layout from "../layouts/layout";
 import SEO from "../components/seo";
 import ContactForm from '../components/contact/contact-form';
 import Address from '../components/contact/address';
-import styled from "@emotion/styled";
+import styled from 'styled-components';
 import Quote from "../components/common/quote";
 import bgImage from "../images/sammy-hero-img.png";
 

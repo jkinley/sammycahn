@@ -1,6 +1,6 @@
 import React from 'react'
 import { goldenGlobes } from '../../constants/awardsList'
-import styled from "@emotion/styled";
+import styled from 'styled-components';
 
 const GoldenGlobes = () => {
   return (
