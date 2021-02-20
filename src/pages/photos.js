@@ -31,6 +31,6 @@ const PageTitle= styled.section`
 	align-items: center;
 	background-size: cover;
 	background-position: bottom center;
-`
+`;
 
 export default photos

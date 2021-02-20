@@ -20,4 +20,4 @@ export default styled(HeroImage)`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-`
+`;

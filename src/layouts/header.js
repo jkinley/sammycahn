@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import navLinks from '../constants/navLinks'
 import PropTypes from "prop-types"
-import styled from "@emotion/styled";
+import styled from 'styled-components';
 
 const Header = ({ siteTitle }) => (
   <StyledHeader>
@@ -46,8 +46,8 @@ const StyledHeader = styled.header`
 		font-weight: 400;
 		letter-spacing: 0.02rem;
 	}
+`;
 
-`
 const Nav = styled.nav`
 	a {
 		color: white;
@@ -58,9 +58,6 @@ const Nav = styled.nav`
 			margin-right: 0;
 		}
 	}
-`
-
-
-
+`;
 
 export default Header

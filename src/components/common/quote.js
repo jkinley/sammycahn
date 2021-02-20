@@ -25,7 +25,7 @@ const Section = styled.section`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-`
+`;
 const Blockquote = styled.blockquote`
 	color: #231f20;
 	display: grid;
@@ -41,21 +41,12 @@ const Blockquote = styled.blockquote`
 		justify-self: center;
 		color:#8e7a3e;
 	}
-	/* &::after {
-		content: '\\201D';
-		font-family: 'Playfair Display', serif;
-		font-size: 10rem;
-		color: #8e7a3e;
-		align-self: flex-end;
-		transform: translateY( 100%);
-	} */
 `
 const Text = styled.p`	
 	font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
 	margin-bottom: 1rem;
-	
 	z-index: 1;
 `
 const Author = styled.p`

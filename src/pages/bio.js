@@ -6,11 +6,11 @@ import bgImage from "../images/sammy-hero-img.png";
 import Quote from '../components/common/quote';
 
 // page sections
-import Intro from "../components/bio/Intro";
-import Second from "../components/bio/Second";
-import Third from "../components/bio/Third";
-import Fourth from "../components/bio/Fourth";
-import Fifth from "../components/bio/Fifth";
+import Intro from "../components/bio/intro";
+import Second from "../components/bio/second";
+import Third from "../components/bio/third";
+import Fourth from "../components/bio/fourth";
+import Fifth from "../components/bio/fifth";
 
 const bio = () => {
 	return (
