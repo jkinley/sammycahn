@@ -6,7 +6,7 @@ import Gallery1 from "../components/gallery/gallery-1";
 import Gallery2 from "../components/gallery/gallery-2";
 import Quote from "../components/common/quote";
 
-const photos = () => (
+const Photos = () => (
     <Layout>
         <SEO title="Photos" />
 
@@ -33,4 +33,4 @@ const PageTitle= styled.section`
 	background-position: bottom center;
 `;
 
-export default photos
+export default Photos

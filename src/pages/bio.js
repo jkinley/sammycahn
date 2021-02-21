@@ -4,15 +4,13 @@ import SEO from "../components/seo";
 import styled from 'styled-components';
 import bgImage from "../images/sammy-hero-img.png";
 import Quote from '../components/common/quote';
-
-// page sections
 import Intro from "../components/bio/intro";
 import Second from "../components/bio/second";
 import Third from "../components/bio/third";
 import Fourth from "../components/bio/fourth";
 import Fifth from "../components/bio/fifth";
 
-const bio = () => {
+const Bio = () => {
 	return (
 		<Layout>
 			<SEO title="Biography" />
@@ -35,11 +33,7 @@ const bio = () => {
 	)
 }
 
-
 const PageTitle= styled.section`
-	//background: url('${bgImage}');
-	//background-color: #eaeaea;
-
 	background: #eaeaea url('${bgImage}') no-repeat;
 	background-size: 40vh;
 	background-position: 90% center;
@@ -47,8 +41,6 @@ const PageTitle= styled.section`
 	min-height: 25vh;
 	display: flex;
 	align-items: center;
-`
+`;
 
-
-
-export default bio
+export default Bio

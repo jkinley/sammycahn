@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import Quote from "../components/common/quote";
 import bgImage from "../images/sammy-hero-img.png";
 
-const contact = () => (
+const Contact = () => (
   <Layout>
     <SEO title="Contact" />
 
@@ -58,4 +58,4 @@ const Grid = styled.div`
 	}
 `
 
-export default contact
+export default Contact

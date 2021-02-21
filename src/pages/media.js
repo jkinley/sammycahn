@@ -5,7 +5,7 @@ import videoList from '../constants/videoList';
 import Layout from "../layouts/layout";
 import SEO from "../components/seo";
 
-const media = (video) => {
+const Media = (video) => {
 	return (
 		<Layout>
 			<SEO title="Media" />
@@ -15,10 +15,12 @@ const media = (video) => {
 					<h1>Media</h1>
 				</div>
 			</PageTitle>
+
+      
 			
 			<VideoWrap>
 				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
-
+            <p className="mb-12">Sammy’s songs have been featured in films, television shows, and commercials for decades.  These wonderful new uses for his songs continue today.  This is just one more way that Sammy’s legacy lives on.</p>
 					<MediaGrid>
 						{
 							videoList.map((video) => {
@@ -81,4 +83,4 @@ const VideoTitle = styled.h2`
 	margin: 0;
 `
 
-export default media
+export default Media

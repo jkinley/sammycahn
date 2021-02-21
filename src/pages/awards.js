@@ -7,7 +7,7 @@ import GrammyAwards from '../components/awards/grammy-awards';
 import GoldenGlobes from '../components/awards/golden-globes';
 //import {FaTrophy} from 'react-icons/fa'
 
-const awards = () => {
+const Awards = () => {
 	return (
 		<Layout>
 			<SEO title="Awards" />
@@ -23,14 +23,11 @@ const awards = () => {
 	)
 }
 
-
 const PageTitle= styled.section`
 	padding: 2rem 0;
 	background: 
 		linear-gradient( #eaeaea, #ccc) no-repeat;
 	display: flex;
 	align-items: center;
-`
-
-
-export default awards
+`;
+export default Awards
