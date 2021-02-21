@@ -21,7 +21,7 @@ const Songs = () => {
 			</PageTitle>
 			
         <div className="container mx-auto p-4 m-8 bg-gray-300 rounded flex justify-end">
-            <p>Music Service: </p>  
+            <p>Choose Music Store: </p>  
             
             <label className="cursor-pointer ml-4 ">
               <input 
