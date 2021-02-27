@@ -16,7 +16,7 @@ const Third = () => {
 						caption="Saul Chaplin, Lou Levy, and Sammy Cahn." 
 					/>
 					<div className="prose prose-lg">
-						<h2>Awards</h2>
+						<h2>Awards & Nominations</h2>
 						<p>With 26 Academy Award nominations to his credit, Sammy earned more nominations than any other lyric writer in the history of the academy and four wins, with "<strong>Three Coins in the Fountain</strong>", "<strong>All the Way</strong>", "<strong>Call me Irresponsible</strong>", and "<strong>High Hopes</strong>", which became the John F. Kennedy campaign song.</p>
 
 						<p>In 1955, Sammy was awarded an Oscar for "<strong>Three Coins in the Fountain</strong>". That same year, he won the first Emmy awarded to a song, for "<strong>Love and Marriage</strong>", written for the producers showcase musical version of Thornton Wilder's, "<strong>Our Town</strong>" starring Frank Sinatra and Paul Newman.</p>
