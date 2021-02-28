@@ -8,7 +8,7 @@ const Switcher = (props) => {
 
       <div className="text-sm text-gray-400 bg-white border border-gray-300 rounded-md overflow-hidden p-1 shadow-inners">
         
-        <label className={`inline-block px-2 py-1 rounded transition-background duration-300 ease-in-out ${props.checked === 'Apple Music' ? 'bg-brand-darkgold text-white' : 'bg-white'}` }>
+        <label className={`cursor-pointer inline-block px-2 py-1 rounded transition-background duration-300 ease-in-out ${props.checked === 'Apple Music' ? 'bg-gray-900 text-white' : 'bg-white'}` }>
           <input 
             type="radio"
             className="form-radio focus:ring-0 hidden"
@@ -19,7 +19,7 @@ const Switcher = (props) => {
           /> Apple
         </label>
 
-        <label className={`inline-block px-2 py-1 rounded transition-background duration-300 ease-in-out ${props.checked === 'Spotify' ? 'bg-brand-darkgold text-white' : 'bg-white'}`}>
+        <label className={`cursor-pointer inline-block px-2 py-1 rounded transition-background duration-300 ease-in-out ${props.checked === 'Spotify' ? 'bg-gray-900 text-white' : 'bg-white'}`}>
           <input type="radio"
             className="form-radio focus:ring-0 hidden"
             name="store" 
