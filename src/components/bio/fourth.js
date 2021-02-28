@@ -6,7 +6,7 @@ import image from '../../images/sammy/sammy-portrait-2.jpg'
 const Fourth = () => {
 	return (
 		<Section>
-			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
+			<div className="container mx-auto px-8">
 				<Grid>
 					<Figure 
 						src={image} 
@@ -15,7 +15,7 @@ const Fourth = () => {
 						alt="alternative text" 
 						caption="Sammy Cahn." 
 					/>
-						<div className="prose prose-lg">
+						<div className="prose xl:prose-lg">
 							<h2>Sammy and Frank</h2>
 							<p>Sammy became the official lyricist for the Rat Pack, writing "<strong>Come Fly with Me</strong>", "<strong>Ain't That a Kick in the Head</strong>", and "<strong>Ring-a-ding Ding</strong>", among many others.</p>
 							<p>Sinatra recorded 81 Sammy Cahn songs, putting Sammy in the lead of any other Sinatra writer by a wide margin. The singer said of Sammy, "of all the writers, Sammy's words fit my mouth the best".</p>
@@ -34,7 +34,7 @@ const Grid = styled.div`
 	display: grid;
 	grid-column-gap: 2rem;
 	grid-row-gap: 3rem;
-	align-items: center;
+  align-items: flex-start;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `
 export default Fourth

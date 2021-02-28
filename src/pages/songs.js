@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import Layout from "../layouts/layout";
 import SEO from "../components/seo";
-import bgImage from "../images/piano.png";
+//import bgImage from "../images/piano.png";
 import styled from 'styled-components';
 import Switcher from '../components/songs/switcher';
 import AppleMusic from '../components/songs/apple-music';
@@ -39,14 +39,20 @@ const Songs = () => {
 	)
 }
 
-
 const PageTitle= styled.section`
-	background: url('${bgImage}') no-repeat, linear-gradient( #eaeaea, #ccc) no-repeat;
-	background-size: 34vh, cover;
-	background-position: right center;
-	min-height: 25vh;
+	padding: 2rem 0;
+	background: linear-gradient( to bottom, #eaeaea, #e3e3e3) no-repeat;
 	display: flex;
 	align-items: center;
 `;
+
+// const PageTitle= styled.section`
+// 	background: url('${bgImage}') no-repeat, linear-gradient( #eaeaea, #ccc) no-repeat;
+// 	background-size: 34vh, cover;
+// 	background-position: right center;
+// 	min-height: 25vh;
+// 	display: flex;
+// 	align-items: center;
+// `;
 
 export default Songs

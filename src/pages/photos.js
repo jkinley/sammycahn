@@ -12,7 +12,7 @@ const Photos = () => (
 
         <PageTitle>
             <div className="container mx-auto px-8 lg:px-24 xl:px-48">	
-                <h1>Gallery</h1>
+                <h1>Photos</h1>
             </div>
         </PageTitle>
 
@@ -25,12 +25,10 @@ const Photos = () => (
 )
 
 const PageTitle= styled.section`
-	background-color: #eaeaea;
 	padding: 2rem 0;
+	background: linear-gradient( to bottom, #eaeaea, #e3e3e3) no-repeat;
 	display: flex;
 	align-items: center;
-	background-size: cover;
-	background-position: bottom center;
 `;
 
 export default Photos

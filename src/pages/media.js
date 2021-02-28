@@ -49,13 +49,11 @@ const Media = (video) => {
 }
 
 const PageTitle= styled.section`
-	background-color: #eaeaea;
 	padding: 2rem 0;
+	background: linear-gradient( to bottom, #eaeaea, #e3e3e3) no-repeat;
 	display: flex;
 	align-items: center;
-	background-size: cover;
-	background-position: bottom center;
-`
+`;
 
 const VideoWrap = styled.section`
 	padding: 3rem 0;

@@ -10,10 +10,10 @@ import GoldenGlobes from '../components/awards/golden-globes';
 const Awards = () => {
 	return (
 		<Layout>
-			<SEO title="Awards" />
+			<SEO title="Awards & Nominations" />
 			<PageTitle>
 				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
-					<h1>Awards</h1>
+					<h1>Awards & Nominations</h1>
 				</div>
 			</PageTitle>
             <AcademyAwards />
@@ -25,9 +25,9 @@ const Awards = () => {
 
 const PageTitle= styled.section`
 	padding: 2rem 0;
-	background: 
-		linear-gradient( #eaeaea, #ccc) no-repeat;
+	background: linear-gradient( to bottom, #eaeaea, #e3e3e3) no-repeat;
 	display: flex;
 	align-items: center;
 `;
+
 export default Awards

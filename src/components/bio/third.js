@@ -6,7 +6,7 @@ import image from '../../images/sammy/saul-lou-sammy.jpg'
 const Third = () => {
 	return (
 		<Section>
-			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
+			<div className="container mx-auto px-8">
 				<Grid>
 					<Figure 
 						src={image} 
@@ -15,7 +15,7 @@ const Third = () => {
 						alt="alternative text" 
 						caption="Saul Chaplin, Lou Levy, and Sammy Cahn." 
 					/>
-					<div className="prose prose-lg">
+					<div className="prose xl:prose-lg">
 						<h2>Awards & Nominations</h2>
 						<p>With 26 Academy Award nominations to his credit, Sammy earned more nominations than any other lyric writer in the history of the academy and four wins, with "<strong>Three Coins in the Fountain</strong>", "<strong>All the Way</strong>", "<strong>Call me Irresponsible</strong>", and "<strong>High Hopes</strong>", which became the John F. Kennedy campaign song.</p>
 
@@ -35,7 +35,7 @@ const Grid = styled.div`
 	display: grid;
 	grid-column-gap: 2rem;
 	grid-row-gap: 3rem;
-	align-items: center;
+	align-items: flex-start;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	@media (min-width: 1024px) {
 		& > img, & > figure {

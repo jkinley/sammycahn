@@ -6,7 +6,7 @@ import image from '../../images/sammy/have-a-light.jpg'
 const Intro = () => {
 	return (
 		<Section>
-				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
+				<div className="container mx-auto px-8">
 			<Grid>
 				<Figure 
 						src={image} 
@@ -16,7 +16,7 @@ const Intro = () => {
 						caption="Sammy Cahn and Saul Chaplin." 
 				/>
 				
-				<div className="prose prose-lg">
+				<div className="prose xl:prose-lg">
 					<h2>Show Business</h2>
 					<p>In six decades, Sammy Cahn's career spanned every aspect of show business.</p>
 					<p>He was born in New York City on June 18, 1913. At age 15, holding the record for truancy at Seward Park High, he began playing violin in the pit of the Bowery Burlesque.</p>
@@ -35,7 +35,7 @@ const Grid = styled.div`
 	display: grid;
 	grid-column-gap: 2rem;
 	grid-row-gap: 3rem;
-	align-items: center;
+	align-items: flex-start;
 	grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
 	@media (min-width: 1024px) {
 		& > img, & > figure {

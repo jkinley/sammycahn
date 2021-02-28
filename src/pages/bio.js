@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from "../layouts/layout";
 import SEO from "../components/seo";
 import styled from 'styled-components';
-import bgImage from "../images/sammy-hero-img.png";
+//import bgImage from "../images/sammy-hero-img.png";
 import Quote from '../components/common/quote';
 import Intro from "../components/bio/intro";
 import Second from "../components/bio/second";
@@ -16,7 +16,7 @@ const Bio = () => {
 			<SEO title="Biography" />
 			
 			<PageTitle>
-				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
+				<div className="container mx-auto px-8">
 					<h1>Biography</h1>
 				</div>
 			</PageTitle>
@@ -34,13 +34,20 @@ const Bio = () => {
 }
 
 const PageTitle= styled.section`
-	background: #eaeaea url('${bgImage}') no-repeat;
-	background-size: 40vh;
-	background-position: 90% center;
-
-	min-height: 25vh;
+	padding: 2rem 0;
+	background: linear-gradient( to bottom, #eaeaea, #e3e3e3) no-repeat;
 	display: flex;
 	align-items: center;
 `;
+
+// const PageTitle= styled.section`
+// 	background: #eaeaea url('${bgImage}') no-repeat;
+// 	background-size: 40vh;
+// 	background-position: 90% center;
+
+// 	min-height: 25vh;
+// 	display: flex;
+// 	align-items: center;
+// `;
 
 export default Bio

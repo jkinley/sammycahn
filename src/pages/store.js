@@ -22,12 +22,10 @@ const Store = () => {
 };
 
 const PageTitle= styled.section`
-	background-color: #eaeaea;
 	padding: 2rem 0;
+	background: linear-gradient( to bottom, #eaeaea, #e3e3e3) no-repeat;
 	display: flex;
 	align-items: center;
-	background-size: cover;
-	background-position: bottom center;
-`
+`;
 
 export default Store;

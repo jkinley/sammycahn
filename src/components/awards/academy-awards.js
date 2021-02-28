@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const AcademyAwards = () => {
   return (
-    <section className="py-16 bg-brand-lightgray">
+    <section className="py-16">
 		  <div className="container mx-auto px-8 lg:px-24 xl:px-48">
         <h2 className="mb-8">Academy Awards</h2>
           <Grid>

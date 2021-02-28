@@ -32,13 +32,11 @@ const Contact = () => (
 )
 
 const PageTitle= styled.section`
-	background-color: #eaeaea;
-	padding: 2rem;
+	padding: 2rem 0;
+	background: linear-gradient( to bottom, #eaeaea, #e3e3e3) no-repeat;
 	display: flex;
 	align-items: center;
-	background-size: cover;
-	background-position: bottom center;
-`
+`;
 
 const ContactWrap = styled.section`
 	background: url('${bgImage}') no-repeat;

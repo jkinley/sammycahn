@@ -6,7 +6,7 @@ import image from '../../images/sammy/sammy-and-jule-1.jpg'
 const Second = () => {
 	return (
 		<Section>
-			<div className="container mx-auto px-8 lg:px-24 xl:px-48">
+			<div className="container mx-auto px-8">
 				<Grid>
 					<Figure src={image} 
 						width="420px" 
@@ -15,7 +15,7 @@ const Second = () => {
 						caption="Jule Styne and Sammy." 
 					/>
 
-					<div className="prose prose-lg">
+          <div className="prose xl:prose-lg">
 						<h2>The Composers</h2>
 						<p>After parting amicably with Chaplin, Sammy began writing for the Tommy Dorsey orchestra, whose vocalist was then Frank Sinatra.</p>
 
@@ -37,7 +37,7 @@ const Grid = styled.div`
 	display: grid;
 	grid-column-gap: 2rem;
 	grid-row-gap: 3rem;
-	align-items: center;
+	align-items: flex-start;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `
 export default Second
