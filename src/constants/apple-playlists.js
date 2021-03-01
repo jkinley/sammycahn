@@ -16,7 +16,12 @@ export default [
   },
   {
     id: 4,
+    title: "Title Songs",
+    url: "https://embed.music.apple.com/us/playlist/sammy-cahn-title-tracks/pl.u-qEaxU8l5p0"
+  },
+  {
+    id: 5,
     title: "Holiday Songs",
     url: "https://embed.music.apple.com/us/playlist/holiday-songs/pl.u-qk76T8l5p0"
-  },
+  }
 ];
