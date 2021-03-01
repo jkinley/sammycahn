@@ -4,7 +4,7 @@ import applePlaylists from '../../constants/apple-playlists';
 
 const AppleMusic = () => {
   return (
-    <div className="grid gap-16 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">  
+    <div className="grid gap-16 md:grid-cols-2 xl:grid-cols-3">  
       {
         applePlaylists.map((playlist, id) => {
           return (
