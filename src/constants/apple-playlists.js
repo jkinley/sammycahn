@@ -32,6 +32,6 @@ export default [
   {
     id: 7,
     title: "Holiday Songs",
-    url: "https://embed.music.apple.com/us/playlist/holiday-songs/pl.u-qk76T8l5p0"
+    url: "https://embed.music.apple.com/us/playlist/sammy-cahn-holiday-songs/pl.u-qk76T8l5p0"
   }
 ];
