@@ -21,7 +21,7 @@ export default [
 	},
 	{
 		id: 5,
-		text: "People ask if I need to be inspired to write a song since the fellow who hired us doesn’t need to be inspired to pay us. The question is academic—you write a song when you are required  to write a song.",
+		text: "People ask if I need to be inspired to write a song. Since the fellow who hired us doesn’t need to be inspired to pay us, the question is academic—you write a song when you are required  to write a song.",
 		author: "Sammy Cahn"
 	},
 	{

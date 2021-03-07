@@ -57,7 +57,7 @@ export default [
 	},
 	{
 		id: '8',
-		title: 'Loblaws Grocery Store',
+		title: 'Loblaws Super Market',
 		song: 'Just What I Wanted For Christmas',
 		performer: '',
 		composer: 'Jimmy Van Heusen',

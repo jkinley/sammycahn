@@ -5,17 +5,20 @@ import BackgroundImage from 'gatsby-background-image'
 const HeroImage = ({img, className, children, home}) => {
 
 	return (
-		<BackgroundImage className={className} fluid={img} home={home}>
+		<BackgroundImage 
+      className={className} 
+      fluid={img}
+      home={home}>
 			{children}
 		</BackgroundImage>
     )
 }
 
 export default styled(HeroImage)`
-	height: calc(80vh - 100px);
-	background-position: center center;
-	background-size: cover;
-	opacity: 1 !important;
+  height: calc(40vh - 100px);
+  background-size: contain, cover;
+	background-position: right bottom, center center;
+  background-repeat: no-repeat, no-repeat;
 	display: flex;
 	justify-content: center;
 	align-items: center;
