@@ -1,17 +1,32 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+import spotifyPlaylists from '../../constants/spotify-playlists';
 
 const Spotify = () => {
   return (
-    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
-      <iframe title="s-1" src="https://open.spotify.com/embed/playlist/0v6W2JsftwLSCxPXGZBz05" height="320" style={{width: '100%'}} frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <div className="grid gap-16 md:grid-cols-2 xl:grid-cols-3">  
+      {
+        spotifyPlaylists.map((playlist, id) => {
+          return (
 
-      <iframe title="s-1" src="https://open.spotify.com/embed/playlist/5sOIucNXf4Ai4CpFDI3Q3V" height="320" style={{width: '100%'}} frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-      <iframe title="s-1" src="https://open.spotify.com/embed/album/61r5yOyCHjm30AlcKUub6t" height="320" style={{width: '100%'}} frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-      <iframe title="s-1" src="https://open.spotify.com/embed/album/2yBwMVFsIibn8vj7XwaFjF" height="320" style={{width: '100%'}} frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <div className="flex flex-col" key={playlist.id}>
+              <iframe
+              className="w-full m-w-60 overflow-hidden rounded-md mb-6"
+              title={`Spotify ${playlist.id}`}
+              src={playlist.url} 
+              height="320" 
+              style={{width: '100%'}} 
+              frameBorder="0" 
+              allowtransparency="true" 
+              allow="encrypted-media"></iframe>
+              <h3 className="mb-2 text-sm flex-1">{playlist.title}</h3>
+              <p className="text-sm flex-1">Short description of playlist.</p>
+            </div>
+          )
+        })
+      }
     </div>
   )
-}
+};
 
-export default Spotify
+export default Spotify;
