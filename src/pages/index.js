@@ -4,8 +4,7 @@ import Layout from "../layouts/layout";
 import SEO from "../components/seo";
 import {graphql} from 'gatsby';
 import HeroImage from '../components/home/hero-image';
-//import Quote from '../components/common/quote';
-import Swipe from "../components/Swipe"
+import Swipe from "../components/swipe";
 
 const Home = ({data}) => {
 

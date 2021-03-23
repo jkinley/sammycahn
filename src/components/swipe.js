@@ -17,7 +17,7 @@ SwiperCore.use([Navigation, Pagination, EffectFade, Autoplay]);
 
 const Swipe = () => {
     return (
-      <section className="bg-brand-gold py-12">
+      <section className="bg-brand-gold py-12 px-8">
         <div className="container mx-auto">
           <Swiper
             autoplay={{delay:7000}}
@@ -26,7 +26,7 @@ const Swipe = () => {
             breakpoints={{
               640: {
                 slidesPerView: 1,
-                spaceBetween: 0
+                spaceBetween: 10
               },
               1024: {
                 slidesPerView: 2,
