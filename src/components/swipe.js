@@ -1,47 +1,74 @@
-import React from 'react'
+import React from 'react';
+import quotes from '../constants/quotes';
+import styled from 'styled-components';
+import { FaQuoteLeft } from 'react-icons/fa'
 
-import SwiperCore, { Navigation, Pagination, EffectFade, Autoplay} from 'swiper';
+import SwiperCore, { Navigation, Pagination, EffectFade, Autoplay } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide} from 'swiper/react';
 
 import 'swiper/swiper.scss';
-import 'swiper/components/navigation/navigation.scss';
-import 'swiper/components/pagination/pagination.scss';
-import 'swiper/components/effect-fade/effect-fade.scss';
-import '../../src/swiper.css'
+//'swiper/components/navigation/navigation.scss';
+//import 'swiper/components/pagination/pagination.scss';
+//import 'swiper/components/effect-fade/effect-fade.scss';
+import '../../src/styles/swiper.css'
 
 SwiperCore.use([Navigation, Pagination, EffectFade, Autoplay]);
 
 const Swipe = () => {
     return (
-        <Swiper
-            autoplay={{delay: 2500}}
-            effect="fade"
-            slidesPerView={1}
+      <section className="bg-brand-gold py-12">
+        <div className="container mx-auto">
+          <Swiper
+            autoplay={{delay:7000}}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
-        >
-            <SwiperSlide>
-                <div className="">
-                    <h1>Slide 1</h1>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className="">
-                    <h1>Slide 2</h1>
-                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className="">
-                    <h1>Slide 3</h1>
-                    <p>Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                </div>
-            </SwiperSlide>
-    
-        </Swiper>
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 0
+              },
+              1024: {
+                slidesPerView: 2,
+                spaceBetween: 32
+              },
+              1280: {
+                slidesPerView: 3,
+                spaceBetween: 32
+              }
+            }}
+          >
+            {
+              quotes.map((quote) => {
+                return (
+                  <SwiperSlide key={quote.id} className="bg-brand-lightgold">
+                    <Blockquote>
+                      <FaQuoteLeft className="icon text-brand-black"/>
+                      <div className="mt-3"> 
+                        <p className="mb-8 text-xl font-light text-brand-black">{quote.text}</p>
+                        <p className="text-right text-brand-black font-semibold">— {quote.author}</p>
+                      </div>
+                    </Blockquote>   
+                </SwiperSlide>
+                )
+              })
+            }
+          </Swiper>
+          </div>
+      </section>
     )
 }
+
+const Blockquote = styled.blockquote`
+	color: #231f20;
+	display: grid;
+	grid-gap: 1.5rem;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+  .icon {
+    align-self: flex-start;
+    font-size: 3rem;
+  }
+`
 
 export default Swipe

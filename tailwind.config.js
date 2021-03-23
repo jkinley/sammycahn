@@ -11,12 +11,13 @@ module.exports = {
 		extend: {
 			colors: {
 				brand: {
+          lightgold: '#b5a15c',
 					gold: '#b09a50',
 					darkgold: '#8e7a3e',
 					black: '#231f20',
-					lightgray: '#eaeaea'
+					lightgray: '#eaeaea',
+          gray: '#ccc'
 				}
-				
 			}
 		}
   },

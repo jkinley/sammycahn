@@ -2,22 +2,18 @@
 */
  
 .swiper-container {
-    display: block;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-wrapper {
 }
 
 .swiper-slide {
-    width: 100%;
-    margin-bottom: 0;
-    background-color: darkgoldenrod;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  height: auto;
+  margin-bottom: 0;
+  padding: 2rem;
+  border-radius: 4px;
 }
 .swiper-pagination {
     top: 0;

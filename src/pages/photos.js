@@ -11,7 +11,7 @@ const Photos = () => (
         <SEO title="Photos" />
 
         <PageTitle>
-            <div className="container mx-auto px-8 lg:px-24 xl:px-48">	
+            <div className="container mx-auto px-8">	
                 <h1>Photos</h1>
             </div>
         </PageTitle>

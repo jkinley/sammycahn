@@ -38,13 +38,5 @@ export default [
 		id: 8,
 		text: "I'm a professional songwriter—personal attitudes have nothing to do with writing a song.",
 		author: "Sammy Cahn"
-	},
-	{
-		id: 9,
-		text: " ",
-		author: ""
 	}
-
-
-
 ]
