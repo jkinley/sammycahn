@@ -1,31 +1,20 @@
-import React from "react"
-import { Link } from "gatsby"
-import navLinks from '../constants/navLinks'
-import PropTypes from "prop-types"
+import React from "react";
+import { Link } from "gatsby";
+import { navLinks } from '../constants/nav';
 import styled from 'styled-components';
 
 const Header = ({ siteTitle }) => (
   <StyledHeader>
 		<Link to="/" className="logo" title="Homepage">{siteTitle}</Link>
-        <Nav>
-                {
-                    navLinks.map((link, index) => {
-                        return (
-                            <Link key={index} to={link.path}>{link.name}</Link>
-                        )
-                    })
-                }
-        </Nav>
+      <Nav>
+        {
+          navLinks.map((link, index) => (
+            <Link key={index} to={link.path}>{link.name}</Link>
+          ))
+        }
+    </Nav>
   </StyledHeader>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
+);
 
 const StyledHeader = styled.header`
 	background-color: #231f20;
@@ -60,4 +49,4 @@ const Nav = styled.nav`
 	}
 `;
 
-export default Header
+export default Header;

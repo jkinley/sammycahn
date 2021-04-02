@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactPlayer from 'react-player/youtube';
 import styled from 'styled-components';
-import videoList from '../constants/videoList';
+import { videoList } from '../constants/videos';
 import Layout from "../layouts/layout";
 import SEO from "../components/seo";
 

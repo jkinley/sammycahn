@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import applePlaylists from '../../constants/apple-playlists';
+import { playlists } from '../../constants/apple-playlists';
 
 const AppleMusic = () => {
   return (
     <div className="grid gap-16 md:grid-cols-2 xl:grid-cols-3">  
       {
-        applePlaylists.map((playlist, id) => {
+        playlists.map((playlist, id) => {
           return (
 
             <div className="flex flex-col" key={playlist.id}>

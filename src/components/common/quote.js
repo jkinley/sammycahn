@@ -1,5 +1,5 @@
 import React from 'react'
-import quotes from '../../constants/quotes'
+import { quotes } from '../../constants/quotes'
 import styled from 'styled-components';
 
 const Quote = ({id}) => {

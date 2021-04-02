@@ -1,10 +1,11 @@
-import React, {component} from "react";
-import { Link } from "gatsby";
+import React from "react";
 import Layout from "../layouts/layout";
 import SEO from "../components/seo";
 import {graphql} from 'gatsby';
 import HeroImage from '../components/home/hero-image';
 import Swipe from "../components/swipe";
+import AboutSammy from '../components/home/about-sammy';
+import TitaNote from '../components/home/tita-note';
 
 const Home = ({data}) => {
 
@@ -16,15 +17,27 @@ const Home = ({data}) => {
   return(
     <Layout>
       <SEO title="Home" />
-      <HeroImage home={true} img={bgStack} />
+      <HeroImage home={true} img={bgStack}>
+        <div className="hidden md:block container mx-auto px-8">
+          <div className="w-1/3">
+            <p className="text-2xl mb-4">A word is only as good as the note it sits under, and I've been blessed with some great notes.</p>
+            <p className="text-right p-3">—Sammy Cahn</p>
+          </div>
+        </div>
+ 
+      </HeroImage>
+
       <section className="bg-white py-12">
-        <div class="container mx-auto px-8 flex flex-col">
-          <h2 className="mb-2">About Sammy</h2>
-          <p className="mb-8">Donec sed odio dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis.</p>
-          <p className="mb-8">Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus.</p>
-          <Link to="/bio" className="btn ml-auto" component={Link}>Read More</Link>
+        <div className="container mx-auto px-8">
+
+        <div className="grid gap-8 md:grid-cols-2">
+          <AboutSammy />
+          <TitaNote />
+        </div>
+          
         </div>
       </section>
+
       <Swipe />
     </Layout>
 

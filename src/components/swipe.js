@@ -1,5 +1,5 @@
 import React from 'react';
-import quotes from '../constants/quotes';
+import { quotes } from '../constants/quotes';
 import styled from 'styled-components';
 import { FaQuoteLeft } from 'react-icons/fa'
 
@@ -21,8 +21,6 @@ const Swipe = () => {
         <div className="container mx-auto">
           <Swiper
             autoplay={{delay:7000}}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             breakpoints={{
               640: {
                 slidesPerView: 1,

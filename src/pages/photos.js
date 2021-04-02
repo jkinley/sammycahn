@@ -7,21 +7,17 @@ import Gallery2 from "../components/gallery/gallery-2";
 import Quote from "../components/common/quote";
 
 const Photos = () => (
-    <Layout>
-        <SEO title="Photos" />
-
-        <PageTitle>
-            <div className="container mx-auto px-8">	
-                <h1>Photos</h1>
-            </div>
-        </PageTitle>
-
-        
-        <Gallery1 />
-        <Quote id={5} />
-        <Gallery2 />
-
-    </Layout>
+  <Layout>
+    <SEO title="Photos" />
+    <PageTitle>
+        <div className="container mx-auto px-8">	
+            <h1>Photos</h1>
+        </div>
+    </PageTitle>
+    <Gallery1 />
+    <Quote id={5} />
+    <Gallery2 />
+  </Layout>
 )
 
 const PageTitle= styled.section`

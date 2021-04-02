@@ -1,5 +1,5 @@
-import React from 'react'
-import {academyAwards} from '../../constants/awardsList'
+import React from 'react';
+import { academyAwards } from '../../constants/awardsList';
 import styled from 'styled-components';
 
 const AcademyAwards = () => {
@@ -13,7 +13,7 @@ const AcademyAwards = () => {
               return (
                 <li key={index} className="flex flex-row shadow-md bg-white">
                   <div className="m-4 w-2/5">
-                    <img className="object-cover w-full mx-auto border border-gray-300" src={award.image} alt="" />
+                    <img className="object-cover w-full mx-auto border border-gray-300" src={award.image.default} alt="" />
                   </div>
                   <div className="p-6 flex-1">
                       <h2 className="text-xl font-semibold mb-2 flex justify-between">
@@ -24,16 +24,6 @@ const AcademyAwards = () => {
                           {award.date} {award.award} for '<span className="text-blue-800">{award.song}</span>' in the film <em>{award.film }</em>. Composed by {award.composer} and performed by { award.artist ? award.artist : <span className="text-red-800">unknown</span> }.
                       </p>
                   </div>
-
-                  {/* {
-                    award.winner === true ?
-                      <div className="bg-brand-darkgold text-white p-2">
-                      <p className="text-center text-sm">Acadamy Award Winner</p>
-                      </div> :
-                        <div className="bg-brand-black text-white p-2">
-                        <p className="text-center text-sm">Acadamy Award Nomination</p>
-                      </div>
-                  } */}
                 </li>
               )
             })
@@ -60,4 +50,4 @@ const Grid = styled.ul`
     }
 `
 
-export default AcademyAwards
+export default AcademyAwards;

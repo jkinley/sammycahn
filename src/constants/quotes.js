@@ -1,4 +1,4 @@
-export default [
+export const quotes = [
 	{
 		id: 1,
 		text: "The song I'm proudest of is 'Call Me Irresponsible'—it contains five syllable words and I come from a one syllable neighborhood.",

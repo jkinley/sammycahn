@@ -1,11 +1,8 @@
-import React from 'react'
-import { Link } from "gatsby"
-import navLinks from '../constants/navLinks'
+import React from 'react';
+import { Link } from "gatsby";
+import { navLinks } from '../constants/nav';
 
 const Footer = ({copyright}) => {
-
-  
-
 	return (
 		<footer className="bg-brand-black">
 			<div className="container mx-auto px-4 py-8">
@@ -23,13 +20,12 @@ const Footer = ({copyright}) => {
 						})
 					}
 				</nav>
-    
 				<small className="text-brand-lightgray">
-                &copy; {new Date().getFullYear()} {copyright}
-                </small>
+          &copy; {new Date().getFullYear()} {copyright}
+        </small>
 			</div>
     </footer>
 	)
 }
 
-export default Footer
+export default Footer;

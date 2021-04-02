@@ -1,4 +1,4 @@
-export default [
+export const playlists = [
   {
     id: 1,
     title: "Torch Songs",

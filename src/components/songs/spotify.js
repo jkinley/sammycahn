@@ -1,11 +1,11 @@
 import React from 'react';
-import spotifyPlaylists from '../../constants/spotify-playlists';
+import { playlists } from '../../constants/spotify-playlists';
 
 const Spotify = () => {
   return (
     <div className="grid gap-16 md:grid-cols-2 xl:grid-cols-3">  
       {
-        spotifyPlaylists.map((playlist, id) => {
+        playlists.map((playlist, id) => {
           return (
 
             <div className="flex flex-col" key={playlist.id}>

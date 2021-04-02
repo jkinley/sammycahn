@@ -11,15 +11,14 @@ const HeroImage = ({img, className, children, home}) => {
       home={home}>
 			{children}
 		</BackgroundImage>
-    )
+  )
 }
 
 export default styled(HeroImage)`
-  height: calc(40vh - 100px);
+  height: calc(60vh - 100px);
   background-size: contain, cover;
 	background-position: right bottom, center center;
   background-repeat: no-repeat, no-repeat;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 `;

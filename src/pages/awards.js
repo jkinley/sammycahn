@@ -12,7 +12,7 @@ const Awards = () => {
 		<Layout>
 			<SEO title="Awards & Nominations" />
 			<PageTitle>
-				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
+				<div className="container mx-auto px-8">
 					<h1>Awards & Nominations</h1>
 				</div>
 			</PageTitle>

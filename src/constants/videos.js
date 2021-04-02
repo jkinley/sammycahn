@@ -1,4 +1,4 @@
-export default [
+export const videoList = [
 	{	
 		id: '1',
 		title: 'Christmas by Heineken',
