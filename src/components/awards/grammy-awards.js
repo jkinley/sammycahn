@@ -6,17 +6,17 @@ const GrammyAwards = () => {
     return (
         <section className="py-12">
             <div className="container mx-auto px-8 lg:px-24 xl:px-48">
-                <h2 className="mb-12">Grammy Awards</h2>
+                <h2 className="mb-12">Grammy Nominations</h2>
                     <Grid>
                     {
-                        grammyAwards.map((award, index) => {
-                            return (
-                                <li key={index} className="p-4 border ">
-                                    <p className="">{award.year} {award.type}</p>
-                                    <p>{award.title} for "{award.work}"</p>
-                                </li>
-                            )
-                        })
+                      grammyAwards.map((award, index) => {
+                          return (
+                              <li key={index} className="p-4 border ">
+                                  <p className="">{award.year} {award.type}</p>
+                                  <p>{award.title} for "{award.work}"</p>
+                              </li>
+                          )
+                      })
                     }
                     </Grid>
             </div>

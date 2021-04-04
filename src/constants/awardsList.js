@@ -1,4 +1,47 @@
-export const academyAwards = [
+export const academyWinners = [
+  {
+		song: "Call Me Irresponsible",
+		composer: 'Jimmy Van Heusen',
+		artist: 'Jackie Gleason',
+		film: "Papa's Delicate Condition",
+		award: 'Academy Award Winner',
+        date: "1963",
+        winner: true,
+		image: require('../images/movies/papas-delicate-condition.jpg')
+	},
+  {
+    song: 'High Hopes',
+    composer: 'Jimmy Van Heusen',
+    artist: 'Frank Sinatra, Eddie Hodges',
+    film: 'A Hole in the Head',
+    award: 'Academy Award Winner',
+    date: '1959',
+    winner: true,
+    image: require('../images/movies/a-hole-in-the-head.jpg')
+  },
+  {
+		song: 'All the Way',
+		composer: 'Jimmy Van Heusen',
+		artist: 'Frank Sinatra',
+		film: 'The Joker is Wild',
+		award: 'Academy Award Winner',
+    date: '1957',
+    winner: true,
+		image: require('../images/movies/the-joker-is-wild.jpg')
+    },
+  {
+    song: 'Three Coins in the Fountain',
+    composer: 'Jule Styne',
+    artist: 'Frank Sinatra',
+    film: 'Three Coins in the Fountain',
+    award: 'Academy Award Winner',
+    date: '1954',
+    winner: true,
+    image: require('../images/movies/three-coins-in-the-fountain.jpg')
+  },
+];
+
+export const academyNominations = [
     {
 		song: "I've Heard that Song Before",
 		composer: 'Jule Styne',
@@ -89,16 +132,7 @@ export const academyAwards = [
         winner: false,
 		image: require('../images/movies/because-you-are-mine.jpg')
 	},
-	{
-		song: 'Three Coins in the Fountain',
-		composer: 'Jule Styne',
-		artist: 'Frank Sinatra',
-		film: 'Three Coins in the Fountain',
-		award: 'Academy Award Winner',
-        date: '1954',
-        winner: true,
-		image: require('../images/movies/three-coins-in-the-fountain.jpg')
-    },
+	
     {
 		song: "I'll Never Stop Loving You",
 		composer: 'Nicholas Brodszky',
@@ -130,16 +164,6 @@ export const academyAwards = [
 		image: require('../images/movies/written-on-the-wind.jpg')
 	},
 	{
-		song: 'All the Way',
-		composer: 'Jimmy Van Heusen',
-		artist: 'Frank Sinatra',
-		film: 'The Joker is Wild',
-		award: 'Academy Award Winner',
-        date: '1957',
-        winner: true,
-		image: require('../images/movies/the-joker-is-wild.jpg')
-    },
-	{
 		song: "To Love and Be Loved",
 		composer: "Jimmy Van Heusen",
 		artist: "Frank Sinatra",
@@ -159,16 +183,7 @@ export const academyAwards = [
         winner: false,
 		image: require('../images/movies/the-best-of-everything.jpg')
 	},
-	{
-		song: 'High Hopes',
-		composer: 'Jimmy Van Heusen',
-		artist: 'Frank Sinatra, Eddie Hodges',
-		film: 'A Hole in the Head',
-		award: 'Academy Award Winner',
-        date: '1959',
-        winner: true,
-		image: require('../images/movies/a-hole-in-the-head.jpg')
-    },
+	
     {
 		song: "The Second Time Around" ,
 		composer: "Jimmy Van Heusen",
@@ -188,16 +203,6 @@ export const academyAwards = [
         date: '1961',
         winner: false,
 		image: require('../images/movies/pocket-full-of-miracles.jpg')
-	},
-	{
-		song: "Call Me Irresponsible",
-		composer: 'Jimmy Van Heusen',
-		artist: 'Jackie Gleason',
-		film: "Papa's Delicate Condition",
-		award: 'Academy Award Winner',
-        date: "1963",
-        winner: true,
-		image: require('../images/movies/papas-delicate-condition.jpg')
 	},
 	{
 		song: "Where Love Has Gone",

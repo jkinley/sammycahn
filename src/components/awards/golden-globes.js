@@ -6,17 +6,17 @@ const GoldenGlobes = () => {
   return (
     <section className="py-16 bg-gray-50">
 		  <div className="container mx-auto px-8 lg:px-24 xl:px-48">
-        <h2 className="mb-12">Golden Globes</h2>
+        <h2 className="mb-12">Golden Globe Nominations</h2>
         <Grid>
           {
-              goldenGlobes.map((award, index) => {
-                  return (
-                      <li key={index} className="p-4 border border ">
-                          <p className="">{award.year} {award.type}</p>
-                          <p>For the song '<strong>{award.song}</strong>' in the film <em>{award.film}</em>.</p>
-                      </li>
-                  )
-              })
+            goldenGlobes.map((award, index) => {
+              return (
+                <li key={index} className="p-4 border border ">
+                  <p className="">{award.year} {award.type}</p>
+                  <p>For the song '<strong>{award.song}</strong>' in the film <em>{award.film}</em>.</p>
+                </li>
+              )
+            })
           }
         </Grid>
       </div>
@@ -38,6 +38,6 @@ const Grid = styled.ul`
         
         //background-color: #eee;
     }
-`
+`;
 
-export default GoldenGlobes
+export default GoldenGlobes;

@@ -1,15 +1,15 @@
 import React from 'react';
-import { academyAwards } from '../../constants/awardsList';
+import { academyNominations } from '../../constants/awardsList';
 import styled from 'styled-components';
 
-const AcademyAwards = () => {
+const AcademyNominations = () => {
   return (
     <section className="py-16">
 		  <div className="container mx-auto px-8 lg:px-24 xl:px-48">
-        <h2 className="mb-8">Academy Awards</h2>
+        <h2 className="mb-8">Academy Nominations</h2>
           <Grid>
           {
-            academyAwards.map((award, index) => {
+            academyNominations.map((award, index) => {
               return (
                 <li key={index} className="flex flex-row shadow-md bg-white">
                   <div className="m-4 w-2/5">
@@ -50,4 +50,4 @@ const Grid = styled.ul`
     }
 `
 
-export default AcademyAwards;
+export default AcademyNominations;

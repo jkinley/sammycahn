@@ -2,7 +2,8 @@ import React from 'react';
 import Layout from "../layouts/layout";
 import SEO from "../components/seo";
 import styled from 'styled-components';
-import AcademyAwards from '../components/awards/academy-awards';
+import AcademyWinners from '../components/awards/academy-winners';
+import AcademyNominations from '../components/awards/academy-nominations';
 import GrammyAwards from '../components/awards/grammy-awards';
 import GoldenGlobes from '../components/awards/golden-globes';
 //import {FaTrophy} from 'react-icons/fa'
@@ -16,9 +17,10 @@ const Awards = () => {
 					<h1>Awards & Nominations</h1>
 				</div>
 			</PageTitle>
-            <AcademyAwards />
-            <GrammyAwards />
-            <GoldenGlobes />
+        <AcademyWinners />
+        <AcademyNominations />
+        <GrammyAwards />
+        <GoldenGlobes />
 		</Layout>
 	)
 }
