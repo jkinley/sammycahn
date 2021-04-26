@@ -4,16 +4,16 @@ import styled from 'styled-components';
 
 const GoldenGlobes = () => {
   return (
-    <section className="py-16 bg-gray-50">
-		  <div className="container mx-auto px-8 lg:px-24 xl:px-48">
+    <section className="py-8">
+		  <div className="container mx-auto px-8">
         <h2 className="mb-12">Golden Globe Nominations</h2>
         <Grid>
           {
             goldenGlobes.map((award, index) => {
               return (
-                <li key={index} className="p-4 border border ">
-                  <p className="">{award.year} {award.type}</p>
-                  <p>For the song '<strong>{award.song}</strong>' in the film <em>{award.film}</em>.</p>
+                <li key={index} className="p-4 border border shadow-md">
+                  <h3 className="mb-2">{award.year} {award.type}</h3>
+                  <p>For the song '{award.song}' in the film <em>{award.film}</em>.</p>
                 </li>
               )
             })

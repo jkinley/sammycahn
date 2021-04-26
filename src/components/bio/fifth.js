@@ -13,7 +13,7 @@ const Fifth = () => {
 						width="420px" 
 						height="auto" 
 						alt="alternative text" 
-						caption=" Sammy Cahn and Jimmy van Huesen." 
+						caption=" Sammy Cahn and Jimmy Van Huesen." 
 					/>
 					<div className="prose xl:prose-lg">
 						<h2>Lyrical Legacy</h2>

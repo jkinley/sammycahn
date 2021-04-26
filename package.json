@@ -36,7 +36,7 @@
     "sass": "^1.32.8",
     "styled-components": "^5.2.1",
     "stylelint": "^13.11.0",
-    "swiper": "^6.4.15",
+    "swiper": "^6.5.3",
     "tailwindcss": "^2.0.4"
   },
   "devDependencies": {

@@ -187,7 +187,7 @@ export const academyNominations = [
     {
 		song: "The Second Time Around" ,
 		composer: "Jimmy Van Heusen",
-		artist: "",
+		artist: "Bing Crosby",
 		film: "High Time",
 		award: 'Academy Award Nomination',
         date: '1960',
@@ -247,7 +247,7 @@ export const academyNominations = [
 	{
 		song: "All That Love Went to Waste",
 		composer: "George Barrie",
-		artist: "",
+		artist: "Madeleine Bell",
 		film: "A Touch of Class",
 		award: 'Academy Award Nomination',
         date: '1973',
@@ -257,7 +257,7 @@ export const academyNominations = [
 	{
 		song: "Now That We're In Love",
 		composer: "George Barrie",
-		artist: "",
+		artist: "Steve Lawrence",
 		film: "Whiffs",
 		award: 'Academy Award Nomination',
         date: '1974',

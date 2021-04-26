@@ -13674,10 +13674,10 @@ svgo@1.3.2, svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swiper@^6.4.15:
-  version "6.4.15"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-6.4.15.tgz#0fb153b3000c0dd26ab21ea9e8d1ab0ebe9e33cb"
-  integrity sha512-FuURJ7hE9lCxPnXIJRKu2QCe+roE8CZV2WYsZxz+dcEd3kebgK0JRvV32HpM3LmFOz7UW+k2Dkdfxekk2kTfMg==
+swiper@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-6.5.3.tgz#ff42617dd87277bd0f622c729572d3db47bee225"
+  integrity sha512-WsRKA/il3cHkpHFivvQCEFsgo9eYgvKpHBrgNsLCENyuG1z3E8Rc6zFMEioy5NDQI0BztR3r5UyMqBZyqs9u8Q==
   dependencies:
     dom7 "^3.0.0"
     ssr-window "^3.0.0"

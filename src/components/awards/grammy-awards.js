@@ -4,23 +4,21 @@ import styled from 'styled-components';
 
 const GrammyAwards = () => {
     return (
-        <section className="py-12">
-            <div className="container mx-auto px-8 lg:px-24 xl:px-48">
-                <h2 className="mb-12">Grammy Nominations</h2>
-                    <Grid>
-                    {
-                      grammyAwards.map((award, index) => {
-                          return (
-                              <li key={index} className="p-4 border ">
-                                  <p className="">{award.year} {award.type}</p>
-                                  <p>{award.title} for "{award.work}"</p>
-                              </li>
-                          )
-                      })
-                    }
-                    </Grid>
-            </div>
-        </section>
+      <section className="py-8">
+        <div className="container mx-auto px-8">
+          <h2 className="mb-12">Grammy Nominations</h2>
+            <Grid>
+              {grammyAwards.map((award, index) => {
+                return (
+                  <li key={index} className="p-4 border shadow-md">
+                      <h3 className="mb-2">{award.year} {award.type}</h3>
+                      <p>{award.title} for "{award.work}".</p>
+                  </li>
+                )
+              })}
+            </Grid>
+        </div>
+      </section>
     )
 }
 
@@ -33,7 +31,6 @@ const Grid = styled.ul`
     @media (min-width: 780px) {
         grid-template-columns: 1fr 1fr;
     }
-    
     & > li {
         
         //background-color: #eee;

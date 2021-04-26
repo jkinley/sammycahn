@@ -27,10 +27,10 @@ const Home = ({data}) => {
  
       </HeroImage>
 
-      <section className="bg-white py-12">
+      <section className="bg-white py-16">
         <div className="container mx-auto px-8">
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-24 md:grid-cols-2">
           <AboutSammy />
           <TitaNote />
         </div>

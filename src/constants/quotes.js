@@ -29,11 +29,11 @@ export const quotes = [
 		text: "Of all the writers, Sammy's words fit my mouth the best.",
 		author: "Frank Sinatra"
 	},
-	{
-		id: 7,
-		text: "Do you think I'm wandering around all day thinking, 'I must write a song called 'Three Coins In The Fountain'?' Only an idiot would do that.",
-		author: "Sammy Cahn"
-	},
+	// {
+	// 	id: 7,
+	// 	text: "Sammy Cahn is one of the few lyricists whose every line gave the melody added power, beauty and resonance. I’m not saying the tunes wouldn’t have made it without him but they wouldn’t have had the same emotional impact, wit and wisdom, sometimes happy, sometimes sad, that Sammy imparted to every song he graced. Just ask some of the greatest singers of popular song that ever lived, who were lucky enough to benefit from his thoughts and humour.",
+	// 	author: "Sir Tim Rice"
+	// },
 	{
 		id: 8,
 		text: "I'm a professional songwriter—personal attitudes have nothing to do with writing a song.",
