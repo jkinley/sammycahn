@@ -1,5 +1,4 @@
 .swiper-container {
-  height: 100%;
   width: 85vw;
   margin: 0 auto;
 }
@@ -8,7 +7,7 @@
 }
 
 .swiper-slide {
-  
+  height: auto;
 }
 
 .swiper-button-prev,
@@ -19,24 +18,3 @@
     display: block;
   }
 }
-
-
-/* 
-.swiper-btn-prev,
-.swiper-btn-next { 
-  color: #333;
-  position: absolute;
-  font-size: 2.6rem;
-}
-
-.swiper-btn-prev {
-  top: 50%;
-  left: 1rem;
-  transform: translateY(-50%);
-}
-
-.swiper-btn-next {
-  top: 50%;
-  right: 1rem;
-  transform: translateY(-50%);
-} */

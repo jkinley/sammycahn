@@ -16,6 +16,7 @@ module.exports = {
 		`gatsby-plugin-postcss`,
 		`gatsby-transformer-json`,
 		`gatsby-plugin-playground`,
+    `gatsby-plugin-styled-components`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
@@ -40,13 +41,6 @@ module.exports = {
 				display: `minimal-ui`,
 				icon: `src/images/gatsby-icon.png`,
 			},
-		},
-		{
-			resolve: `gatsby-plugin-nprogress`,
-			options: {
-				color: `teal`,
-				showSpinner: true,
-			},
-		},
+		}
 	],
 };

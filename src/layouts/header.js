@@ -7,18 +7,16 @@ const Header = ({ siteTitle }) => (
   <StyledHeader>
 		<Link to="/" className="logo" title="Homepage">{siteTitle}</Link>
       <Nav>
-        {
-          navLinks.map((link, index) => (
-            <Link key={index} to={link.path}>{link.name}</Link>
-          ))
-        }
+        {navLinks.map((link, index) => (
+          <Link key={index} to={link.path}>{link.name}</Link>
+        ))}
     </Nav>
   </StyledHeader>
 );
 
 const StyledHeader = styled.header`
 	background-color: #231f20;
-	padding: 1rem;
+  padding: 1rem;
 	color: white;
 	border-bottom: 4px solid #b09a50;
 	@media (min-width: 768px) {

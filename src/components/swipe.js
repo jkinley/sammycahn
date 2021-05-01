@@ -14,19 +14,20 @@ const Swipe = () => {
     const slides = quotes.map((quote) => {
       return (
         <SwiperSlide key={quote.id}>
-          <Blockquote className="bg-brand-darkgold p-4 rounded h-full">
-            <FaQuoteLeft className="icon text-brand-black"/>
-            <div className="flex flex-col"> 
-              <p className="mb-8 text-xl font-light text-brand-black flex-1">{quote.text}</p>
-              <p className="text-right text-brand-black font-semibold">— {quote.author}</p>
+          <Blockquote className="bg-brand-darkgold rounded-md">
+            <FaQuoteLeft className="icon"/>
+            <div>
+              <p className="quote mb-8">{quote.text}</p>
+              <p className="author">— {quote.author}</p>
             </div>
-          </Blockquote>      
+            
+          </Blockquote>
         </SwiperSlide>
       );
     });
 
     return (
-      <div className="relative border bg-brand-gold py-12">
+      <section className="relative bg-brand-gold py-12">
         <Swiper
           className=""
           id="home" 
@@ -44,7 +45,7 @@ const Swipe = () => {
         <div className="swiper-button-prev"></div>
         <div className="swiper-button-next"></div>
         
-      </div>
+      </section>
     );
 };
 
@@ -61,13 +62,20 @@ const breakpoints = {
 };
 
 const Blockquote = styled.blockquote`
-	color: #231f20;
 	display: grid;
-	grid-gap: 1.5rem;
+  padding: 2rem;
+  align-content: center;
+  height: 100%;
+	grid-gap: 1rem;
 	grid-template-columns: auto 1fr;
-  .icon {
-    align-self: flex-start;
-    font-size: 3rem;
+  & .icon {
+    font-size: 2rem;
+  }
+  & .quote {
+    font-size: 1.1rem;
+  }
+  & .author {
+    font-weight: bold;
   }
 `;
 
