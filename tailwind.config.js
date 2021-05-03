@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
 	purge: ['./src/**/*.{js,jsx,ts,tsx}'],
 	darkMode: false,
@@ -15,7 +17,8 @@ module.exports = {
 					black: '#231f20',
 					lightgray: '#eaeaea',
           gray: '#ccc'
-				}
+				},
+        gray: colors.warmGray,
 			}
 		}
   },

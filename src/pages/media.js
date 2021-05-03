@@ -4,20 +4,15 @@ import styled from 'styled-components';
 import { videoList } from '../constants/videos';
 import Layout from "../layouts/layout";
 import SEO from "../components/seo";
+import PageTitle from '../components/common/page-title';
 
 const Media = (video) => {
 	return (
 		<Layout>
 			<SEO title="Media" />
 
-			<PageTitle>
-				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
-					<h1>Media</h1>
-				</div>
-			</PageTitle>
-
-      
-			
+			<PageTitle title="Media" />
+		
 			<VideoWrap>
 				<div className="container mx-auto px-8 lg:px-24 xl:px-48">
             <p className="mb-12">Sammy’s songs have been featured in films, television shows, and commercials for decades.  These wonderful new uses for his songs continue today.  This is just one more way that Sammy’s legacy lives on.</p>
@@ -47,13 +42,6 @@ const Media = (video) => {
 		</Layout>
 	)
 }
-
-const PageTitle= styled.section`
-	padding: 2rem 0;
-	background: linear-gradient( to bottom, #eaeaea, #e3e3e3) no-repeat;
-	display: flex;
-	align-items: center;
-`;
 
 const VideoWrap = styled.section`
 	padding: 3rem 0;

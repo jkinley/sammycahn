@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
-import Figure from "../common/figure"
-import image from '../../images/sammy/sammy-working-3.jpg'
+import Figure from '../common/figure';
+import image from '../../images/sammy/sammy-working-3.jpg';
 
 const Fifth = () => {
 	return (
-		<Section>
+		<section className="py-12">
 			<div className="container mx-auto px-8">
 				<Grid>
 					<Figure 
@@ -22,14 +22,10 @@ const Fifth = () => {
 					</div>
 				</Grid>
 			</div>
-		</Section>
-	)
-}
+		</section>
+	);
+};
 
-const Section = styled.section`
-	padding: 3rem 5%;
-	background-color: #eaeaea;
-`
 const Grid = styled.div`
 	display: grid;
 	grid-column-gap: 2rem;
@@ -42,4 +38,4 @@ const Grid = styled.div`
 		}
 	}
 `
-export default Fifth
+export default Fifth;

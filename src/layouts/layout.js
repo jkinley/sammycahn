@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
   return (
     <div className="page-wrapper">
       <Header siteTitle={title} />
-      <main className="">
+      <main>
           {children}
       </main>
       <Footer copyright={copyright} />

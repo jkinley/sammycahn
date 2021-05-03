@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components';
-import Figure from "../common/figure"
-import image from '../../images/sammy/sammy-portrait-2.jpg'
+import Figure from '../common/figure';
+import image from '../../images/sammy/sammy-portrait-2.jpg';
 
 const Fourth = () => {
 	return (
-		<Section>
+		<section className="py-12 bg-gray-200">
 			<div className="container mx-auto px-8">
 				<Grid>
 					<Figure 
@@ -23,13 +23,10 @@ const Fourth = () => {
 						</div>
 				</Grid>
 			</div>
-		</Section>
-	)
-}
+		</section>
+	);
+};
 
-const Section = styled.section`
-	padding: 3rem 5%;
-`
 const Grid = styled.div`
 	display: grid;
 	grid-column-gap: 2rem;
@@ -37,4 +34,4 @@ const Grid = styled.div`
   align-items: flex-start;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `
-export default Fourth
+export default Fourth;

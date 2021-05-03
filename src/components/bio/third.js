@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components';
-import Figure from "../common/figure"
-import image from '../../images/sammy/saul-lou-sammy.jpg'
+import Figure from '../common/figure';
+import image from '../../images/sammy/saul-lou-sammy.jpg';
 
 const Third = () => {
 	return (
-		<Section>
+		<section className="py-12">
 			<div className="container mx-auto px-8">
 				<Grid>
 					<Figure 
@@ -23,14 +23,10 @@ const Third = () => {
 					</div>
 				</Grid>
 			</div>
-		</Section>
-	)
-}
+		</section>
+	);
+};
 
-const Section = styled.section`
-	padding: 3rem 5%;
-	background-color: #eaeaea;
-`
 const Grid = styled.div`
 	display: grid;
 	grid-column-gap: 2rem;
@@ -43,4 +39,4 @@ const Grid = styled.div`
 		}
 	}
 `
-export default Third
+export default Third;

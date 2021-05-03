@@ -6,8 +6,8 @@ const Quote = ({id}) => {
 	const result = quotes.find(quote => quote.id === id);
 	
 	return (
-		<Section>
-			<div className="container mx-auto px-4 lg:px-24 xl:px-48">
+		<Section className="py-24">
+			<div className="container mx-auto px-4">
 				<Blockquote>
 					<div>
 						<Text>{result.text}</Text>
@@ -21,7 +21,7 @@ const Quote = ({id}) => {
 
 const Section = styled.section`
 	background-color: #b09a50;
-	padding: 3rem 0;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;

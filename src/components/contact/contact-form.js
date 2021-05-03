@@ -1,60 +1,27 @@
 import React from 'react'
+import image from '../../images/sammy/sammy-portrait-2.jpg'
+import Form from './form';
 
 const ContactForm = () => {
 	return (
-		<div>
-			<form method="post" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
-				<div className="mb-6">
-					<label 
-						className="block text-gray-700 font-bold mb-2" 
-						htmlFor="name">Name
-					</label>
-					<input 
-						type="text" 
-						id="name" 
-						className="form-input"
-						placeholder="Joe Bloggs"  
-						name="name" 
-					/>
-				</div>
+		<section className="py-16">
+      <div className="container mx-auto px-4 lg:px-12">
+        
+        <h2 className="mb-12">Send Us A Message</h2>
+        <div className="lg:flex">
+          
+          <Form className="bg-gray-300 p-16 w-full lg:mr-12"/>
+        
+          
+          <img style={{width: '480px'}} className="hidden lg:block flex-none" src={image}/>
+      
+        </div>
 
-				<div className="mb-6">
-					<label 
-						className="block text-gray-700 font-bold mb-2" 
-						htmlFor="email">Email Address
-					</label>
-					<input 
-						type="email" 
-						id="email" 
-						className="form-input" 
-						placeholder="jbloggs@email.com" 
-						name="email" 
-					/>
-				</div>
+        
 
-				<div className="mb-6">
-					<label 
-						className="block text-gray-700 font-bold mb-2" 
-						htmlFor="message">Message</label>
-					<textarea 
-						className="form-input"
-						id="message" 
-						placeholder="Enter your message..." 
-						name="message" 
-						rows="4"
-					/>
-				</div>
+      </div>
+		</section>
+	);
+};
 
-				<input type="hidden" name="form-name" value="contact" />
-				
-				<button 
-					className="btn" 
-					type="submit"
-					>Send Message
-				</button>
-			</form>
-		</div>
-	)
-}
-
-export default ContactForm
+export default ContactForm;
