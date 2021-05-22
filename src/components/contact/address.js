@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-dom';
-import nashville from './maps/nashville-dark.png';
-import nashvilleLight from './maps/nashville-light.png';
+//import nashville from './maps/nashville-dark.png';
+//import nashvilleLight from './maps/nashville-light.png';
 import nashvilleDark from './maps/nashville-dark.png';
-import newYorkLight from './maps/new-york-light.png';
+//import newYorkLight from './maps/new-york-light.png';
 import newYorkDark from './maps/new-york-dark.png';
 import londonDark from './maps/london-dark.png';
 
@@ -19,7 +18,7 @@ const Address = () => {
             <a 
               className="block border-4 border-gray-500 hover:border-brand-gold mb-4" 
               href="https://goo.gl/maps/jMXMQPCcvRnykTPm8" target="_blank" rel="noopener noreferrer">
-              <img src={nashvilleDark} />
+              <img src={nashvilleDark} alt="nashville-map"/>
             </a>
 
             <h3 className="mb-1">Nashville</h3>
@@ -33,7 +32,7 @@ const Address = () => {
             <a 
               className="block border-4 border-gray-500 hover:border-brand-gold mb-4"
               href="https://goo.gl/maps/ULask7ECSQgxgH2t8" target="_blank" rel="noopener noreferrer">
-              <img src={newYorkDark} />
+              <img src={newYorkDark} alt="new-york-map"/>
             </a>
 
             <h3 className="mb-1">New York</h3>
@@ -47,7 +46,7 @@ const Address = () => {
             <a 
               className="block border-4 border-gray-500 hover:border-brand-gold mb-4"
               href="https://goo.gl/maps/pK6jGGFhTH53ZCkv6" target="_blank" rel="noopener noreferrer">
-              <img src={londonDark} />
+              <img src={londonDark} alt="london-map"/>
             </a>
             <h3 className="mb-1">London</h3>
             <address className="not-italic">

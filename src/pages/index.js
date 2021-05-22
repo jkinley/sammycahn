@@ -6,6 +6,8 @@ import HeroImage from '../components/home/hero-image';
 import Swipe from "../components/swipe";
 import AboutSammy from '../components/home/about-sammy';
 import TitaNote from '../components/home/tita-note';
+import SammyAwards from '../components/home/awards';
+import Songs from '../components/home/songs';
 
 const Home = ({data}) => {
 
@@ -28,13 +30,13 @@ const Home = ({data}) => {
       </HeroImage>
 
       <section className="bg-white py-16">
-        <div className="container mx-auto px-8">
-
-        <div className="grid gap-24 md:grid-cols-2">
-          <AboutSammy />
-          <TitaNote />
-        </div>
-          
+        <div className="container px-4 mx-auto">
+          <div className="grid gap-4 grid-cols-2 lg:grid-cols-4">
+            <AboutSammy />
+            <TitaNote />
+            <SammyAwards />
+            <Songs />
+          </div>
         </div>
       </section>
 

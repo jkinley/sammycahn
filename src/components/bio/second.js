@@ -5,7 +5,7 @@ import image from '../../images/sammy/sammy-and-jule-1.jpg';
 
 const Second = () => {
 	return (
-		<section className="py-12 bg-gray-300">
+		<section className="py-12 bg-gray-200">
 			<div className="container mx-auto px-8">
 				<Grid>
 					<Figure src={image} 

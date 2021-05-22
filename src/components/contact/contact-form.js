@@ -13,7 +13,7 @@ const ContactForm = () => {
           <Form className="bg-gray-300 p-16 w-full lg:mr-12"/>
         
           
-          <img style={{width: '480px'}} className="hidden lg:block flex-none" src={image}/>
+          <img style={{width: '480px'}} className="hidden lg:block flex-none" src={image} alt="Portrait of Sammy Cahn"/>
       
         </div>
 

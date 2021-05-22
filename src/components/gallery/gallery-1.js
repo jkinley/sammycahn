@@ -29,7 +29,7 @@ query images1 {
           childImageSharp {
             thumb: gatsbyImageData(
               width: 270
-              height:270
+              height: 270
               placeholder: BLURRED
             )
             full: gatsbyImageData(layout: FULL_WIDTH)
@@ -41,4 +41,4 @@ query images1 {
   }
 `;
 
-export default Gallery1
+export default Gallery1;

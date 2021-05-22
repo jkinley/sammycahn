@@ -1,13 +1,17 @@
 import React from 'react';
 import { Link } from "gatsby";
+import Img from '../../images/sammy-and-tita.jpg';
 
 const TitaNote = () => {
   return (
-    <div className="flex flex-col">
-      <h2 className="mb-2">A Note from Tita Cahn</h2>
-      <p className="flex-1 mb-8">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-      <Link to="/titas-note" className="btn ml-auto" component={Link}>Read More</Link>
-    </div>
+    <Link to="/titas-note" className="rounded overflow-hidden shadow-md opacity-90 hover:opacity-100">
+      <div className="flex flex-col h-full">
+        <img className="" src={Img} />
+        <div className="bg-gray-800 text-white p-4 flex-1">
+          <h2 className="text-base xl:text-lg">A Note from Tita</h2>
+        </div>
+      </div>
+    </Link>
   );
 };
 
