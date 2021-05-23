@@ -29,9 +29,9 @@ const Home = ({data}) => {
  
       </HeroImage>
 
-      <section className="bg-white py-16">
+      <section className="bg-white py-24">
         <div className="container px-4 mx-auto">
-          <div className="grid gap-4 grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-8 grid-cols-2 lg:grid-cols-4">
             <AboutSammy />
             <TitaNote />
             <SammyAwards />
