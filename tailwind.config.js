@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     fontFamily: {
       'sans': ['Montserrat', 'sans-serif'],
-      'body': ['"Open Sans"', 'sans-serif']
+      'body': ['"Open Sans"', 'sans-serif'],
+      'display': ['Cinzel', 'sans-serif']
 		},
 		extend: {
 			colors: {

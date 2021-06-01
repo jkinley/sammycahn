@@ -1,50 +1,29 @@
 import React from "react";
 import { Link } from "gatsby";
 import { navLinks } from '../constants/nav';
-import styled from 'styled-components';
+import MobileNav from './mobile-nav';
+
 
 const Header = ({ siteTitle }) => (
-  <StyledHeader>
-		<Link to="/" className="logo" title="Homepage">{siteTitle}</Link>
-      <Nav>
-        {navLinks.map((link, index) => (
-          <Link key={index} to={link.path}>{link.name}</Link>
+  <header className="bg-brand-black border-b-4 border-brand-gold flex flex-col justify-center">
+		<nav className="px-4 flex items-center justify-between">
+    
+      <Link to="/" className="text-white text-2xl font-display mr-auto" title="Homepage">
+        {siteTitle}
+      </Link>
+
+      <ul className="hidden md:flex">
+        {navLinks.map((link) => (
+          <li>
+            <Link className="text-white mr-4 last:mr-none" key={link.name} to={link.path}>{link.name}</Link>
+          </li>
         ))}
-    </Nav>
-  </StyledHeader>
+      </ul>
+    
+      <MobileNav />
+
+    </nav>
+  </header>
 );
-
-const StyledHeader = styled.header`
-	background-color: #231f20;
-  padding: 1rem;
-	color: white;
-	border-bottom: 4px solid #b09a50;
-	@media (min-width: 768px) {
-		display: flex;
-		align-items:center;
-	}
-
-	& .logo {
-		display: block;
-		margin-right: auto;
-		font-size: 1.6rem;
-		outline: none;
-		font-family: 'Cinzel', sans-serif;
-		font-weight: 400;
-		letter-spacing: 0.02rem;
-	}
-`;
-
-const Nav = styled.nav`
-	a {
-		color: white;
-		text-decoration: none;
-		display: inline-block;
-		margin-right: 1rem;
-		&::last-child {
-			margin-right: 0;
-		}
-	}
-`;
 
 export default Header;

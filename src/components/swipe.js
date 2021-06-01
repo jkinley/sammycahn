@@ -16,20 +16,19 @@ const Swipe = () => {
     const slides = quotes.map((quote) => {
       return (
         <SwiperSlide key={quote.id}>
-          <Blockquote className="">
-            <FaQuoteLeft className="text-3xl"/>
+          <Blockquote className="p-8">
+            <FaQuoteLeft className="text-2xl"/>
             <div>
-              <p className="mb-8 text-3xl leading-normal">{quote.text}</p>
-              <p className="text-xl author">— {quote.author}</p>
+              <p className="mb-8 text-xl leading-normal">{quote.text}</p>
+              <p className="author">— {quote.author}</p>
             </div>
-            
           </Blockquote>
         </SwiperSlide>
       );
     });
 
     return (
-      <section className="relative bg-brand-gold p-16">
+      <section className="bg-brand-gold p-4">
         <div className="container relative mx-auto">
           <Swiper
             className=""
@@ -41,6 +40,7 @@ const Swipe = () => {
             loop={true}
             spaceBetween={30}
             slidesPerView={1}
+            autoHeight={true}
           >
             {slides}
             
@@ -54,9 +54,6 @@ const Swipe = () => {
 
 const Blockquote = styled.blockquote`
 	display: grid;
-  height: 100%;
-  align-content: center;
-  justify-content: center;
 	grid-gap: 1rem;
 	grid-template-columns: auto 1fr;
 `;
