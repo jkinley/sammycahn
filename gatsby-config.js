@@ -27,7 +27,7 @@ module.exports = {
 		`gatsby-transformer-json`,
 		`gatsby-plugin-playground`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
