@@ -39,7 +39,7 @@ export const products = [
     image: require('../images/products/eve-with-sammy.jpg'),
     type: 'Audio CD'
   },
-  { name: "All The Way: Etta Jones Sings Sammy Chan",
+  { name: "All The Way: Etta Jones Sings Sammy Cahn",
     url: 'https://www.amazon.com/All-Way-Jones-SINGS-1999-09-28/dp/B01K8KYDO0/ref=sr_1_22?dchild=1&keywords=sammy+cahn&qid=1613837993&sr=8-22',
     image: require('../images/products/etta.jpg'),
     type: 'Audio CD'
