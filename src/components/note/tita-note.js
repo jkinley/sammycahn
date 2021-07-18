@@ -14,13 +14,13 @@ const TitaNote = () => {
 
         <p className="mb-4">But in remembering him, it's important to know that the fast-talking, wise-cracking man who entered the room was only the front man—the person who guarded the more fragile sides of Sammy.</p>
 
-        <p className="mb-4">So while its easy to remember “If you can use, some exotic booze, there’s a bar in far Bombay". It's smart and hip and funny—all the things Sammy was. But it's just as important to remember the passion of Sammy: “I’ll always be near you, wherever you are, each night in every prayer, If you call I’ll hear you, no matter how far, just close your eyes and I’ll be there".</p>
+        <p className="mb-4">So while its easy to remember “If you can use, some exotic booze, there’s a bar in far Bombay". It's smart and hip and funny—all the things Sammy was, it's just as important to remember the passion of Sammy: “I’ll always be near you, wherever you are, each night in every prayer, If you call I’ll hear you, no matter how far, just close your eyes and I’ll be there".</p>
 
-        <p className="mb-4">Or the heartache of" “I’ll only miss her when some stranger laughs, ‘cause its still her laugh my heart hears. Maybe in time I guess, the longing will grow the slightest bit less, and there will be moments, yes, when it disappearsI bet I forget her completely, in about a hundred years.“ </p>
+        <p className="mb-4">Or the heartache of" “I’ll only miss her when some stranger laughs, ‘cause its still her laugh my heart hears. Maybe in time I guess, the longing will grow the slightest bit less, and there will be moments, yes, when it disappears I bet I forget her completely, in about a hundred years.“ </p>
 
         <p className="mb-4">Or the unabashed sentiment of “September of My Years“: “As a man who has always had the wandering ways, now I'm reaching back for yesterdays, ‘til a long forgotten love appears, and I find I'm sighing softly as I reach September.</p>
 
-        <p className="mb-4">All of this is Sammy Cahn. Dont let him fool you.</p>
+        <p className="mb-4">All of this is Sammy Cahn. Don't let him fool you.</p>
 
         <p className="font-bold">Tita Cahn</p>
 

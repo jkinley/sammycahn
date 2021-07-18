@@ -11,7 +11,7 @@ const Address = () => {
 		<section className="py-12 rounded bg-gray-100">
       <div className="container mx-auto px-4 lg:px-12">
       
-        <h2 className="mb-12 font-bold">Sammy Cahn Music Company</h2>
+        <h2 className="mb-12 font-bold">Concord Music</h2>
         <div className="grid gap-8 grid-cols-1 md:grid-cols-3">
 
           <div>
