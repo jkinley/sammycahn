@@ -48,14 +48,6 @@ export const videoList = [
 		url: 'https://www.youtube.com/watch?v=EEKTIrlTnW0'
 	},
 	{
-		id: '7',
-		title: 'Jacobs Coffee',
-		song: 'Let it Snow!',
-		performer: 'Dean Martin',
-		composer: 'Jule Styne',
-		url: 'https://www.youtube.com/watch?v=XNHjRJVlhy4'
-	},
-	{
 		id: '8',
 		title: 'Loblaws Super Market',
 		song: 'Just What I Wanted For Christmas',
