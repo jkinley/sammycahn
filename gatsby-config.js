@@ -1,19 +1,18 @@
+const Url = 'https://sammycahnmusic.com';
+
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = siteUrl,
+  URL: NETLIFY_SITE_URL = Url,
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env
 const isNetlifyProduction = NETLIFY_ENV === 'production'
 const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
 
-
-const siteUrl = 'https://sammycahnmusic.com';
-
 module.exports = {
 	
 	siteMetadata: {
-    siteUrl: siteUrl,
+    siteUrl: Url,
 		title: `Sammy Cahn`,
 		description: `The official website for the songwriter Sammy Cahn.`,
 		author: "Jeff Kinley",
