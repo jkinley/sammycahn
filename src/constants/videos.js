@@ -73,13 +73,20 @@ export const videoList = [
 	},
 	{
 		id: '11',
-		title: 'Pan Am TV Show Trailer',
-		song: 'Come Fly with Me',
-		performer: 'Michael Buble',
-		composer: 'Jimmy Van Heusen',
-		url: 'https://youtu.be/9gZwqTaLB4Y'
+		title: 'P.A.L. Airlines',
+		song: '',
+		performer: '',
+		composer: '',
+		url: 'https://www.youtube.com/watch?v=GaaleBYZTdc'
+	},
+	{
+		id: '12',
+		title: 'Mrs. Harris Goes to Paris',
+		song: '',
+		performer: '',
+		composer: '',
+		url: 'https://www.youtube.com/watch?v=iO9JcPbbmAA'
 	}
-
 ];
 
 
