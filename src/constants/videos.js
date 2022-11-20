@@ -104,12 +104,20 @@ export const videoList = [
 		url: 'https://www.youtube.com/watch?v=2vlicw3qdKQ'
 	},
 	{
-		id: '14',
+		id: '15',
 		title: 'Airbnb',
 		song: '',
 		performer: '',
 		composer: '',
 		url: 'https://www.youtube.com/watch?v=hCtcUj6FKZA'
+	},
+	{
+		id: '16',
+		title: 'Pixy',
+		song: '',
+		performer: '',
+		composer: '',
+		url: 'https://www.youtube.com/watch?v=Rpi0P5vq43g'
 	}
 ];
 
