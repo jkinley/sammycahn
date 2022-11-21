@@ -1,6 +1,6 @@
 import React,{ useState } from 'react';
 import Layout from "../layouts/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import Switcher from '../components/songs/switcher';
 import AppleMusic from '../components/songs/apple-music';
 import Spotify from '../components/songs/spotify';
@@ -15,7 +15,7 @@ const Songs = () => {
 
 	return (
 		<Layout>
-			<SEO title="Songs" />
+			<Seo title="Songs" />
 
 			<PageTitle title="Songs" />
 			

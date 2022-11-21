@@ -7,7 +7,7 @@ const Songs = () => {
 
     <Link to="/songs" className="rounded overflow-hidden shadow-md opacity-90 hover:opacity-100">
       <div className="flex flex-col h-full">
-        <img className="" src={Img} />
+        <img src={Img} alt=""/>
         <div className="bg-gray-800 text-white p-4 flex-1">
           <h2 className="text-base xl:text-lg">Song Collections</h2>
         </div>

@@ -1,8 +1,7 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-	purge: ['./src/**/*.{js,jsx,ts,tsx}'],
-	darkMode: false,
+	content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
       'sans': ['Montserrat', 'sans-serif'],
@@ -19,7 +18,7 @@ module.exports = {
 					lightgray: '#eaeaea',
           gray: '#ccc'
 				},
-        gray: colors.warmGray,
+        gray: colors.stone,
 			}
 		}
   },

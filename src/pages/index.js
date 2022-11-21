@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../layouts/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import {graphql} from 'gatsby';
 import HeroImage from '../components/home/hero-image';
 import Swipe from "../components/swipe";
@@ -18,7 +18,7 @@ const Home = ({data}) => {
 
   return(
     <Layout>
-      <SEO title="Home" />
+      <Seo title="Home" />
       <HeroImage home={true} img={bgStack}>
         <div className="hidden md:block container mx-auto px-8">
           <div className="w-1/3">

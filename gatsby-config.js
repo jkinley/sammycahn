@@ -1,13 +1,13 @@
 const Url = 'https://sammycahnmusic.com';
 
-const {
-  NODE_ENV,
-  URL: NETLIFY_SITE_URL = Url,
-  DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
-  CONTEXT: NETLIFY_ENV = NODE_ENV,
-} = process.env
-const isNetlifyProduction = NETLIFY_ENV === 'production'
-const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
+// const {
+//   NODE_ENV,
+//   URL: NETLIFY_SITE_URL = Url,
+//   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+//   CONTEXT: NETLIFY_ENV = NODE_ENV,
+// } = process.env
+// const isNetlifyProduction = NETLIFY_ENV === 'production'
+// const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
 
 module.exports = {
 	
@@ -24,7 +24,12 @@ module.exports = {
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
 		`gatsby-plugin-sass`,
-		`gatsby-plugin-postcss`,
+		{
+			resolve: `gatsby-plugin-postcss`,
+			options: {
+				postCssPlugins: [require(`postcss-preset-env`)({ stage: 0 })],
+			},
+		},
 		`gatsby-transformer-json`,
 		`gatsby-plugin-playground`,
     `gatsby-plugin-styled-components`,
