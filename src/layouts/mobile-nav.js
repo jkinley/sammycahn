@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from "gatsby";
 import { navLinks } from '../constants/nav';
-import {FaBars, FaTimes} from 'react-icons/fa';
-import FilePlayer from 'react-player/file';
+import {FaBars} from 'react-icons/fa';
 
 const MobileNav = (props) => {
 
@@ -36,9 +35,3 @@ const MobileNav = (props) => {
 }
 
 export default MobileNav;
-
-   {/* <div className="text-right p-4 self-stretch">
-          <button onClick={handleClick} className="text-white text-2xl">
-            <FaTimes />
-          </button>
-        </div> */}

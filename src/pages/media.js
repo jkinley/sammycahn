@@ -3,13 +3,13 @@ import ReactPlayer from 'react-player/youtube';
 import styled from 'styled-components';
 import { videoList } from '../constants/videos';
 import Layout from "../layouts/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import PageTitle from '../components/common/page-title';
 
 const Media = (video) => {
 	return (
 		<Layout>
-			<SEO title="Media" />
+			<Seo title="Media" />
 
 			<PageTitle title="Media" />
 		
