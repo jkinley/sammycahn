@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../layouts/layout';
-import Seo from '../components/seo';
+import { Seo } from "../components/seo";
 import Quote from '../components/common/quote';
 import Intro from '../components/bio/intro';
 import Second from '../components/bio/second';
@@ -9,10 +9,13 @@ import Fourth from '../components/bio/fourth';
 import Fifth from '../components/bio/fifth';
 import PageTitle from '../components/common/page-title';
 
+export const Head = () => (
+  <Seo title="Biography" />
+);
+
 const Bio = () => {
 	return (
 		<Layout>
-			<Seo title="Biography" />
       <PageTitle title="Biography"/>
 			<Intro />
 			<Second />

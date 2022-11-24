@@ -10,7 +10,6 @@ module.exports = {
 		copyright: `Sammy Cahn Music Company. All Rights Reserved.`,
 	},
 	plugins: [
-		`gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,

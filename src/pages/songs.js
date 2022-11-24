@@ -1,10 +1,14 @@
 import React,{ useState } from 'react';
 import Layout from "../layouts/layout";
-import Seo from "../components/seo";
+import { Seo } from "../components/seo";
 import Switcher from '../components/songs/switcher';
 import AppleMusic from '../components/songs/apple-music';
 import Spotify from '../components/songs/spotify';
 import PageTitle from '../components/common/page-title';
+
+export const Head = () => (
+  <Seo title="Songs" />
+);
 
 const Songs = () => {
   const [checked, setChecked] = useState('Apple Music');
@@ -15,8 +19,6 @@ const Songs = () => {
 
 	return (
 		<Layout>
-			<Seo title="Songs" />
-
 			<PageTitle title="Songs" />
 			
       <section>
