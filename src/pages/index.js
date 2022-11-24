@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../layouts/layout";
-import Seo from "../components/seo";
+import { Seo } from "../components/seo";
 import {graphql} from 'gatsby';
 import HeroImage from '../components/home/hero-image';
 import Swipe from "../components/swipe";
@@ -8,6 +8,10 @@ import AboutSammy from '../components/home/about-sammy';
 import TitaNote from '../components/home/tita-note';
 import SammyAwards from '../components/home/awards';
 import Songs from '../components/home/songs';
+
+export const Head = () => (
+  <Seo title="Home" />
+);
 
 const Home = ({data}) => {
 
@@ -18,7 +22,6 @@ const Home = ({data}) => {
 
   return(
     <Layout>
-      <Seo title="Home" />
       <HeroImage home={true} img={bgStack}>
         <div className="hidden md:block container mx-auto px-8">
           <div className="w-1/3">
