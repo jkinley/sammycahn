@@ -24,6 +24,7 @@
     "gatsby-source-filesystem": "^5.0.0",
     "gatsby-transformer-json": "^5.0.0",
     "gatsby-transformer-sharp": "^5.0.0",
+    "kwesforms": "^2.1.27",
     "postcss-import": "^15.0.0",
     "postcss-preset-env": "^7.8.3",
     "react": "^18.2.0",
