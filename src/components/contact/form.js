@@ -25,6 +25,7 @@ const Form = ({className}) => {
           <textarea className="form-input" id="message" name="message" rows="4"/>
         </div>
 
+        <input type="hidden" name="_url" value="https://sammycahnmusic.com/contact"></input>
         <input type="hidden" name="_autoresponse" value={autoresponse}></input>
         <input type="hidden" name="_subject" value="New form submission from sammycahnmusic.com!"></input>
        
