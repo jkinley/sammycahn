@@ -10,21 +10,16 @@ export const Head = () => (
   <Seo title="Contact" />
 );
 
-const Contact = () => (
-  <Layout>
-    
-    
-		<PageTitle title="Contact"/>
-
-		<ContactForm />
- 
-    <Address />
-
-    <Quote id={3} />
-
-  </Layout>
-)
-
-
+const Contact = () => {
+  return (
+    <Layout>
+  		<PageTitle title="Contact"/>
+  		<ContactForm />
+      <Address />
+      <Quote id={3} />
+    </Layout>
+  
+  );
+};
 
 export default Contact

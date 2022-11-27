@@ -7972,6 +7972,11 @@ known-css-properties@^0.21.0:
   resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.21.0.tgz#15fbd0bbb83447f3ce09d8af247ed47c68ede80d"
   integrity sha512-sZLUnTqimCkvkgRS+kbPlYW5o8q5w1cu+uIisKpEWkj31I8mx8kNG162DwRav8Zirkva6N5uoFsm9kzK4mUXjw==
 
+kwesforms@^2.1.27:
+  version "2.1.27"
+  resolved "https://registry.yarnpkg.com/kwesforms/-/kwesforms-2.1.27.tgz#6f1c41b9d2cbf088ee9a8a97b96446aad812fecb"
+  integrity sha512-DBePBSWWivBub3cI2y0Dvbr9c5Jh/1U8/DmKnmi/FP1zmw2FzsO1/ZE13V7lLa6ep87Cv4BLpCalipCSZN6IrQ==
+
 language-subtag-registry@~0.3.2:
   version "0.3.22"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz#2e1500861b2e457eba7e7ae86877cbd08fa1fd1d"
